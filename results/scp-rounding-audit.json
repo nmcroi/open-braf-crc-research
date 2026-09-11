@@ -1,0 +1,91 @@
+{
+  "method": "Conditional inverse rounding interval test: y = round(log2(1+count*10000/total_counts),3). Closed endpoints conservatively admit ties. Not proof of author pipeline or raw-count identity. No individual cell data saved.",
+  "depth_source": {
+    "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/annotations/total_counts/cell_values?annotation_type=numeric&annotation_scope=study",
+    "sha256": "4a0e74d554a9beb3a530965d851280410e2fe8f4ee4a53884fc382f6c8202a22"
+  },
+  "max_total_counts": 198865.0,
+  "min_one_count_transformed": 0.07078137092539295,
+  "genes": {
+    "CXCL9": {
+      "cells": 95421,
+      "positive": 756,
+      "non_3decimal": 0,
+      "within_005_integer": 756,
+      "unique_feasible_integer": 714,
+      "no_feasible_integer": 42,
+      "multiple_feasible_integers": 0,
+      "zero_with_possible_positive_integer": 0,
+      "fits_wider_00055_interval": 756,
+      "forward_round4_then_round3": 756,
+      "source": {
+        "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/expression/violin?cluster=Epithelial+Cells&genes=CXCL9&annotation_name=biosample_id&annotation_type=group&annotation_scope=study",
+        "sha256": "d5e70f116ed70420e5c41536c6ed55438f09a83f43948537d483fa3ea1028594"
+      }
+    },
+    "CXCL10": {
+      "cells": 95421,
+      "positive": 1107,
+      "non_3decimal": 0,
+      "within_005_integer": 1084,
+      "unique_feasible_integer": 1053,
+      "no_feasible_integer": 54,
+      "multiple_feasible_integers": 0,
+      "zero_with_possible_positive_integer": 0,
+      "fits_wider_00055_interval": 1107,
+      "forward_round4_then_round3": 1107,
+      "source": {
+        "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/expression/violin?cluster=Epithelial+Cells&genes=CXCL10&annotation_name=biosample_id&annotation_type=group&annotation_scope=study",
+        "sha256": "c6e31873cde8a33d655f4056c8e0619cf217cad5d32a8bd30609e7c7aec022d4"
+      }
+    },
+    "CXCL11": {
+      "cells": 95421,
+      "positive": 1902,
+      "non_3decimal": 0,
+      "within_005_integer": 1901,
+      "unique_feasible_integer": 1799,
+      "no_feasible_integer": 103,
+      "multiple_feasible_integers": 0,
+      "zero_with_possible_positive_integer": 0,
+      "fits_wider_00055_interval": 1902,
+      "forward_round4_then_round3": 1901,
+      "source": {
+        "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/expression/violin?cluster=Epithelial+Cells&genes=CXCL11&annotation_name=biosample_id&annotation_type=group&annotation_scope=study",
+        "sha256": "9509bb3d85e8cf7242775a8819c41c1680c036f613a4518dce713aa8a5ac94ef"
+      }
+    },
+    "CD47": {
+      "cells": 95421,
+      "positive": 53892,
+      "non_3decimal": 0,
+      "within_005_integer": 53892,
+      "unique_feasible_integer": 51265,
+      "no_feasible_integer": 2627,
+      "multiple_feasible_integers": 0,
+      "zero_with_possible_positive_integer": 0,
+      "fits_wider_00055_interval": 53892,
+      "forward_round4_then_round3": 53889,
+      "source": {
+        "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/expression/violin?cluster=Epithelial+Cells&genes=CD47&annotation_name=biosample_id&annotation_type=group&annotation_scope=study",
+        "sha256": "e6cc828cf8394196d488bd66e4ef20ab47d92229957cfc7a2d54331534a6728a"
+      }
+    },
+    "IDO1": {
+      "cells": 95421,
+      "positive": 676,
+      "non_3decimal": 0,
+      "within_005_integer": 676,
+      "unique_feasible_integer": 628,
+      "no_feasible_integer": 48,
+      "multiple_feasible_integers": 0,
+      "zero_with_possible_positive_integer": 0,
+      "fits_wider_00055_interval": 676,
+      "forward_round4_then_round3": 676,
+      "source": {
+        "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/expression/violin?cluster=Epithelial+Cells&genes=IDO1&annotation_name=biosample_id&annotation_type=group&annotation_scope=study",
+        "sha256": "35e58e582286ada5fca9517149ec6f426757a0960f422060d2e761b6f57c628a"
+      }
+    }
+  }
+}

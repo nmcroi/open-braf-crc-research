@@ -1,6 +1,8 @@
 # Open BRAF CRC Research
 
-An open, patient-motivated research workspace for **BRAF V600E, microsatellite-stable colorectal cancer**. Researchers, patients, programmers and people working with AI tools are welcome to contribute reproducible analyses, primary sources and critical reviews.
+An open, patient-motivated research workspace starting with **BRAF V600E, microsatellite-stable colorectal cancer**. Researchers, patients, relatives and friends of other patients, programmers and people working with AI tools are welcome to contribute reproducible analyses, primary sources and critical reviews.
+
+BRAF/MSS is our starting point, not a boundary. Questions about surgery, local treatment, immunotherapy, cancer-cell recognition and relevant mechanisms in other cancers are welcome. Each task defines its population and explains what can and cannot transfer to colorectal cancer. See [research scope and ways to join](docs/SCOPE-AND-PARTICIPATION.md).
 
 Our aim is to identify useful research questions and test them against evidence. This is an early volunteer project, not a clinical service or a validated autonomous discovery system. There are no claimed institutional partnerships.
 
@@ -33,7 +35,7 @@ Source identifiers and links, original research notes, analysis code and permitt
 
 ## How people and AI can collaborate
 
-Choose an issue, state what you will independently verify, run the analysis and submit a pull request with sources, commands, results and limitations. Identify AI assistance and distinguish new calculations from copied author statistics. A second model agreeing is not independent biological validation.
+Choose an issue and state what you will independently verify. You can use your existing AI subscription for a small task and return a source-backed report through an Issue; coding contributors can submit code and results through a pull request. No separate participation app or shared API key is required. Identify AI assistance and distinguish new calculations from copied author statistics. A second model agreeing is not independent biological validation.
 
 GitHub coordinates work and review; it does not automatically run a worldwide network of agents. No autonomous paid jobs or external-agent access are enabled by this repository. Maintainers review contributions before merging. See [AGENTS.md](AGENTS.md) for the same research rules in an agent-readable form.
 

@@ -1,0 +1,9 @@
+{
+  "entries": 516,
+  "with_source_link": 515,
+  "unique_pmids": 297,
+  "unique_ncts": 149,
+  "excluded_count": 0,
+  "scope": "Top-level bibliographic Markdown entries across 15 categories; nested software repositories and administrative README files are not imported. Duplicate sources across categories retained. No abstracts or full texts copied.",
+  "date": "2026-09-11"
+}

@@ -1,0 +1,138 @@
+{
+  "study": "SCP2079",
+  "source_log": {
+    "patientID": {
+      "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/annotations/patientID/cell_values?annotation_type=group&annotation_scope=study",
+      "rows": 95421,
+      "unique_cells": 95421,
+      "sha256": "28defb058e53ae61e768135c9c25d67c34a4839af90cbd6f37a987e6cd341c50"
+    },
+    "biosample_id": {
+      "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/annotations/biosample_id/cell_values?annotation_type=group&annotation_scope=study",
+      "rows": 95421,
+      "unique_cells": 95421,
+      "sha256": "3a9b3cbc66c01fdc4fef80837d51e4d9a4d6c203fcd02b229a36284c279078e9"
+    },
+    "treatment": {
+      "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/annotations/treatment/cell_values?annotation_type=group&annotation_scope=study",
+      "rows": 95421,
+      "unique_cells": 95421,
+      "sha256": "a598643b2f1e850c6a42064ae085f0beb066754f4a4ad7cce97758c7e79d18dd"
+    },
+    "MMRstatus": {
+      "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/annotations/MMRstatus/cell_values?annotation_type=group&annotation_scope=study",
+      "rows": 95421,
+      "unique_cells": 95421,
+      "sha256": "09460962df8b99266793c0adb24ab0869bce3989d19c1f136152f8201a2362a9"
+    },
+    "response": {
+      "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/annotations/response/cell_values?annotation_type=group&annotation_scope=study",
+      "rows": 95421,
+      "unique_cells": 95421,
+      "sha256": "9f390d88126f386651565ec0a4d8817351fb920fcef975d6b4435a954f5c026d"
+    },
+    "RECIST": {
+      "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/annotations/RECIST/cell_values?annotation_type=group&annotation_scope=study",
+      "rows": 95421,
+      "unique_cells": 95421,
+      "sha256": "006dceae516147e059ff4b8cfe4c00a7c2f8eae08f633c9917f56176dce78a89"
+    },
+    "PFSmo": {
+      "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/annotations/PFSmo/cell_values?annotation_type=numeric&annotation_scope=study",
+      "rows": 95421,
+      "unique_cells": 95421,
+      "sha256": "4a33233d1053517bf754f687b1ec9b5a7bc1349b7b97fdd8d57fc6871e061ffe"
+    },
+    "tissueSite": {
+      "url": "https://singlecell.broadinstitute.org/single_cell/api/v1/studies/SCP2079/annotations/tissueSite/cell_values?annotation_type=group&annotation_scope=study",
+      "rows": 95421,
+      "unique_cells": 95421,
+      "sha256": "9dabd4db7b8a29c698e70905e81b66102062c418d4e2665db18c20d6634bdcfd"
+    }
+  },
+  "shared_cells": 95421,
+  "patients": 27,
+  "complete_pairs": 19,
+  "biosamples": 46,
+  "complete_MMR": {
+    "MSS": 16,
+    "MSI": 3
+  },
+  "complete_response": {
+    "R": 9,
+    "NR": 10
+  },
+  "complete_RECIST": {
+    "PR": 6,
+    "PD": 5,
+    "SD": 6,
+    "NE": 1,
+    "CR": 1
+  },
+  "complete_sites": {
+    "Liver": 10,
+    "Other": 6,
+    "Lymph Node": 2,
+    "Muscle": 1
+  },
+  "all_MMR": {
+    "MSS": 23,
+    "MSI": 4
+  },
+  "response_PFS_check": {
+    "above6_R": 11,
+    "below6_NR": 15,
+    "other": 1
+  },
+  "minimum_cells_per_complete_patient_time": 1,
+  "complete_MSS_response": {
+    "R": 8,
+    "NR": 8
+  },
+  "nonconstant_MMR": 0,
+  "cell_threshold_sensitivity": {
+    "1": {
+      "all_pairs": 19,
+      "MSS_pairs": 16,
+      "MSS_response": {
+        "R": 8,
+        "NR": 8
+      }
+    },
+    "10": {
+      "all_pairs": 15,
+      "MSS_pairs": 13,
+      "MSS_response": {
+        "R": 7,
+        "NR": 6
+      }
+    },
+    "20": {
+      "all_pairs": 15,
+      "MSS_pairs": 13,
+      "MSS_response": {
+        "R": 7,
+        "NR": 6
+      }
+    },
+    "50": {
+      "all_pairs": 13,
+      "MSS_pairs": 12,
+      "MSS_response": {
+        "R": 7,
+        "NR": 5
+      }
+    },
+    "100": {
+      "all_pairs": 11,
+      "MSS_pairs": 10,
+      "MSS_response": {
+        "R": 6,
+        "NR": 4
+      }
+    }
+  },
+  "response_PFS_exceptions": {
+    "above_6_NR": 1
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "CLAIM-SCP-PAIRS",
+    "kind": "claim",
+    "title": "Public epithelial metadata contain 19 complete pairs, 16 MSS",
+    "status": "computed_pending_independent_review",
+    "unit": "patient",
+    "denominator": 19,
+    "source_locator": "Eight public annotation endpoints; results/scp2079-metadata-audit.json",
+    "limitations": "Different subset from 23 whole-cell article pairs; cell-threshold sensitive",
+    "depends_on": [
+      "DATA-SCP2079",
+      "ANALYSIS-SCP-METADATA"
+    ]
+  },
+  {
+    "id": "CLAIM-BW-NEXT",
+    "kind": "claim",
+    "title": "108 of 169 discontinuers received subsequent systemic therapy at cutoff",
+    "status": "source_checked",
+    "unit": "patient",
+    "denominator": 169,
+    "source_locator": "Article subsequent anticancer treatment paragraph and Supplementary Table S4",
+    "limitations": "Not lifetime attrition and not regimen-specific efficacy",
+    "depends_on": [
+      "SRC-BREAKWATER"
+    ]
+  }
+]

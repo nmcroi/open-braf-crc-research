@@ -1,0 +1,16 @@
+[
+  {
+    "id": "HYP-COINDUCTION",
+    "kind": "hypothesis",
+    "title": "Chemokine induction may coexist with inhibitory-program expression",
+    "status": "exploratory",
+    "support": "Author group statistics and initial within-patient API-positive fractions",
+    "counterevidence": "Shared depth changes, sparse dropout, marginal increases and selection can explain overlap",
+    "falsification": "Test whether within-patient association persists after depth sensitivity and independent-cohort testing",
+    "clinical_status": "not_clinically_validated",
+    "depends_on": [
+      "DATA-SCP2079",
+      "ANALYSIS-SCP-METADATA"
+    ]
+  }
+]

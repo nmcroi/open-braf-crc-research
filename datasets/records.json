@@ -1,0 +1,16 @@
+[
+  {
+    "id": "DATA-SCP2079",
+    "kind": "dataset",
+    "title": "Public epithelial cell subset",
+    "url": "https://singlecell.broadinstitute.org/single_cell/study/SCP2079",
+    "cohort_id": "COHORT-NCT03668431",
+    "unit": "cell; aggregate within patient and timepoint",
+    "access": "public_metadata_and_visualization_API",
+    "sharing": "aggregate_only",
+    "missingness": "19 public epithelial pairs versus 23 reported whole-cell pairs; reasons unresolved",
+    "depends_on": [
+      "SRC-TIAN"
+    ]
+  }
+]

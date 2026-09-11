@@ -16,3 +16,5 @@ __pycache__/
 *.xlsx
 analyses/**/*.json
 analyses/**/*.csv
+
+!analyses/records.json

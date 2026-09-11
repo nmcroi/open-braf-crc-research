@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ANALYSIS-SCP-METADATA",
+    "kind": "analysis",
+    "title": "Paired metadata and coverage audit",
+    "status": "executed",
+    "command": "python analyses/scp2079/audit.py",
+    "outputs": [
+      "results/scp2079-metadata-audit.json"
+    ],
+    "independent_replication": "pending",
+    "depends_on": [
+      "DATA-SCP2079"
+    ]
+  },
+  {
+    "id": "ANALYSIS-TIAN-TABLE",
+    "kind": "analysis",
+    "title": "Extraction of author-provided statistics",
+    "status": "executed",
+    "command": "python analyses/tian-supplement/extract.py --archive /path/to/public-supplement.zip",
+    "outputs": [
+      "results/tian-selected-genes.csv"
+    ],
+    "independent_replication": "not_a_recalculation_of_author_tests",
+    "depends_on": [
+      "SRC-TIAN"
+    ]
+  }
+]

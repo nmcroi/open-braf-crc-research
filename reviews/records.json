@@ -1,0 +1,17 @@
+[
+  {
+    "id": "REVIEW-MSK-SUBMISSION",
+    "kind": "review",
+    "title": "Independent review of proposed co-mutation contribution",
+    "status": "changes_requested",
+    "scope": "Statistical helper functions and static selection review only",
+    "finding": "103 Fisher tests and BH examples agree with SciPy; full dataset not rerun",
+    "unresolved": [
+      "First sample is lexical ID order, not established collection chronology",
+      "Absence of a mutation or CNA event is not independently verified as adequate locus coverage",
+      "Carrier groups are built from selected sample subsets; definition must be explicit",
+      "Symmetric gain/loss does not logically prove zero treatment signal"
+    ],
+    "depends_on": []
+  }
+]

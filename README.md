@@ -40,3 +40,9 @@ GitHub coordinates work and review; it does not automatically run a worldwide ne
 Initial release: 11 September 2026. The initial catalog covers material available in the source collection on that date, not an exhaustive worldwide search. Research findings are not individual treatment recommendations.
 
 If the supplementary archive service is slow, download its original ZIP separately and run `python analyses/tian-supplement/extract.py --archive /path/to/supplements.zip`. The initial extraction was verified against the previously retrieved primary archive; the cohort audit was also rerun against the live public API. No recalculation of the authors' gene-level statistical tests is claimed.
+
+## Shared research workspace
+
+[Project structure](docs/STRUCTURE.md) · [Task and review workflow](docs/WORKFLOW.md) · [Research memory](docs/RECORDS.md) · [Join with any AI](docs/TASK-PACKET.md) · [Two-week pilot](docs/PILOT.md) · [Data policy](docs/DATA-POLICY.md).
+
+Current expert-review capacity is unfilled. New exploratory records are not clinical validation. Ordinary contributors can use Issues and Discussions; a maintainer reviews changes before publication.

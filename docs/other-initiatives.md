@@ -25,3 +25,7 @@ Research on integrating cancer literature into causal models. Useful methodologi
 ## Collaboration proposal to prepare
 
 Offer a bounded public benchmark: reproduce the SCP2079 paired-sample denominators, identify metadata inconsistencies, and review a prespecified within-patient expression analysis. Share sources, runnable code and failures. Ask for one independent replication or methodological review. Do not promise access to personal or restricted datasets.
+
+## Concrete data now inspected
+
+See [the executed data audit](initiative-data-audit.md): selected Stanford files and the complete INDRA benchmark were retrieved locally, with checksums and reproducible aggregate counts. These are separate from project links; source archives have not been added to this repository. Research Swarm remains inaccessible in this check.

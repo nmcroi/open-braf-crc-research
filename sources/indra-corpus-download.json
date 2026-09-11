@@ -1,0 +1,10 @@
+{
+  "url": "https://zenodo.org/api/records/7559353/files/indra_benchmark_corpus.json.gz/content",
+  "bytes": 460045058,
+  "checksum": "md5:82c01e9e100b296ba5b8fbbb2e39f5dc",
+  "checksum_verified": true,
+  "license": {
+    "id": "cc-by-nc-sa-4.0"
+  },
+  "local_only": true
+}

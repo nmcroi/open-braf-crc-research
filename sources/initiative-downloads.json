@@ -1,0 +1,134 @@
+[
+  {
+    "repo": "zou-group/virtual-lab",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/zou-group/virtual-lab/8a3a4fd9ccc0cd297bd523751e03bc9527c91832/README.md",
+    "bytes": 3220,
+    "sha256": "b2b5b8a08946c9b11934f98bcd857f8825cba6096073227343a4e8b339c3995e",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "8a3a4fd9ccc0cd297bd523751e03bc9527c91832",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "zou-group/virtual-lab",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/zou-group/virtual-lab/8a3a4fd9ccc0cd297bd523751e03bc9527c91832/LICENSE",
+    "bytes": 1069,
+    "sha256": "98ef26c4e033aba896312dea2d2e57541deb64ad9cb7fe7749143ebc97f3d113",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "8a3a4fd9ccc0cd297bd523751e03bc9527c91832",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "zou-group/virtual-lab",
+    "path": "nanobody_design/README.md",
+    "url": "https://raw.githubusercontent.com/zou-group/virtual-lab/8a3a4fd9ccc0cd297bd523751e03bc9527c91832/nanobody_design/README.md",
+    "bytes": 1828,
+    "sha256": "484c0c4a1f9cfb370b9cf542dee2bfc0b1521b3418f35091a47f679bf402416e",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "8a3a4fd9ccc0cd297bd523751e03bc9527c91832",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "zou-group/virtual-lab",
+    "path": "nanobody_design/experimental_data/platemap.csv",
+    "url": "https://raw.githubusercontent.com/zou-group/virtual-lab/8a3a4fd9ccc0cd297bd523751e03bc9527c91832/nanobody_design/experimental_data/platemap.csv",
+    "bytes": 1103388,
+    "sha256": "fd7d48d397290344593da273037ee965bdda4c456b7430a3e0e7c7736ac918a7",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "8a3a4fd9ccc0cd297bd523751e03bc9527c91832",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "zou-group/virtual-lab",
+    "path": "nanobody_design/experimental_data/H11-D4.txt",
+    "url": "https://raw.githubusercontent.com/zou-group/virtual-lab/8a3a4fd9ccc0cd297bd523751e03bc9527c91832/nanobody_design/experimental_data/H11-D4.txt",
+    "bytes": 945,
+    "sha256": "a6b9c10a3fec5f0680d82808f83599c81bef423a6372f806d298114576ff3a20",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "8a3a4fd9ccc0cd297bd523751e03bc9527c91832",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "gyorilab/indra",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/gyorilab/indra/7ae3337dcae88baed918d7ae6af2ddc21f9946fa/README.md",
+    "bytes": 27037,
+    "sha256": "3f08d4365df1fbf0c0171938cc71d6eda711c57567f449b6af62df0fecff1db5",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "7ae3337dcae88baed918d7ae6af2ddc21f9946fa",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "gyorilab/indra",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/gyorilab/indra/7ae3337dcae88baed918d7ae6af2ddc21f9946fa/LICENSE",
+    "bytes": 1314,
+    "sha256": "95786209020c2ca9c21e6a26f05f410fbc973d6744db06b23e8c8b6ddc58cfb2",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "7ae3337dcae88baed918d7ae6af2ddc21f9946fa",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "sorgerlab/indra_assembly_paper",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/sorgerlab/indra_assembly_paper/63abdf1274d2f5534ed822585775031712916c83/README.md",
+    "bytes": 3899,
+    "sha256": "1325d2a9eeb42faea18518b025f08650bfc0cf64e75d8ccec08c52d958098cd7",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "63abdf1274d2f5534ed822585775031712916c83",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "sorgerlab/indra_assembly_paper",
+    "path": "run_assembly/pmids.txt",
+    "url": "https://raw.githubusercontent.com/sorgerlab/indra_assembly_paper/63abdf1274d2f5534ed822585775031712916c83/run_assembly/pmids.txt",
+    "bytes": 5058994,
+    "sha256": "4c89a3f62a4348bce58b55e4bdc65b5fb6afa53d4fb95c834cd2630e02410a2b",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "63abdf1274d2f5534ed822585775031712916c83",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "sorgerlab/indra_assembly_paper",
+    "path": "data/curation/indra_assembly_curations.json",
+    "url": "https://raw.githubusercontent.com/sorgerlab/indra_assembly_paper/63abdf1274d2f5534ed822585775031712916c83/data/curation/indra_assembly_curations.json",
+    "bytes": 1687078,
+    "sha256": "02ccca87fb4c8386ae49d420cb4c8257cf769bcaba5692a989bf295ba8d40da5",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "63abdf1274d2f5534ed822585775031712916c83",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "sorgerlab/indra_assembly_paper",
+    "path": "bioexp/transfer_s3.py",
+    "url": "https://raw.githubusercontent.com/sorgerlab/indra_assembly_paper/63abdf1274d2f5534ed822585775031712916c83/bioexp/transfer_s3.py",
+    "bytes": 1232,
+    "sha256": "164f8ca65423a5efe6e2a0d3c99c997c08041e323b059525d0e694a66b89d34f",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "63abdf1274d2f5534ed822585775031712916c83",
+    "revision_kind": "git_tree"
+  },
+  {
+    "repo": "sorgerlab/indra_assembly_paper",
+    "path": "Makefile",
+    "url": "https://raw.githubusercontent.com/sorgerlab/indra_assembly_paper/63abdf1274d2f5534ed822585775031712916c83/Makefile",
+    "bytes": 3655,
+    "sha256": "3b031c8817ac7bfcb7503226ecd4f37bb1d5630f055a2c8f32b3c6aa9b48ea0d",
+    "retrieved": "2026-09-11",
+    "local_only": true,
+    "tree_sha": "63abdf1274d2f5534ed822585775031712916c83",
+    "revision_kind": "git_tree"
+  }
+]

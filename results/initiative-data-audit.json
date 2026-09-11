@@ -1,0 +1,40 @@
+{
+  "pmid_file": {
+    "entries": 567506,
+    "unique": 567506,
+    "readme_claim": 567507,
+    "difference": -1,
+    "own_catalog_unique_pmids": 297,
+    "intersection_count": 0,
+    "intersection_pmids": [],
+    "interpretation": "Reference overlap only; no full papers or mechanisms imported."
+  },
+  "curation_file": {
+    "rows": 6022,
+    "unique_record_ids": 6022,
+    "unique_statement_hashes": 1800,
+    "tags": {
+      "other": 215,
+      "correct": 3618,
+      "no_relation": 627,
+      "wrong_relation": 371,
+      "mod_site": 12,
+      "hypothesis": 115,
+      "negative_result": 88,
+      "grounding": 449,
+      "entity_boundaries": 161,
+      "act_vs_amt": 220,
+      "polarity": 139,
+      "agent_conditions": 7
+    },
+    "nonnull_ev_json": 0,
+    "nonnull_pa_json": 0,
+    "interpretation": "Annotation rows are not independent studies or patients. Hash-linked statements are required to inspect biology."
+  },
+  "stanford_platemap": {
+    "rows": 96,
+    "unique_wells": 96,
+    "unique_names": 96,
+    "interpretation": "Plate inventory; not a count of effective nanobodies or independent experiments."
+  }
+}

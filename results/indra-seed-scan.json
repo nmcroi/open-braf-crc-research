@@ -1,0 +1,1044 @@
+{
+  "statements_parsed": 894939,
+  "seed_matching": "Exact agent name, not exhaustive alias or context search",
+  "seed_statement_counts": {
+    "HIF1A": 4089,
+    "KRAS": 1716,
+    "BRAF": 1466,
+    "PRDX1": 260,
+    "PTPN11": 1446,
+    "VEGFA": 2072,
+    "CD47": 287,
+    "WNT11": 110
+  },
+  "cooccurring_seed_pair_counts": {
+    "BRAF / HIF1A": 7,
+    "BRAF / KRAS": 39,
+    "HIF1A / VEGFA": 13,
+    "HIF1A / KRAS": 9,
+    "PRDX1 / VEGFA": 1,
+    "KRAS / PTPN11": 4,
+    "BRAF / PTPN11": 1,
+    "PRDX1 / PTPN11": 1,
+    "BRAF / VEGFA": 1,
+    "HIF1A / PTPN11": 1,
+    "CD47 / VEGFA": 1,
+    "KRAS / VEGFA": 1,
+    "PTPN11 / VEGFA": 1
+  },
+  "first_100_pair_examples": [
+    {
+      "type": "Activation",
+      "seed_names": [
+        "BRAF",
+        "HIF1A"
+      ],
+      "pmids": [
+        "19843849"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "22753589"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "22808230"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19638574",
+        "21512141"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "12439723",
+        "14681237",
+        "21517260",
+        "21843314",
+        "23060442",
+        "23296045",
+        "23555666",
+        "24918449",
+        "24952732",
+        "25589622"
+      ],
+      "evidence_count": 10
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "17487356",
+        "18342368",
+        "18452596",
+        "19652095",
+        "20003271",
+        "21115742",
+        "21297970",
+        "21382012",
+        "21685944",
+        "22306363",
+        "23185562",
+        "23326384",
+        "23344526",
+        "23481058",
+        "23604114",
+        "23644172",
+        "24244340",
+        "24364919",
+        "24612214",
+        "24796659",
+        "24927770",
+        "25347788",
+        "26166565",
+        "26287601",
+        "26465938",
+        "26697491",
+        "27939762",
+        "28241827",
+        "28617871"
+      ],
+      "evidence_count": 39
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "20141835"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "28093501"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "HIF1A",
+        "KRAS"
+      ],
+      "pmids": [
+        "19843849"
+      ],
+      "evidence_count": 6
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "23171796",
+        "23755307"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19223544",
+        "21779497",
+        "22586683",
+        "26374070"
+      ],
+      "evidence_count": 7
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "HIF1A",
+        "KRAS"
+      ],
+      "pmids": [
+        "19843849",
+        "21073737",
+        "25341034"
+      ],
+      "evidence_count": 6
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "PRDX1",
+        "VEGFA"
+      ],
+      "pmids": [
+        "21343392",
+        "27259998"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "Activation",
+      "seed_names": [
+        "KRAS",
+        "PTPN11"
+      ],
+      "pmids": [
+        "26617336"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "ActiveForm",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "21779497"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19372556"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "23908594"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "22376079"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "18594528"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "17270239"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19430421"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "27071701"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19638206"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "20146801"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "HIF1A",
+        "KRAS"
+      ],
+      "pmids": [
+        "27421843"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "23045412"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19935791"
+      ],
+      "evidence_count": 3
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19010816"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19303019"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "23774213"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "25484061"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "24152305"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "26553291"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "24571676"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "25288233"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19164452"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "16879389",
+        "17360030",
+        "18098337",
+        "19087308",
+        "19603018",
+        "19661383",
+        "19884549",
+        "19884556",
+        "19935791",
+        "20027224",
+        "20141835",
+        "20146801",
+        "21051183",
+        "21285991",
+        "21553007",
+        "21779497",
+        "22043994",
+        "22586484",
+        "22643351",
+        "23660947",
+        "23755178",
+        "23845441",
+        "24063894",
+        "24139215",
+        "24242331",
+        "24440976",
+        "24462863",
+        "24767862",
+        "24885062",
+        "25003232",
+        "25188864",
+        "25632202",
+        "26299805",
+        "26384309",
+        "26711930",
+        "26775732",
+        "26799289",
+        "26892442",
+        "26991344"
+      ],
+      "evidence_count": 53
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "25500543"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "25500543"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "26086204"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS",
+        "PTPN11"
+      ],
+      "pmids": [
+        "26343386"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "18621636",
+        "18782444",
+        "20098682",
+        "22357840"
+      ],
+      "evidence_count": 5
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "20961744"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "19279559"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "Complex",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "17606258",
+        "23020605",
+        "23374253",
+        "23551342",
+        "23674658",
+        "25896712",
+        "26919097"
+      ],
+      "evidence_count": 7
+    },
+    {
+      "type": "DecreaseAmount",
+      "seed_names": [
+        "BRAF",
+        "HIF1A"
+      ],
+      "pmids": [
+        "20473281"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "DecreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "11739637",
+        "18356691",
+        "22279137",
+        "26530725"
+      ],
+      "evidence_count": 5
+    },
+    {
+      "type": "DecreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "12509854",
+        "14712484",
+        "15930297",
+        "16168127",
+        "16596228",
+        "18471962",
+        "18619649",
+        "19252526",
+        "21544242",
+        "22581719",
+        "23618863",
+        "24795051",
+        "24918449",
+        "25333258",
+        "25872592",
+        "26287601",
+        "27040637",
+        "27260617",
+        "28467517"
+      ],
+      "evidence_count": 19
+    },
+    {
+      "type": "DecreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "KRAS"
+      ],
+      "pmids": [
+        "21073737"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Dephosphorylation",
+      "seed_names": [
+        "KRAS",
+        "PTPN11"
+      ],
+      "pmids": [
+        "26617336"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Dephosphorylation",
+      "seed_names": [
+        "PRDX1",
+        "PTPN11"
+      ],
+      "pmids": [
+        "15845350",
+        "19540337",
+        "23512980"
+      ],
+      "evidence_count": 3
+    },
+    {
+      "type": "GtpActivation",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "11252954"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "BRAF",
+        "HIF1A"
+      ],
+      "pmids": [
+        "19843849"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "BRAF",
+        "HIF1A"
+      ],
+      "pmids": [
+        "19843849"
+      ],
+      "evidence_count": 3
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "BRAF",
+        "VEGFA"
+      ],
+      "pmids": [
+        "15705790"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "BRAF",
+        "HIF1A"
+      ],
+      "pmids": [
+        "19843849",
+        "20473281"
+      ],
+      "evidence_count": 4
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "16499871"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "21538185",
+        "28399173"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "14645546",
+        "15280364",
+        "17919812",
+        "19074414",
+        "19744167",
+        "20524035",
+        "20880076",
+        "21687637",
+        "21729202",
+        "8816435",
+        "8917528"
+      ],
+      "evidence_count": 19
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "11749701",
+        "12542982",
+        "12820439",
+        "14681237",
+        "15315159",
+        "15735682",
+        "15890092",
+        "15983061",
+        "16052307",
+        "16515634",
+        "16540671",
+        "16854277",
+        "16900513",
+        "17461470",
+        "17557905",
+        "17673559",
+        "17889387",
+        "18027712",
+        "18060642",
+        "18572865",
+        "18835464",
+        "19080330",
+        "19759417",
+        "19934310",
+        "20089932",
+        "20427666",
+        "22707412",
+        "22789427",
+        "23528211",
+        "23583198",
+        "23644172",
+        "23838996",
+        "24048733",
+        "25347788",
+        "25420155",
+        "26287601",
+        "26482209",
+        "26750332",
+        "26856989",
+        "26919097",
+        "27989771"
+      ],
+      "evidence_count": 45
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "KRAS"
+      ],
+      "pmids": [
+        "25305448",
+        "28435452"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "KRAS"
+      ],
+      "pmids": [
+        "25341034"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "KRAS"
+      ],
+      "pmids": [
+        "19843849",
+        "25305448",
+        "28435452"
+      ],
+      "evidence_count": 5
+    },
+    {
+      "type": "IncreaseAmount",
+      "seed_names": [
+        "HIF1A",
+        "PTPN11"
+      ],
+      "pmids": [
+        "24951116"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "24390240"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "BRAF",
+        "HIF1A"
+      ],
+      "pmids": [
+        "19843849"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "25284480"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "23144690",
+        "25068796"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "CD47",
+        "VEGFA"
+      ],
+      "pmids": [
+        "27473366"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "HIF1A",
+        "VEGFA"
+      ],
+      "pmids": [
+        "19727403",
+        "25234738",
+        "26096936"
+      ],
+      "evidence_count": 3
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "HIF1A",
+        "KRAS"
+      ],
+      "pmids": [
+        "24519534"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "BRAF",
+        "KRAS"
+      ],
+      "pmids": [
+        "19881948"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "KRAS",
+        "VEGFA"
+      ],
+      "pmids": [
+        "24349411"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "HIF1A",
+        "KRAS"
+      ],
+      "pmids": [
+        "19843849",
+        "25341034"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "type": "Inhibition",
+      "seed_names": [
+        "PTPN11",
+        "VEGFA"
+      ],
+      "pmids": [
+        "23065156"
+      ],
+      "evidence_count": 1
+    },
+    {
+      "type": "Phosphorylation",
+      "seed_names": [
+        "KRAS",
+        "PTPN11"
+      ],
+      "pmids": [
+        "20237281"
+      ],
+      "evidence_count": 1
+    }
+  ],
+  "limitations": "Counts are assembled statements, not patients, unique studies or validated CRC mechanisms. Co-occurrence is not necessarily a direct causal edge; names can occur in complexes or conditions. Tissue, genotype, evidence independence, direction and source correctness have not been reviewed."
+}

@@ -29,3 +29,7 @@ Offer a bounded public benchmark: reproduce the SCP2079 paired-sample denominato
 ## Concrete data now inspected
 
 See [the executed data audit](initiative-data-audit.md): selected Stanford files and the complete INDRA benchmark were retrieved locally, with checksums and reproducible aggregate counts. These are separate from project links; source archives have not been added to this repository. Research Swarm remains inaccessible in this check.
+
+## MozzareLLM — inspected, offline probe completed
+
+[Code review and executed checks](mozzarellm-review.md). Selected files and annotations retrieved; no paid provider calls. A source-pointer packet is ready for the existing primary-source review task.

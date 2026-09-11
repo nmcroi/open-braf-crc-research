@@ -1,0 +1,188 @@
+[
+  {
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/LICENSE",
+    "sha256": "6c023be9ee948420a12fcb7be77652001f1c3e18140aced5bfeba315f21fda8f",
+    "bytes": 1116
+  },
+  {
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/README.md",
+    "sha256": "300b8e2f1f30eaf61754cb521d06a54c5774315c360fb008258d4ff9ee8941c8",
+    "bytes": 6029
+  },
+  {
+    "path": "data/knowledge/knowledge_base_info.md",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/data/knowledge/knowledge_base_info.md",
+    "sha256": "109e6c3599c02d4ebb73f92919d1f6423b32c076172e7bb60ec28e28f1727ab9",
+    "bytes": 236
+  },
+  {
+    "path": "data/knowledge/m6a_rna_modification.md",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/data/knowledge/m6a_rna_modification.md",
+    "sha256": "b1f9bc1f42f7258655aa50c4f7d10a392b4eea9bbf1ec301c51d0a21e4b448b5",
+    "bytes": 3820
+  },
+  {
+    "path": "data/knowledge/mitochondrial_homeostasis.md",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/data/knowledge/mitochondrial_homeostasis.md",
+    "sha256": "b924d2330f154f51fda40746cc7fb97291678243200aac8eceaa15c43e46a5af",
+    "bytes": 3324
+  },
+  {
+    "path": "data/knowledge/mtor_signaling.md",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/data/knowledge/mtor_signaling.md",
+    "sha256": "a348011e9148fde906b3a6b3b21e993ba6c83c4f9533bbe5f8fb5c15088ca4ab",
+    "bytes": 3942
+  },
+  {
+    "path": "data/knowledge/myc_transcription.md",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/data/knowledge/myc_transcription.md",
+    "sha256": "b1762a2dec10d2ec42d6202b2adf958570ad4f6b2811c36734226f8f329ae1a5",
+    "bytes": 3509
+  },
+  {
+    "path": "data/knowledge/proteasome_pathway.md",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/data/knowledge/proteasome_pathway.md",
+    "sha256": "f63daa05f27a3334db684551db1c8df215aeeef7cb2dc6eaf5a3f234421df496",
+    "bytes": 4341
+  },
+  {
+    "path": "data/knowledge/ribosome_biogenesis.md",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/data/knowledge/ribosome_biogenesis.md",
+    "sha256": "14f90815a79778078fda89220aba9908a6c524213e135f4e6333defdde2cf7f1",
+    "bytes": 3096
+  },
+  {
+    "path": "data/knowledge/uniprot_data.tsv",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/data/knowledge/uniprot_data.tsv",
+    "sha256": "711d2abbdb6428295a301c42a6ff9935fe5262dca666c4e1f4a8a097e3dbba0f",
+    "bytes": 13577248
+  },
+  {
+    "path": "environment.yml",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/environment.yml",
+    "sha256": "48e0eca1f72aa4547d80b6ad1274b0352f549f0962d143198511b75cf8b3560e",
+    "bytes": 319
+  },
+  {
+    "path": "examples/benchmark_utils.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/examples/benchmark_utils.py",
+    "sha256": "eac47ba6ce52b835dc9b1e889e8b2e3a254933f2f0a40f59c18c559bafc5ef9c",
+    "bytes": 18123
+  },
+  {
+    "path": "examples/depmap/run_benchmark.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/examples/depmap/run_benchmark.py",
+    "sha256": "2801cc19aebb175e76bb195f99c77e84ccff0c362b511c9232566bb3598727d6",
+    "bytes": 3797
+  },
+  {
+    "path": "examples/depmap/wainberg_2021.csv",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/examples/depmap/wainberg_2021.csv",
+    "sha256": "897fbe906e302840aa007c473d062e83319a509d73f45187242b717c7104d332",
+    "bytes": 222
+  },
+  {
+    "path": "examples/ops/funk_2022.csv",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/examples/ops/funk_2022.csv",
+    "sha256": "89e48ec210a463b93b9dadcef11e2154557b2804b87cd8cbff575a3a8f085194",
+    "bytes": 33537
+  },
+  {
+    "path": "examples/ops/run_benchmark.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/examples/ops/run_benchmark.py",
+    "sha256": "f2be44c40570648909cb09ca615f48fab44f9ab17cb733578c2bc81c7b08258b",
+    "bytes": 4376
+  },
+  {
+    "path": "examples/proteomics/run_benchmark.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/examples/proteomics/run_benchmark.py",
+    "sha256": "c00ea5543d1590fa4d3e145e1e32588ae9d42b8b60f7d8ef2172cdc752aed894",
+    "bytes": 3858
+  },
+  {
+    "path": "examples/proteomics/schaffer_2025.csv",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/examples/proteomics/schaffer_2025.csv",
+    "sha256": "f197af8f2326e0bb0eada4c5be328a3a71e2b7598b0ca5c5f8d7d23a94dd056b",
+    "bytes": 236
+  },
+  {
+    "path": "examples/run_all_benchmarks.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/examples/run_all_benchmarks.py",
+    "sha256": "6c7f2e356a884bd68853a409d72a13429cb2da9ec46d44c133e5cfd16af55373",
+    "bytes": 10364
+  },
+  {
+    "path": "mozzarellm/__init__.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/__init__.py",
+    "sha256": "b1ed594b98491bb17ffa5a669a7da5b05eb9af04b23d628bb9f1ff11b28b4697",
+    "bytes": 1204
+  },
+  {
+    "path": "mozzarellm/analyzer.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/analyzer.py",
+    "sha256": "d8c1446dfae22c98df64fa13173852f1aaa43f008d146670fe1b21c546c5bab4",
+    "bytes": 21508
+  },
+  {
+    "path": "mozzarellm/models.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/models.py",
+    "sha256": "e8bf6228031401ea795cdf97f40c63aa84e3e16dc49ef30f49c01456deecf5a2",
+    "bytes": 6496
+  },
+  {
+    "path": "mozzarellm/prompts.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/prompts.py",
+    "sha256": "693626d3ec2e96cc570038a59fbcfed26bf9bad9ea88eca503c3de7b4bb78c6f",
+    "bytes": 17616
+  },
+  {
+    "path": "mozzarellm/providers.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/providers.py",
+    "sha256": "79aa08979e5e93f2b964a6a606727b4d1a74fba4f8a941e72a8046c5a67a69a2",
+    "bytes": 9322
+  },
+  {
+    "path": "mozzarellm/utils/__init__.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "mozzarellm/utils/cluster_utils.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/utils/cluster_utils.py",
+    "sha256": "b01d46146834b7103df97b66280b383d71842738f587e16db0fb8dcf9d807fc8",
+    "bytes": 9601
+  },
+  {
+    "path": "mozzarellm/utils/llm_analysis_utils.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/utils/llm_analysis_utils.py",
+    "sha256": "6e38a61586c2fe638ba2c5f72f07a639624bfdbec091dc1425666048b08c06ad",
+    "bytes": 29164
+  },
+  {
+    "path": "mozzarellm/utils/prompt_factory.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/utils/prompt_factory.py",
+    "sha256": "584face1aa0704d554f5c1fd2518f63e4129c2cb667f274681d553ddeb1130dc",
+    "bytes": 9753
+  },
+  {
+    "path": "mozzarellm/utils/retrieval.py",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/mozzarellm/utils/retrieval.py",
+    "sha256": "3d457df02e2be54e15e1ae325db398032a0fcbca1fe14cbf4f1a1ae9622f4c18",
+    "bytes": 7378
+  },
+  {
+    "path": "pyproject.toml",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/pyproject.toml",
+    "sha256": "110e11315fb986e706406a5ce6cb06e35ea972a7613d8550a607a3c923a99025",
+    "bytes": 1804
+  },
+  {
+    "path": "results/.gitkeep",
+    "url": "https://raw.githubusercontent.com/cheeseman-lab/mozzarellm/a7aa28cbc1e76163301f8151fa168961d74965fa/results/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  }
+]

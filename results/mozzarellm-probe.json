@@ -1,0 +1,82 @@
+{
+  "upstream_commit": "a7aa28cbc1e76163301f8151fa168961d74965fa",
+  "scope": "Executed only inspected stdlib retrieval module; no model calls, full analyzer, or scientific benchmark run.",
+  "uniprot_file": {
+    "actual_tab_characters": 122772,
+    "literal_backslash_t": 0,
+    "standard_tsv_columns": [
+      "entry",
+      "gene_names",
+      "function",
+      "kegg",
+      "complexportal",
+      "string",
+      "link"
+    ],
+    "annotation_rows": 20461,
+    "seed_accessions": {
+      "HIF1A": [
+        "Q16665"
+      ],
+      "BRAF": [
+        "P15056"
+      ],
+      "KRAS": [
+        "P01116"
+      ],
+      "PTPN11": [
+        "Q06124"
+      ],
+      "PRDX1": [
+        "Q06830"
+      ],
+      "VEGFA": [
+        "P15692"
+      ],
+      "CD47": [
+        "Q08722"
+      ],
+      "WNT11": [
+        "O96014"
+      ]
+    }
+  },
+  "default_annotation_lookup": {
+    "found": 1,
+    "missing": [
+      "BRAF",
+      "KRAS",
+      "PRDX1",
+      "CD47",
+      "VEGFA",
+      "PTPN11",
+      "HIF1A"
+    ]
+  },
+  "local_notes_only": {
+    "returned": 3,
+    "sources": {
+      "knowledge_file": 3
+    },
+    "metadata": {
+      "k": 10,
+      "genes_queried": 8,
+      "total_retrieved": 3,
+      "annotations_found": 0,
+      "knowledge_snippets_found": 3,
+      "genes_without_annotations": []
+    }
+  },
+  "with_explicitly_parsed_annotations": {
+    "returned": 10,
+    "sources": {
+      "annotations": 8,
+      "knowledge_file": 2
+    }
+  },
+  "synthetic_capacity_check": {
+    "knowledge_found": 1,
+    "knowledge_returned": 0,
+    "annotations_returned": 10
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "input_type": "Manually selected research seeds; not a measured co-cluster",
+  "gene_sources": {
+    "BRAF": [
+      {
+        "entry": "P15056",
+        "names": "BRAF BRAF1 RAFB1",
+        "url": "https://www.uniprot.org/uniprotkb/P15056/entry",
+        "pmids": [
+          "1508179",
+          "21441910",
+          "29433126",
+          "36402789"
+        ]
+      }
+    ],
+    "KRAS": [
+      {
+        "entry": "P01116",
+        "names": "KRAS KRAS2 RASK2",
+        "url": "https://www.uniprot.org/uniprotkb/P01116/entry",
+        "pmids": [
+          "20949621",
+          "22711838",
+          "23698361",
+          "24623306"
+        ]
+      }
+    ],
+    "PRDX1": [
+      {
+        "entry": "Q06830",
+        "names": "PRDX1 PAGA PAGB TDPX2",
+        "url": "https://www.uniprot.org/uniprotkb/Q06830/entry",
+        "pmids": [
+          "9497357"
+        ]
+      }
+    ],
+    "WNT11": [
+      {
+        "entry": "O96014",
+        "names": "WNT11",
+        "url": "https://www.uniprot.org/uniprotkb/O96014/entry",
+        "pmids": []
+      }
+    ],
+    "CD47": [
+      {
+        "entry": "Q08722",
+        "names": "CD47 MER6",
+        "url": "https://www.uniprot.org/uniprotkb/Q08722/entry",
+        "pmids": [
+          "11509594",
+          "15383453",
+          "19004835",
+          "27742621",
+          "32679764",
+          "7691831",
+          "8550562"
+        ]
+      }
+    ],
+    "VEGFA": [
+      {
+        "entry": "P15692",
+        "names": "VEGFA VEGF",
+        "url": "https://www.uniprot.org/uniprotkb/P15692/entry",
+        "pmids": [
+          "11427521",
+          "15520188",
+          "16489009",
+          "17446437",
+          "25825981",
+          "34530889",
+          "35455969"
+        ]
+      }
+    ],
+    "PTPN11": [
+      {
+        "entry": "Q06124",
+        "names": "PTPN11 PTP2C SHPTP2",
+        "url": "https://www.uniprot.org/uniprotkb/Q06124/entry",
+        "pmids": [
+          "10655584",
+          "14739280",
+          "18559669",
+          "18829466",
+          "19275884",
+          "26742426",
+          "28074573"
+        ]
+      }
+    ],
+    "HIF1A": [
+      {
+        "entry": "Q16665",
+        "names": "HIF1A BHLHE78 MOP1 PASD8",
+        "url": "https://www.uniprot.org/uniprotkb/Q16665/entry",
+        "pmids": [
+          "10202154",
+          "10594042",
+          "11292861",
+          "11566883",
+          "15465032",
+          "16543236",
+          "16973622",
+          "17610843",
+          "18658046",
+          "19528298",
+          "20624928",
+          "22009797",
+          "30125331",
+          "32697943",
+          "9887100"
+        ]
+      }
+    ]
+  },
+  "missing": [],
+  "ambiguous": [],
+  "limitations": "Bundled annotations not refreshed against live UniProt. Alias matches are candidates, not formal identifier validation. Paper pointers are not claims of full-text review. All source families must be examined, not only top-k snippets."
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-12",
+  "scope": "Extraction and identity review, not clinical validation",
+  "statement_count": 3,
+  "evidence_record_count": 6,
+  "statements": [
+    {
+      "statement_id": "a2ea88f5-18ae-42c5-a377-8ac7f7e91449",
+      "matches_hash": "-33274771165833495",
+      "type": "Activation",
+      "belief_not_clinical_probability": 0.70926336,
+      "evidence": [
+        {
+          "pmid": "27259998",
+          "reader": "medscan",
+          "source_hash": 8977347118329101406,
+          "raw_entities": [
+            "peroxiredoxin 1",
+            "Toll-like receptor 4 and vascular endothelial growth factors"
+          ],
+          "direct": false
+        },
+        {
+          "pmid": "21343392",
+          "reader": "medscan",
+          "source_hash": -8782552783482839128,
+          "raw_entities": [
+            "peroxiredoxin 1",
+            "TLR4 and VEGF"
+          ],
+          "direct": false
+        }
+      ]
+    },
+    {
+      "statement_id": "3ea36123-cb27-480e-927d-eec063c2c77a",
+      "matches_hash": "35743207154782421",
+      "type": "Dephosphorylation",
+      "belief_not_clinical_probability": 0.905384136,
+      "evidence": [
+        {
+          "pmid": "19540337",
+          "reader": "reach",
+          "source_hash": -3901346467577057019,
+          "raw_entities": [
+            "Shp2",
+            "PAG"
+          ],
+          "direct": true
+        },
+        {
+          "pmid": "23512980",
+          "reader": "sparser",
+          "source_hash": 7753168042982635611,
+          "raw_entities": [
+            "SHP2",
+            "PAG"
+          ],
+          "direct": null
+        },
+        {
+          "pmid": "15845350",
+          "reader": "reach",
+          "source_hash": 5008053333473426854,
+          "raw_entities": [
+            "Shp2",
+            "PAG"
+          ],
+          "direct": true
+        }
+      ]
+    },
+    {
+      "statement_id": "812b02b1-a6b4-4305-8635-9c281267328b",
+      "matches_hash": "-10003534084767120",
+      "type": "Inhibition",
+      "belief_not_clinical_probability": 0.4608,
+      "evidence": [
+        {
+          "pmid": "27473366",
+          "reader": "medscan",
+          "source_hash": 7884291561391821024,
+          "raw_entities": [
+            "CD47",
+            "vascular endothelial growth factor pathways"
+          ],
+          "direct": false
+        }
+      ]
+    }
+  ]
+}

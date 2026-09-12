@@ -1,0 +1,528 @@
+{
+  "sha256": "29d35292efae5a599793700ed2e925b4c081c24607e3abb29d96fd20bb04f21d",
+  "rows": 54675,
+  "samples": 12,
+  "duplicate_probe_ids": 0,
+  "nonfinite_values": 0,
+  "profiles": [
+    {
+      "sample": "GSM1659820",
+      "title": "SK01_suspension replicate 1",
+      "min": 3.27875,
+      "q25": 4.748945,
+      "median": 6.09888,
+      "q75": 8.01332,
+      "max": 14.8993,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659821",
+      "title": "SK02_suspension replicate 2",
+      "min": 3.28015,
+      "q25": 4.760505,
+      "median": 6.0845,
+      "q75": 7.98944,
+      "max": 14.886,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659822",
+      "title": "SK03_suspension replicate 3",
+      "min": 3.22193,
+      "q25": 4.7599800000000005,
+      "median": 6.03135,
+      "q75": 7.960075,
+      "max": 14.688,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659823",
+      "title": "SK04_attached replicate 1",
+      "min": 3.30596,
+      "q25": 4.7243200000000005,
+      "median": 6.07586,
+      "q75": 8.05237,
+      "max": 14.8898,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659824",
+      "title": "SK05_attached replicate 2",
+      "min": 3.31953,
+      "q25": 4.74408,
+      "median": 6.10583,
+      "q75": 8.043534999999999,
+      "max": 14.9197,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659825",
+      "title": "SK06_attached replicate 3",
+      "min": 3.31359,
+      "q25": 4.772875,
+      "median": 6.1108,
+      "q75": 8.003385,
+      "max": 14.9542,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659826",
+      "title": "SK07_B6H12 Antibody replicate 1",
+      "min": 3.25176,
+      "q25": 4.6964500000000005,
+      "median": 6.05714,
+      "q75": 8.099599999999999,
+      "max": 14.8965,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659827",
+      "title": "SK08_B6H12 Antibody replicate 2",
+      "min": 3.24893,
+      "q25": 4.72363,
+      "median": 6.08914,
+      "q75": 8.04037,
+      "max": 14.916,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659828",
+      "title": "SK09_B6H12 Antibody replicate 3",
+      "min": 3.29953,
+      "q25": 4.7219,
+      "median": 6.08187,
+      "q75": 8.064354999999999,
+      "max": 14.8823,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659829",
+      "title": "SK10_Control Antibody replicate 1",
+      "min": 3.19525,
+      "q25": 4.755345,
+      "median": 6.11342,
+      "q75": 8.016725000000001,
+      "max": 14.9742,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659830",
+      "title": "SK11_Control Antibody replicate 2",
+      "min": 3.34553,
+      "q25": 4.71447,
+      "median": 6.07994,
+      "q75": 8.05882,
+      "max": 14.9031,
+      "zeros": 0
+    },
+    {
+      "sample": "GSM1659831",
+      "title": "SK12_Control Antibody replicate 3",
+      "min": 3.26438,
+      "q25": 4.732315,
+      "median": 6.09039,
+      "q75": 8.036775,
+      "max": 14.9161,
+      "zeros": 0
+    }
+  ],
+  "pairs": [
+    {
+      "a": "GSM1659821",
+      "b": "GSM1659820",
+      "pearson": 0.9935494448486316,
+      "identical": false
+    },
+    {
+      "a": "GSM1659822",
+      "b": "GSM1659820",
+      "pearson": 0.9951855669805536,
+      "identical": false
+    },
+    {
+      "a": "GSM1659822",
+      "b": "GSM1659821",
+      "pearson": 0.9946100710469389,
+      "identical": false
+    },
+    {
+      "a": "GSM1659823",
+      "b": "GSM1659820",
+      "pearson": 0.9971286863983074,
+      "identical": false
+    },
+    {
+      "a": "GSM1659823",
+      "b": "GSM1659821",
+      "pearson": 0.9921869942246623,
+      "identical": false
+    },
+    {
+      "a": "GSM1659823",
+      "b": "GSM1659822",
+      "pearson": 0.9944981678843646,
+      "identical": false
+    },
+    {
+      "a": "GSM1659824",
+      "b": "GSM1659820",
+      "pearson": 0.9966209213376366,
+      "identical": false
+    },
+    {
+      "a": "GSM1659824",
+      "b": "GSM1659821",
+      "pearson": 0.9915240053542214,
+      "identical": false
+    },
+    {
+      "a": "GSM1659824",
+      "b": "GSM1659822",
+      "pearson": 0.9936917153179299,
+      "identical": false
+    },
+    {
+      "a": "GSM1659824",
+      "b": "GSM1659823",
+      "pearson": 0.9968241026353459,
+      "identical": false
+    },
+    {
+      "a": "GSM1659825",
+      "b": "GSM1659820",
+      "pearson": 0.9938806466016779,
+      "identical": false
+    },
+    {
+      "a": "GSM1659825",
+      "b": "GSM1659821",
+      "pearson": 0.9970759112769798,
+      "identical": false
+    },
+    {
+      "a": "GSM1659825",
+      "b": "GSM1659822",
+      "pearson": 0.9948044072527769,
+      "identical": false
+    },
+    {
+      "a": "GSM1659825",
+      "b": "GSM1659823",
+      "pearson": 0.9935634345601997,
+      "identical": false
+    },
+    {
+      "a": "GSM1659825",
+      "b": "GSM1659824",
+      "pearson": 0.9936346192640825,
+      "identical": false
+    },
+    {
+      "a": "GSM1659826",
+      "b": "GSM1659820",
+      "pearson": 0.996675341783244,
+      "identical": false
+    },
+    {
+      "a": "GSM1659826",
+      "b": "GSM1659821",
+      "pearson": 0.9915725550813811,
+      "identical": false
+    },
+    {
+      "a": "GSM1659826",
+      "b": "GSM1659822",
+      "pearson": 0.9936392282306907,
+      "identical": false
+    },
+    {
+      "a": "GSM1659826",
+      "b": "GSM1659823",
+      "pearson": 0.9964226363599398,
+      "identical": false
+    },
+    {
+      "a": "GSM1659826",
+      "b": "GSM1659824",
+      "pearson": 0.9971771616428097,
+      "identical": false
+    },
+    {
+      "a": "GSM1659826",
+      "b": "GSM1659825",
+      "pearson": 0.9922186851300865,
+      "identical": false
+    },
+    {
+      "a": "GSM1659827",
+      "b": "GSM1659820",
+      "pearson": 0.9969827121847162,
+      "identical": false
+    },
+    {
+      "a": "GSM1659827",
+      "b": "GSM1659821",
+      "pearson": 0.9932691942437969,
+      "identical": false
+    },
+    {
+      "a": "GSM1659827",
+      "b": "GSM1659822",
+      "pearson": 0.9941080482883304,
+      "identical": false
+    },
+    {
+      "a": "GSM1659827",
+      "b": "GSM1659823",
+      "pearson": 0.9958630403166421,
+      "identical": false
+    },
+    {
+      "a": "GSM1659827",
+      "b": "GSM1659824",
+      "pearson": 0.9973307120859499,
+      "identical": false
+    },
+    {
+      "a": "GSM1659827",
+      "b": "GSM1659825",
+      "pearson": 0.9937850574154884,
+      "identical": false
+    },
+    {
+      "a": "GSM1659827",
+      "b": "GSM1659826",
+      "pearson": 0.9979706731564518,
+      "identical": false
+    },
+    {
+      "a": "GSM1659828",
+      "b": "GSM1659820",
+      "pearson": 0.9978485278637453,
+      "identical": false
+    },
+    {
+      "a": "GSM1659828",
+      "b": "GSM1659821",
+      "pearson": 0.9922547344229306,
+      "identical": false
+    },
+    {
+      "a": "GSM1659828",
+      "b": "GSM1659822",
+      "pearson": 0.9942095852161564,
+      "identical": false
+    },
+    {
+      "a": "GSM1659828",
+      "b": "GSM1659823",
+      "pearson": 0.9975231661841077,
+      "identical": false
+    },
+    {
+      "a": "GSM1659828",
+      "b": "GSM1659824",
+      "pearson": 0.9970739350284941,
+      "identical": false
+    },
+    {
+      "a": "GSM1659828",
+      "b": "GSM1659825",
+      "pearson": 0.9927033270182033,
+      "identical": false
+    },
+    {
+      "a": "GSM1659828",
+      "b": "GSM1659826",
+      "pearson": 0.9977229060447903,
+      "identical": false
+    },
+    {
+      "a": "GSM1659828",
+      "b": "GSM1659827",
+      "pearson": 0.9974228200215703,
+      "identical": false
+    },
+    {
+      "a": "GSM1659829",
+      "b": "GSM1659820",
+      "pearson": 0.9971103157278594,
+      "identical": false
+    },
+    {
+      "a": "GSM1659829",
+      "b": "GSM1659821",
+      "pearson": 0.9953352644968053,
+      "identical": false
+    },
+    {
+      "a": "GSM1659829",
+      "b": "GSM1659822",
+      "pearson": 0.9950010854353906,
+      "identical": false
+    },
+    {
+      "a": "GSM1659829",
+      "b": "GSM1659823",
+      "pearson": 0.9955124792348706,
+      "identical": false
+    },
+    {
+      "a": "GSM1659829",
+      "b": "GSM1659824",
+      "pearson": 0.9964944438818826,
+      "identical": false
+    },
+    {
+      "a": "GSM1659829",
+      "b": "GSM1659825",
+      "pearson": 0.9956573750870442,
+      "identical": false
+    },
+    {
+      "a": "GSM1659829",
+      "b": "GSM1659826",
+      "pearson": 0.9963746720127129,
+      "identical": false
+    },
+    {
+      "a": "GSM1659829",
+      "b": "GSM1659827",
+      "pearson": 0.9976564819122646,
+      "identical": false
+    },
+    {
+      "a": "GSM1659829",
+      "b": "GSM1659828",
+      "pearson": 0.9967161863468335,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659820",
+      "pearson": 0.9966252204184715,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659821",
+      "pearson": 0.9954270498543315,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659822",
+      "pearson": 0.9950057348772406,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659823",
+      "pearson": 0.9956352661763864,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659824",
+      "pearson": 0.9959834518118867,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659825",
+      "pearson": 0.9957212589126835,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659826",
+      "pearson": 0.9968170238262755,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659827",
+      "pearson": 0.9974665361177006,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659828",
+      "pearson": 0.9968068235653044,
+      "identical": false
+    },
+    {
+      "a": "GSM1659830",
+      "b": "GSM1659829",
+      "pearson": 0.9979794119000778,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659820",
+      "pearson": 0.9972224669832938,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659821",
+      "pearson": 0.9952786560455584,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659822",
+      "pearson": 0.9951906451393484,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659823",
+      "pearson": 0.995704011352216,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659824",
+      "pearson": 0.9964465814570634,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659825",
+      "pearson": 0.9955329446453604,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659826",
+      "pearson": 0.9967982165627987,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659827",
+      "pearson": 0.997810670555464,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659828",
+      "pearson": 0.9970163535960802,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659829",
+      "pearson": 0.9984767249054395,
+      "identical": false
+    },
+    {
+      "a": "GSM1659831",
+      "b": "GSM1659830",
+      "pearson": 0.998194987150581,
+      "identical": false
+    }
+  ],
+  "scope": "Processed matrix only; correlations cannot establish biological replicate independence"
+}

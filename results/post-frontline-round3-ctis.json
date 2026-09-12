@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-09-12",
+  "scope": "Primary CTIS pages read through rendered browser UI; no site contacted.",
+  "trials": [
+    {
+      "euct": "2024-519622-20-00",
+      "protocol": "YO45758",
+      "url": "https://euclinicaltrials.eu/ctis-public/view/2024-519622-20-00",
+      "sections_read": [
+        "Summary",
+        "Locations and contact points: Netherlands",
+        "Full trial information"
+      ],
+      "country_status": {
+        "Denmark": "Ongoing, recruiting",
+        "Spain": "Ongoing, recruiting",
+        "Netherlands": "Authorised, recruiting",
+        "Belgium": "Authorised, recruitment pending",
+        "Germany": "Authorised, recruitment pending",
+        "France": "Authorised, recruitment pending"
+      },
+      "netherlands_recruitment_start": "2026-08-18",
+      "displayed_last_update": "2026-07-16",
+      "date_caveat": "The displayed last-update date precedes the recruitment start date; preserve both, do not infer actual site opening from this alone.",
+      "netherlands_site": "Het Nederlands Kanker Instituut-Antoni van Leeuwenhoek Ziekenhuis Stichting, Amsterdam",
+      "planned_netherlands_participants": 10,
+      "capacity_caveat": "Planned participants are not available slots.",
+      "eligibility_limit": "Rendered Full trial information supplied no detailed inclusion/exclusion criteria; public CT.gov criteria do not explicitly address acquired RAS plus BRAF V600E."
+    },
+    {
+      "euct": "2023-508615-24-00",
+      "url": "https://euclinicaltrials.eu/ctis-public/view/2023-508615-24-00",
+      "sections_read": [
+        "Summary"
+      ],
+      "country": "Italy",
+      "status": "Ongoing, recruitment ended",
+      "recruitment_end": "2026-04-02",
+      "displayed_last_update": "2024-04-04",
+      "date_caveat": "Displayed update predates later events; copied as displayed, not treated as timestamp of all fields.",
+      "prior_line": "EC administered in second line"
+    }
+  ]
+}

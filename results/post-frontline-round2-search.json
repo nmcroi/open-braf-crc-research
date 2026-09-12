@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-12",
+  "task": "TASK-0004",
+  "round": 2,
+  "queries": [
+    "\"encorafenib\" \"first-line\" \"subsequent therapy\" 2026 outcomes",
+    "\"BREAKWATER\" \"post-progression\" treatment",
+    "\"encorafenib\" \"cetuximab\" \"nivolumab\" \"cohort B\" results",
+    "\"colorectal\" \"after first-line encorafenib\" outcomes",
+    "\"BREAKWATER\" \"subsequent\" \"2026\" colorectal",
+    "\"NCT04017650\" \"cohort B\" response results",
+    "\"colorectal\" \"encorafenib\" \"after\" \"mFOLFOX6\" \"progression\" 2026 second line",
+    "\"41340484\" prior BRAF response",
+    "\"40882637\" \"prior\" BRAF",
+    "\"BREAKWATER\" \"subsequent anticancer\" FOLFIRI",
+    "mosperafenib cetuximab \"prior\" \"2026\" trial response",
+    "\"mosperafenib\" \"75%\" ctDNA",
+    "\"encorafenib\" \"nivolumab\" \"26\" \"excluded\" BRAF 2025",
+    "\"mosperafenib\" \"BRAFi-experienced\" \"response rate\"",
+    "\"encorafenib\" \"cetuximab\" \"nivolumab\" \"excluded\" \"2025\" 26 participants",
+    "mosperafenib \"Eighty\" \"63\" phase I",
+    "mosperafenib first human 2026 14.8 colorectal"
+  ],
+  "exact_sequence_outcome_established": false,
+  "not_exhaustive": true,
+  "primary_xmls": [
+    {
+      "pmcid": "PMC11024565",
+      "sha256": "28d9c62b07f3da14ee530277acac2295e5dae609a8a9247faf946e8c485009f0"
+    },
+    {
+      "pmcid": "PMC13276731",
+      "sha256": "8fc3ccd58755bbcb65665fac9dfe6fc236691bd8498e0f517f8c42e9419e1aa6"
+    }
+  ],
+  "access_limitations": {
+    "PMC12431688": "Europe PMC fullTextXML 404",
+    "10.1200/JCO-25-02444": "Publisher full text 403; abstract accessed via Europe PMC"
+  }
+}

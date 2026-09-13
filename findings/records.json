@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "editorial_date": "2026-09-12",
+  "priority": "Vervolg na eerstelijns encorafenib/cetuximab plus chemotherapie",
+  "findings": [
+    {
+      "id": "F-POST-001",
+      "title": "Wat weten we na de huidige combinatie?",
+      "date": "2026-09-12",
+      "change_type": "nog_onbeslist",
+      "topic": "Vervolgbehandeling",
+      "tumor": "BRAF V600E/MSS-darmkanker",
+      "prior_treatment": "Eerstelijns EC + chemotherapie",
+      "evidence_type": "Bron- en registercontrole",
+      "status": "in_onderzoek",
+      "summary": "Geen uitkomst per vervolgschema vastgesteld voor precies deze behandelvolgorde in de begrensde zoekronde.",
+      "meaning": "Eerdere behandeling moet een expliciet filter zijn bij elke vervolgmogelijkheid.",
+      "limitations": "Dit betekent niet dat er geen vervolgmogelijkheden of gegevens bestaan.",
+      "next_step": "Controleer Europese studies die eerdere EC + chemotherapie toelaten.",
+      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/post-frontline-round2.md",
+      "task_id": "TASK-0004",
+      "source_records": [
+        {
+          "id": "SRC-BREAKWATER",
+          "title": "BREAKWATER",
+          "url": "https://doi.org/10.1056/NEJMoa2501912",
+          "locator": "Vervolgbehandeling; eerdere controle van artikel en supplement",
+          "cohort_id": "COHORT-NCT04607421"
+        }
+      ],
+      "cohort_ids": [
+        "COHORT-NCT04607421"
+      ],
+      "country": "Niet vastgesteld",
+      "access": "Niet bevestigd",
+      "access_checked_at": null,
+      "support": "Geen uitkomst per vervolgschema vastgesteld voor precies deze behandelvolgorde in de begrensde zoekronde.",
+      "counterevidence": "Dit betekent niet dat er geen vervolgmogelijkheden of gegevens bestaan.",
+      "metrics": []
+    },
+    {
+      "id": "F-MOSP-001",
+      "title": "Mosperafenib: eerdere behandeling maakt verschil",
+      "date": "2026-09-12",
+      "change_type": "nieuwe_aanwijzing",
+      "topic": "Vervolgbehandeling",
+      "tumor": "BRAF V600-darmkanker",
+      "prior_treatment": "Eerdere BRAF-remmer; exacte eerstelijn onbekend",
+      "evidence_type": "Vroege klinische studie",
+      "status": "voorwaardelijke_richting",
+      "summary": "In de biomarkeranalyse hadden 2 van 26 eerder met een BRAF-remmer behandelde patiënten een bevestigde gedeeltelijke respons.",
+      "meaning": "Beoordeel de eerder behandelde groep afzonderlijk; een gunstig totaalcijfer is geen persoonlijke kans.",
+      "limitations": "Kleine, niet-gerandomiseerde subgroepen. Geen expliciete groep na eerstelijns EC + chemotherapie vastgesteld.",
+      "next_step": "Controleer exacte voorbehandeling en Europese toegang.",
+      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/post-frontline-round2.md",
+      "task_id": "TASK-0004",
+      "source_records": [
+        {
+          "id": "SRC-MOSP-BIO",
+          "title": "Mosperafenib biomarkeranalyse",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42127914/",
+          "locator": "Resultaten en tabel 1; relevante volledige tekst gecontroleerd",
+          "cohort_id": "COHORT-ISRCTN13713551"
+        },
+        {
+          "id": "SRC-MOSP-MAIN",
+          "title": "Mosperafenib fase I",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41894647/",
+          "locator": "Abstract; volledige tekst niet toegankelijk",
+          "cohort_id": "COHORT-ISRCTN13713551"
+        }
+      ],
+      "cohort_ids": [
+        "COHORT-ISRCTN13713551"
+      ],
+      "country": "Niet vastgesteld",
+      "access": "Niet bevestigd",
+      "access_checked_at": null,
+      "support": "In de biomarkeranalyse hadden 2 van 26 eerder met een BRAF-remmer behandelde patiënten een bevestigde gedeeltelijke respons.",
+      "counterevidence": "Kleine, niet-gerandomiseerde subgroepen. Geen expliciete groep na eerstelijns EC + chemotherapie vastgesteld.",
+      "metrics": [
+        {
+          "label": "Eerder BRAF-remmer",
+          "numerator": 2,
+          "denominator": 26,
+          "endpoint": "Bevestigde gedeeltelijke respons",
+          "cohort_id": "COHORT-ISRCTN13713551",
+          "interval": null
+        },
+        {
+          "label": "Niet eerder BRAF-remmer",
+          "numerator": 6,
+          "denominator": 23,
+          "endpoint": "Bevestigde gedeeltelijke respons",
+          "cohort_id": "COHORT-ISRCTN13713551",
+          "interval": null
+        }
+      ]
+    },
+    {
+      "id": "F-NIVO-001",
+      "title": "EC + nivolumab: toelating is geen resultaat",
+      "date": "2026-09-12",
+      "change_type": "nog_onbeslist",
+      "topic": "Vervolgbehandeling",
+      "tumor": "BRAF V600E/MSS-darmkanker",
+      "prior_treatment": "Eerdere gerichte therapie toegestaan in cohort B",
+      "evidence_type": "Studieregister",
+      "status": "toegang_onbevestigd",
+      "summary": "Cohort B staat eerdere gerichte behandeling toe, maar het register vermeldt dat de studie niet meer werft.",
+      "meaning": "Een relevante toelatingsregel levert nog geen beschikbare studieplek op.",
+      "limitations": "Uitkomsten van cohort B na exact EC + chemotherapie zijn niet vastgesteld.",
+      "next_step": "Zoek Europese alternatieven met passend voorbehandelingscriterium.",
+      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/post-frontline-first-pass.md",
+      "task_id": "TASK-0004",
+      "source_records": [
+        {
+          "id": "SRC-NIVO-REGISTER",
+          "title": "NCT04017650",
+          "url": "https://clinicaltrials.gov/study/NCT04017650",
+          "locator": "Criteria cohort B; registerupdate 11 juni 2026",
+          "cohort_id": "COHORT-NCT04017650"
+        }
+      ],
+      "cohort_ids": [
+        "COHORT-NCT04017650"
+      ],
+      "country": "Verenigde Staten",
+      "access": "Werft niet meer volgens register",
+      "access_checked_at": "2026-09-12",
+      "support": "Cohort B staat eerdere gerichte behandeling toe, maar het register vermeldt dat de studie niet meer werft.",
+      "counterevidence": "Uitkomsten van cohort B na exact EC + chemotherapie zijn niet vastgesteld.",
+      "metrics": []
+    },
+    {
+      "id": "F-INDRA-001",
+      "title": "Een eiwitverwisseling in de bewijskaart",
+      "date": "2026-09-12",
+      "change_type": "correctie",
+      "topic": "Bronbetrouwbaarheid",
+      "tumor": "Geen klinische patiëntgroep",
+      "prior_treatment": "Niet van toepassing",
+      "evidence_type": "Extractie- en identifiercontrole",
+      "status": "gecorrigeerd",
+      "summary": "De afkorting PAG was aan PRDX1 gekoppeld terwijl de gecontroleerde bronzin PAG1 beschrijft.",
+      "meaning": "Deze koppeling mag niet als onderbouwing voor een PRDX1-mechanisme worden gebruikt.",
+      "limitations": "Drie samengestelde statements met zes bewijsrecords zijn geen zes onafhankelijke studies; twee volledige artikelen blijven ontoegankelijk.",
+      "next_step": "Behoud de correctie en controleer open broncontext alleen als die een onderzoeksvraag beïnvloedt.",
+      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/indra-grounding-review.md",
+      "task_id": "TASK-0006",
+      "source_records": [
+        {
+          "id": "SRC-INDRA",
+          "title": "INDRA benchmark",
+          "url": "https://doi.org/10.5281/zenodo.7559353",
+          "locator": "Statement 3ea36123-cb27-480e-927d-eec063c2c77a; PMID23512980",
+          "cohort_id": null
+        },
+        {
+          "id": "SRC-PAG1",
+          "title": "PAG1 eiwitidentiteit",
+          "url": "https://www.uniprot.org/uniprotkb/Q9NWQ8/entry",
+          "locator": "Aanbevolen eiwitnaam",
+          "cohort_id": null
+        }
+      ],
+      "cohort_ids": [],
+      "country": "Niet vastgesteld",
+      "access": "Niet bevestigd",
+      "access_checked_at": null,
+      "support": "De afkorting PAG was aan PRDX1 gekoppeld terwijl de gecontroleerde bronzin PAG1 beschrijft.",
+      "counterevidence": "Drie samengestelde statements met zes bewijsrecords zijn geen zes onafhankelijke studies; twee volledige artikelen blijven ontoegankelijk.",
+      "metrics": []
+    },
+    {
+      "id": "F-VEGF-001",
+      "title": "Twee artikelen, geen twee bevestigingen",
+      "date": "2026-09-12",
+      "change_type": "correctie",
+      "topic": "Bronbetrouwbaarheid",
+      "tumor": "Verschillende laboratoriummodellen",
+      "prior_treatment": "Niet van toepassing",
+      "evidence_type": "Bronverwijzingscontrole",
+      "status": "gecorrigeerd",
+      "summary": "Het mondholteartikel noemt VEGF voluit en verwijst voor de relevante passage naar ouder onderzoek.",
+      "meaning": "Een herhaalde verwijzing telt niet als een nieuw, onafhankelijk experiment.",
+      "limitations": "Dit bevestigt geen directe PRDX1–VEGFA-interactie of klinisch voordeel.",
+      "next_step": "Gebruik bronafhankelijkheid bij het wegen van bewijs.",
+      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/indra-grounding-review.md",
+      "task_id": "TASK-0006",
+      "source_records": [
+        {
+          "id": "SRC-ORAL",
+          "title": "Mondholteartikel",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27259998/",
+          "locator": "Introductie, verwijzingen 22 en 23",
+          "cohort_id": null
+        },
+        {
+          "id": "SRC-PROSTATE",
+          "title": "Eerder prostaatonderzoek",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21343392/",
+          "locator": "Aangehaalde primaire studie",
+          "cohort_id": null
+        }
+      ],
+      "cohort_ids": [],
+      "country": "Niet vastgesteld",
+      "access": "Niet bevestigd",
+      "access_checked_at": null,
+      "support": "Het mondholteartikel noemt VEGF voluit en verwijst voor de relevante passage naar ouder onderzoek.",
+      "counterevidence": "Dit bevestigt geen directe PRDX1–VEGFA-interactie of klinisch voordeel.",
+      "metrics": []
+    },
+    {
+      "id": "F-CD47-001",
+      "title": "CD47-zijspoor staat geparkeerd",
+      "date": "2026-09-12",
+      "change_type": "nog_onbeslist",
+      "topic": "CD47",
+      "tumor": "Borstkankercellen in het laboratorium",
+      "prior_treatment": "B6H12 versus controle-antilichaam",
+      "evidence_type": "Preklinisch / matrixcontrole",
+      "status": "geparkeerd",
+      "summary": "De openbare matrix is gecontroleerd op technische volledigheid. Er is nog geen eigen differentiële genanalyse.",
+      "meaning": "Technische volledigheid is geen biologisch effect. Het spoor krijgt nu geen voorrang.",
+      "limitations": "De overgang van dit celmodel naar BRAF/MSS-darmkanker en klinisch nut is niet onderbouwd.",
+      "next_step": "Alleen de begrensde heranalyse na evaluatie van de prioriteitsrondes; geen nieuwe zijtakken.",
+      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/gse67966-qc.md",
+      "task_id": "TASK-0006",
+      "source_records": [
+        {
+          "id": "SRC-GSE67966",
+          "title": "GSE67966",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67966",
+          "locator": "12 arrays; 54.675 probe-setrijen; matrix-QC",
+          "cohort_id": "DATA-GSE67966"
+        }
+      ],
+      "cohort_ids": [],
+      "country": "Niet vastgesteld",
+      "access": "Niet bevestigd",
+      "access_checked_at": null,
+      "support": "De openbare matrix is gecontroleerd op technische volledigheid. Er is nog geen eigen differentiële genanalyse.",
+      "counterevidence": "De overgang van dit celmodel naar BRAF/MSS-darmkanker en klinisch nut is niet onderbouwd.",
+      "metrics": []
+    }
+  ]
+}

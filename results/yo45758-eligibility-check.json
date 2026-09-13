@@ -1,0 +1,31 @@
+{
+  "record_id": "AUDIT-YO45758-20260913",
+  "task": "TASK-0004",
+  "review_status": "independent review pending",
+  "retrieved_at_utc": "2026-09-13T08:02:15.625891+00:00",
+  "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT06884618",
+  "sha256": "205c6a99ad75fee077ab4a394ea3bb74bc67f60dfa3d2c12bb4fa42a0f0be3dc",
+  "posted_update": {
+    "date": "2026-04-21",
+    "type": "ACTUAL"
+  },
+  "document_section_present": false,
+  "observations": {
+    "ctis": "Rendered Summary: Netherlands authorised/recruiting. Trial Documents: no attached protocol/synopsis or country documents displayed.",
+    "yale": "Health Professionals tab read. Six inclusion and nine exclusion bullets. CT.gov acid-reducing-agent exclusion not displayed.",
+    "nyu": "RO7673396 listed under KRAS G12V, pending; cannot generalize to all cohorts.",
+    "roche": "Two-page PDF labels content as public-registry-derived; not full protocol."
+  },
+  "unresolved": [
+    "acquired RAS with coexisting BRAF V600E",
+    "exact permissible alleles and molecular screening",
+    "prior first-line EC plus chemotherapy",
+    "currently open local CRC cohort and place"
+  ],
+  "search_queries": [
+    "\"YO45758\" \"BRAF\"",
+    "\"RO7673396\" \"acquired\" mutation",
+    "\"YO45758\" protocol filetype:pdf",
+    "\"RO7673396\" \"G12V\""
+  ]
+}

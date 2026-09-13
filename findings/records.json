@@ -17,8 +17,8 @@
       "meaning": "We hebben een concrete lijst van gebruikte vervolgschema’s, maar nog geen vergelijking van hun werkzaamheid na deze eerste lijn.",
       "limitations": "De 13 behandelrijen tellen op tot 142 vermeldingen, geen 142 unieke patiënten. Categorieën kunnen overlappen. S4 geeft geen respons of overleving per vervolgschema en onderscheidt progressie tijdens onderhoud niet.",
       "next_step": "Vraag om geaggregeerde uitkomsten na progressie tijdens onderhoud na oxaliplatine-stop, met de daadwerkelijk voortgezette middelen en een heldere noemer.",
-      "review_status": "S4-aantallen onafhankelijk heruitgelezen door Claude op 13 september; de onderhoudsanalyse wacht op afzonderlijke review.",
-      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/a741282e3501934c654fb07e10dc678cfd1c6300/docs/breakwater-maintenance-context-20260913.md",
+      "review_status": "Controle door Claude afgerond op 13 september, met beperkingen: supplement en herinductiestudies nagekeken; protocol via onze tekstextractie; Europese richtlijn niet onafhankelijk toegankelijk. Geen bewijs voor werkzaamheid van een vervolgschema.",
+      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/dashboard-findings-v1/docs/maintenance-review-scope-20260913.md",
       "task_id": "TASK-0004",
       "source_records": [
         {

@@ -1,31 +1,31 @@
 {
   "schema_version": 1,
-  "editorial_date": "2026-09-12",
+  "editorial_date": "2026-09-13",
   "priority": "Vervolg na eerstelijns encorafenib/cetuximab plus chemotherapie",
   "findings": [
     {
       "id": "F-POST-001",
       "title": "Wat weten we na de huidige combinatie?",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "change_type": "nog_onbeslist",
       "topic": "Vervolgbehandeling",
       "tumor": "BRAF V600E/MSS-darmkanker",
       "prior_treatment": "Eerstelijns EC + chemotherapie",
       "evidence_type": "Bron- en registercontrole",
       "status": "in_onderzoek",
-      "summary": "Geen uitkomst per vervolgschema vastgesteld voor precies deze behandelvolgorde in de begrensde zoekronde.",
-      "meaning": "Eerdere behandeling moet een expliciet filter zijn bij elke vervolgmogelijkheid.",
-      "limitations": "Dit betekent niet dat er geen vervolgmogelijkheden of gegevens bestaan.",
-      "next_step": "Controleer Europese studies die eerdere EC + chemotherapie toelaten.",
-      "review_status": "Geen onafhankelijke eindbeoordeling",
-      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/post-frontline-round2.md",
+      "summary": "Het supplement laat zien welke vervolgbehandelingen zijn gegeven. Hoe goed elk vervolgschema werkte, staat er niet bij.",
+      "meaning": "We hebben een concrete lijst van gebruikte vervolgschema’s, maar nog geen vergelijking van hun werkzaamheid na deze eerste lijn.",
+      "limitations": "De 13 behandelrijen tellen op tot 142 vermeldingen, geen 142 unieke patiënten. Categorieën kunnen overlappen. S4 geeft geen respons of overleving per vervolgschema en onderscheidt progressie tijdens onderhoud niet.",
+      "next_step": "Vraag om geaggregeerde uitkomsten na progressie tijdens onderhoud na oxaliplatine-stop, met de daadwerkelijk voortgezette middelen en een heldere noemer.",
+      "review_status": "S4-aantallen onafhankelijk heruitgelezen door Claude op 13 september; de onderhoudsanalyse wacht op afzonderlijke review.",
+      "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/a741282e3501934c654fb07e10dc678cfd1c6300/docs/breakwater-maintenance-context-20260913.md",
       "task_id": "TASK-0004",
       "source_records": [
         {
           "id": "SRC-BREAKWATER",
           "title": "BREAKWATER",
           "url": "https://doi.org/10.1056/NEJMoa2501912",
-          "locator": "Vervolgbehandeling; eerdere controle van artikel en supplement",
+          "locator": "Origineel supplement, tabel S4, kolom EC + mFOLFOX6; N=236. Geen werkzaamheidsuitkomsten per vervolgbehandeling.",
           "cohort_id": "COHORT-NCT04607421"
         }
       ],
@@ -35,9 +35,37 @@
       "country": "Niet vastgesteld",
       "access": "Niet bevestigd",
       "access_checked_at": null,
-      "support": "Geen uitkomst per vervolgschema vastgesteld voor precies deze behandelvolgorde in de begrensde zoekronde.",
-      "counterevidence": "Dit betekent niet dat er geen vervolgmogelijkheden of gegevens bestaan.",
-      "metrics": []
+      "support": "Tabel S4: 108 van 236 patiënten kregen een systemische vervolgbehandeling; 57 kregen FOLFIRI en 19 een BRAF-remmer. Van de 169 patiënten die de studietherapie staakten, kregen 108 een vervolgbehandeling.",
+      "counterevidence": "",
+      "metrics": [
+        {
+          "label": "Enige systemische vervolgbehandeling",
+          "numerator": 108,
+          "denominator": 236,
+          "endpoint": "Ontving deze vervolgbehandeling; geen responspercentage",
+          "cohort_id": "COHORT-NCT04607421",
+          "interval": null,
+          "kind": "treatment_receipt"
+        },
+        {
+          "label": "FOLFIRI",
+          "numerator": 57,
+          "denominator": 236,
+          "endpoint": "Ontving deze vervolgbehandeling; geen responspercentage",
+          "cohort_id": "COHORT-NCT04607421",
+          "interval": null,
+          "kind": "treatment_receipt"
+        },
+        {
+          "label": "BRAF-remmer",
+          "numerator": 19,
+          "denominator": 236,
+          "endpoint": "Ontving deze vervolgbehandeling; geen responspercentage",
+          "cohort_id": "COHORT-NCT04607421",
+          "interval": null,
+          "kind": "treatment_receipt"
+        }
+      ]
     },
     {
       "id": "F-MOSP-001",
@@ -53,7 +81,7 @@
       "meaning": "Beoordeel de eerder behandelde groep afzonderlijk; een gunstig totaalcijfer is geen persoonlijke kans.",
       "limitations": "Kleine, niet-gerandomiseerde subgroepen. Geen expliciete groep na eerstelijns EC + chemotherapie vastgesteld.",
       "next_step": "Controleer exacte voorbehandeling en Europese toegang.",
-      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "review_status": "Claude bevestigde de twee responsaantallen in de biomarkerpublicatie op 13 september; exacte eerstelijn en toegang blijven onbekend.",
       "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/post-frontline-round2.md",
       "task_id": "TASK-0004",
       "source_records": [
@@ -78,8 +106,8 @@
       "country": "Niet vastgesteld",
       "access": "Niet bevestigd",
       "access_checked_at": null,
-      "support": "In de biomarkeranalyse hadden 2 van 26 eerder met een BRAF-remmer behandelde patiënten een bevestigde gedeeltelijke respons.",
-      "counterevidence": "Kleine, niet-gerandomiseerde subgroepen. Geen expliciete groep na eerstelijns EC + chemotherapie vastgesteld.",
+      "support": "",
+      "counterevidence": "",
       "metrics": [
         {
           "label": "Eerder BRAF-remmer",
@@ -113,7 +141,7 @@
       "meaning": "Een relevante toelatingsregel levert nog geen beschikbare studieplek op.",
       "limitations": "Uitkomsten van cohort B na exact EC + chemotherapie zijn niet vastgesteld.",
       "next_step": "Zoek Europese alternatieven met passend voorbehandelingscriterium.",
-      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "review_status": "Claude controleerde cohort B en de registerstatus op 13 september; geen resultaatbeoordeling van dit cohort.",
       "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/post-frontline-first-pass.md",
       "task_id": "TASK-0004",
       "source_records": [
@@ -131,8 +159,8 @@
       "country": "Verenigde Staten",
       "access": "Werft niet meer volgens register",
       "access_checked_at": "2026-09-12",
-      "support": "Cohort B staat eerdere gerichte behandeling toe, maar het register vermeldt dat de studie niet meer werft.",
-      "counterevidence": "Uitkomsten van cohort B na exact EC + chemotherapie zijn niet vastgesteld.",
+      "support": "",
+      "counterevidence": "",
       "metrics": []
     },
     {
@@ -149,7 +177,7 @@
       "meaning": "Deze koppeling mag niet als onderbouwing voor een PRDX1-mechanisme worden gebruikt.",
       "limitations": "Drie samengestelde statements met zes bewijsrecords zijn geen zes onafhankelijke studies; twee volledige artikelen blijven ontoegankelijk.",
       "next_step": "Behoud de correctie en controleer open broncontext alleen als die een onderzoeksvraag beïnvloedt.",
-      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "review_status": "Bronidentiteit door Claude nagekeken op 13 september; geen onafhankelijke volledige heranalyse.",
       "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/indra-grounding-review.md",
       "task_id": "TASK-0006",
       "source_records": [
@@ -172,8 +200,8 @@
       "country": "Niet vastgesteld",
       "access": "Niet bevestigd",
       "access_checked_at": null,
-      "support": "De afkorting PAG was aan PRDX1 gekoppeld terwijl de gecontroleerde bronzin PAG1 beschrijft.",
-      "counterevidence": "Drie samengestelde statements met zes bewijsrecords zijn geen zes onafhankelijke studies; twee volledige artikelen blijven ontoegankelijk.",
+      "support": "",
+      "counterevidence": "",
       "metrics": []
     },
     {
@@ -190,7 +218,7 @@
       "meaning": "Een herhaalde verwijzing telt niet als een nieuw, onafhankelijk experiment.",
       "limitations": "Dit bevestigt geen directe PRDX1–VEGFA-interactie of klinisch voordeel.",
       "next_step": "Gebruik bronafhankelijkheid bij het wegen van bewijs.",
-      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "review_status": "Bronidentiteit door Claude nagekeken op 13 september; geen onafhankelijke volledige heranalyse.",
       "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/indra-grounding-review.md",
       "task_id": "TASK-0006",
       "source_records": [
@@ -213,8 +241,8 @@
       "country": "Niet vastgesteld",
       "access": "Niet bevestigd",
       "access_checked_at": null,
-      "support": "Het mondholteartikel noemt VEGF voluit en verwijst voor de relevante passage naar ouder onderzoek.",
-      "counterevidence": "Dit bevestigt geen directe PRDX1–VEGFA-interactie of klinisch voordeel.",
+      "support": "",
+      "counterevidence": "",
       "metrics": []
     },
     {
@@ -231,7 +259,7 @@
       "meaning": "Technische volledigheid is geen biologisch effect. Het spoor krijgt nu geen voorrang.",
       "limitations": "De overgang van dit celmodel naar BRAF/MSS-darmkanker en klinisch nut is niet onderbouwd.",
       "next_step": "Alleen de begrensde heranalyse na evaluatie van de prioriteitsrondes; geen nieuwe zijtakken.",
-      "review_status": "Geen onafhankelijke eindbeoordeling",
+      "review_status": "Bronidentiteit door Claude nagekeken op 13 september; geen onafhankelijke volledige heranalyse.",
       "report_url": "https://github.com/nmcroi/open-braf-crc-research/blob/main/docs/gse67966-qc.md",
       "task_id": "TASK-0006",
       "source_records": [
@@ -247,8 +275,8 @@
       "country": "Niet vastgesteld",
       "access": "Niet bevestigd",
       "access_checked_at": null,
-      "support": "De openbare matrix is gecontroleerd op technische volledigheid. Er is nog geen eigen differentiële genanalyse.",
-      "counterevidence": "De overgang van dit celmodel naar BRAF/MSS-darmkanker en klinisch nut is niet onderbouwd.",
+      "support": "",
+      "counterevidence": "",
       "metrics": []
     }
   ]

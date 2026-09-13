@@ -1,0 +1,221 @@
+{
+  "audit_id": "AUDIT-BREAKWATER-MAINTENANCE-20260913",
+  "task": "TASK-0004",
+  "recorded_at_utc": "2026-09-13T09:11:23.224293+00:00",
+  "review": "independent review pending",
+  "sources": [
+    {
+      "id": "BW-PROT-7",
+      "file": "Prot_000.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT04607421/Prot_000.pdf",
+      "sha256": "965d305115398d9ed1a0690a8318c43bbc33174d422270de67813a6a0b1f616f",
+      "scope": "Amendment 7, 2024-05-31; selected sections; pp111,121 visually checked"
+    },
+    {
+      "id": "BW-SAP-7",
+      "file": "SAP_001.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT04607421/SAP_001.pdf",
+      "sha256": "d741687810d7de11ffe7c2f2afcba43094d2cbe149c1c2140e425f86c8bb3d47",
+      "scope": "Version7, 2024-05-07; sections6.4,6.5.3,6.5.5"
+    },
+    {
+      "id": "BW-REG-20260913",
+      "file": "NCT04607421.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04607421",
+      "sha256": "004df4a3865ab6bec3547479633cda6f211aefaa82005d0c63192166733abb98",
+      "scope": "Latest posted update2026-06-11; public document identities"
+    },
+    {
+      "id": "BW-NEJM-SUPP",
+      "file": "NIHMS2071508-supplement-supplement.docx",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12197837/supplementaryFiles",
+      "sha256": "74b248db625d629f49eb2d7a6dd9198a8adc87b0151ceda00cc2dc516ba68189",
+      "scope": "Previously downloaded original; TableS6 re-extracted from DOCX XML and S7 footnote re-read"
+    },
+    {
+      "id": "EMA-BRAFTOVI",
+      "file": "ema-braftovi.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/variation-report/braftovi-vr-0000304994-epar-assessment-report-variation_en.pdf",
+      "sha256": "573ed56805f18f6c6feef48b52749d126a195f884c0b6b0569f5e4edb7e32a1b",
+      "scope": "Downloaded; selected keyword search, not full assessment review"
+    },
+    {
+      "id": "EMA-ERBITUX",
+      "file": "ema-erbitux.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/variation-report/erbitux-vr-0000327014-epar-assessment-report-variation_en.pdf",
+      "sha256": "2aa0507004a3db71c8dba31fe3b2f7523f082a73b15597178ebc7703094daf66",
+      "scope": "Downloaded; selected keyword search, not full assessment review"
+    },
+    {
+      "id": "ESMO2026-METADATA",
+      "file": "esmo-2026-response.xml",
+      "url": "https://api.elsevier.com/content/article/PII:S0923753426001080?httpAccept=text/xml",
+      "sha256": "fba42fe9b16c960e97686a11276680801afdec2305d2a0d9d5bfffc4730e4111",
+      "scope": "Metadata only, not full text"
+    },
+    {
+      "id": "ESMO2026-AUTHOR",
+      "file": "esmo-web-evidence.txt",
+      "url": "https://www.researchgate.net/publication/403801014_Metastatic_colorectal_cancer_ESMO_Clinical_Practice_Guideline_for_diagnosis_treatment_and_follow-up",
+      "sha256": "dcda1c1ddcd351e93e5bc5db021c21550634a92c8cbd54c188e42799b8c1cfcf",
+      "scope": "Tool-rendered coauthor upload; relevant prose pp764-766; no visual figures; DOI/author identity checked"
+    },
+    {
+      "id": "PMC8683209",
+      "file": "PMC8683209.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8683209/fullTextXML",
+      "doi": "10.1200/JCO.21.01332",
+      "pmid": "34533973",
+      "sha256": "ac486a3074e16cb9162e0ef0dd064ad5a30a6ef6c3d333a3652116286d6feebf",
+      "scope": "Methods, relevant results/tables, limitations; not all supplements; no restricted patient-level data"
+    },
+    {
+      "id": "PMC11719858",
+      "file": "PMC11719858.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11719858/fullTextXML",
+      "doi": "10.1016/j.eclinm.2024.103004",
+      "pmid": "39802302",
+      "sha256": "bbd13c12fb5c6a932b74144d06a948dd84fc604d1cab0330e57148443b8261ab",
+      "scope": "Methods, relevant results/tables, limitations; not all supplements; no restricted patient-level data"
+    },
+    {
+      "id": "PMC8842305",
+      "file": "PMC8842305.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8842305/fullTextXML",
+      "doi": "10.1093/oncolo/oyab012",
+      "pmid": "35305093",
+      "sha256": "e589ca7762251a827c3494b99fd120d661debf9827f56476b40135e992deec6b",
+      "scope": "Methods, relevant results/tables, limitations; not all supplements; no restricted patient-level data"
+    },
+    {
+      "id": "PMC13273794",
+      "file": "PMC13273794.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13273794/fullTextXML",
+      "doi": "10.1016/j.esmoop.2026.107775",
+      "pmid": "42269232",
+      "sha256": "4663a29b7f45190fd2e21a31126a3fa0af77a654f1f91ec704821f05ab12013d",
+      "scope": "Methods, relevant results/tables, limitations; not all supplements; no restricted patient-level data"
+    }
+  ],
+  "cohort_identity": "BREAKWATER phase3 ArmB; protocol, SAP, supplement and regulatory reports do not add independent patient cohorts",
+  "author_reported_exposure": [
+    {
+      "drug": "encorafenib",
+      "n": 232,
+      "median_exposure_weeks": 49.4,
+      "exposure_at_least_6_months_n": 169,
+      "reported_percent": 72.8,
+      "origin": "author-reported Table S6; no patient-level reanalysis"
+    },
+    {
+      "drug": "cetuximab",
+      "n": 232,
+      "median_exposure_weeks": 49.1,
+      "exposure_at_least_6_months_n": 168,
+      "reported_percent": 72.4,
+      "origin": "author-reported Table S6; no patient-level reanalysis"
+    },
+    {
+      "drug": "fluorouracil",
+      "n": 232,
+      "median_exposure_weeks": 37.5,
+      "exposure_at_least_6_months_n": 152,
+      "reported_percent": 65.5,
+      "origin": "author-reported Table S6; no patient-level reanalysis"
+    },
+    {
+      "drug": "oxaliplatin",
+      "n": 232,
+      "median_exposure_weeks": 21.3,
+      "exposure_at_least_6_months_n": 67,
+      "reported_percent": 28.9,
+      "origin": "author-reported Table S6; no patient-level reanalysis"
+    }
+  ],
+  "validation": "Selected TableS6 cells checked against DOCX XML; n/N percentages checked; not independent statistical or clinical validation; selected final PanaMa response and Valentino BRAF cells rechecked against XML; arithmetic reconciled; no confidence interval or survival recomputation",
+  "search_engine": "web search via web.run; targeted primary-document and local-source checks",
+  "search_queries": [
+    "\"encorafenib\" \"maintenance\" \"progression\" \"reintroduction\"",
+    "\"BREAKWATER\" \"oxaliplatin\" \"discontinuation\" maintenance",
+    "\"encorafenib\" \"maintenance\" \"FOLFIRI\" progression case",
+    "\"BREAKWATER\" \"maintenance\" \"reintroduction\" outcomes",
+    "\"encorafenib\" \"re-escalation\" colorectal",
+    "\"encorafenib\" \"maintenance\" \"progression\" 2026 cohort oxaliplatin",
+    "\"NCT04607421\" \"protocol\" \"pdf\"",
+    "\"encorafenib\" \"maintenance\" \"reintensification\"",
+    "\"BREAKWATER\" \"maintenance\" \"progression\" colorectal 2026",
+    "\"BREAKWATER\" \"maintenance\" \"progression\" \"reintroduction\" colorectal",
+    "\"encorafenib\" \"oxaliplatin\" \"reintroduction\" 2026",
+    "\"BREAKWATER\" \"beyond progression\" outcomes maintenance",
+    "\"10.1016/j.annonc.2026.03.005\" maintenance encorafenib",
+    "site.annalsofoncology.org \"2026.03.005\"",
+    "PANAMA trial Modest 2022 reinduction BRAF 3.8 6.3",
+    "Raimondi Nichetti Stahler 112945 2023 maintenance BRAF reinduction"
+  ],
+  "inaccessible_or_limited": [
+    {
+      "source": "FDA210496Orig1s017MultidisciplineR",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/210496Orig1s017MultidisciplineR.pdf",
+      "limitation": "Local download404; indexed web text available; older cutoff and safety N231 not mixed with S6 N232"
+    },
+    {
+      "source": "ESMO2026",
+      "limitation": "Publisher full text403; API metadata only; relevant author-upload prose recovered via web rendering; PDF click failed, direct HTML403; no figure audit"
+    },
+    {
+      "source": "PMC12197837",
+      "limitation": "Current PMC browser route recaptcha; previously retrieved original XML and DOCX used"
+    }
+  ],
+  "negative_result_scope": "No exact post-maintenance regimen-specific outcomes located in these searches and selected sections; does not establish worldwide absence",
+  "external_outreach_sent": false,
+  "adjacent_evidence_checks": {
+    "panama_final": {
+      "initial_maintenance_n": [
+        125,
+        123
+      ],
+      "reinduction_n": [
+        50,
+        78
+      ],
+      "responses_n": [
+        4,
+        28
+      ],
+      "response_percent": [
+        8.0,
+        35.9
+      ],
+      "source": "PMC11719858 Table2",
+      "endpoint_clock": "Reinduction PFS starts at maintenance progression, not first dose",
+      "interpretation": "Selected subgroup after maintenance randomization, not randomized salvage comparison; no encorafenib"
+    },
+    "valentino": {
+      "reinduction_n": 42,
+      "braf_mutated_reinduction_n": 0,
+      "other_secondline_n": 117,
+      "braf_mutated_other_secondline_n": 5,
+      "source": "PMC8842305 Table1",
+      "limit": "Table1 anti-EGFR-free interval yes/no row conflicts with narrative; no quantitative interval interpretation used"
+    },
+    "pooled_2026": {
+      "selected_n": 378,
+      "braf_V600E_excluded": true,
+      "known_MSI_H_excluded": true,
+      "all_MSS_confirmed": false,
+      "stop_go_n": 103,
+      "irinotecan_induction_in_stop_go_n": 103,
+      "five_fu_anti_egfr_maintenance_n": 166,
+      "oxaliplatin_induction_in_five_fu_anti_egfr_maintenance_n": 166,
+      "source": "PMC13273794 Methods and Table1",
+      "cohort_overlap": [
+        "PanaMa",
+        "Valentino",
+        "PRODIGE-28-TIME",
+        "IMPROVE"
+      ]
+    }
+  },
+  "updated_at_utc": "2026-09-13T09:16:54.708677+00:00"
+}

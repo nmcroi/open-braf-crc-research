@@ -1,0 +1,45 @@
+{
+  "audit_id": "AUDIT-POST-FRONTLINE-SEQUENCE-20260913",
+  "task": "TASK-0004",
+  "retrieved_at_utc": "2026-09-13T08:59:28.210286+00:00",
+  "review": "independent review pending",
+  "sources": [
+    {
+      "file": "tncd-2026-03-13.pdf",
+      "url": "https://www.snfge.org/sites/www.snfge.org/files/tncd/2026-03/tncd_chap-04-cancer-colorectal-metastatique_2026-03-13.pdf",
+      "sha256": "7d22fc21ac19a11a3bed2a421f130375407cb34c543729340d31cd92dd933564"
+    },
+    {
+      "file": "ulysse-summary.pdf",
+      "url": "https://ramdam.ffcd.fr/CUSTOM/GED/20251028/2a7b9987ed.pdf",
+      "sha256": "b0ba428198f24e9d1919e809df0c46f76deea307b212af313bedbf2a38ef6dfc"
+    },
+    {
+      "file": "NCT07150403.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07150403",
+      "sha256": "0154246bbcd5710aa1475e9013961d4f754b881b2aaabef3904ca2302ce178d2"
+    },
+    {
+      "file": "NCT06640166.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06640166",
+      "sha256": "46f3f02b7f9f8f8b7209ac9ecc60d1d7f996a50379478785e98b68cd3700d1b5"
+    }
+  ],
+  "scope": [
+    "TNCD selected progression/maintenance sections and figures on printed pages88 and95; not full95page review",
+    "ULYSSE sponsor summary inclusion/exclusion sections and NCT eligibility",
+    "ECLYpSe registry results availability; no newly located clinical result",
+    "Germani existing XML selected results re-read; not new cohort or reanalysis"
+  ],
+  "search_queries": [
+    "colorectal cancer after first line encorafenib cetuximab chemotherapy subsequent treatment outcomes 2026",
+    "Germani 2024 179 patients treatment after encorafenib cetuximab progression 38613911",
+    "ECLYpSe encorafenib FOLFIRI results 2026 progression",
+    "\"encorafenib\" \"cetuximab\" \"after first-line\" \"FOLFIRI\" 2026 progression",
+    "\"encorafenib\" \"beyond progression\" results chemotherapy 2026",
+    "\"FOLFIRI\" \"BREAKWATER\" \"subsequent\" 2026",
+    "ULYSSE FFCD 2406 BRAF encorafenib eligibility",
+    "site.ffcd.fr \"ULYSSE\" protocole",
+    "site.snfge.org \"Cancer colorectal métastatique\" \"2026\""
+  ]
+}

@@ -1,5 +1,8 @@
 # YO45758: public eligibility clarification
 
+> **13 September 2026 follow-up — registry display reconciled, site access still unconfirmed.** The rendered [CTIS Summary](https://euclinicaltrials.eu/ctis-public/view/2024-519622-20-00) was reopened and explicitly displays Netherlands “Authorised, recruiting”, France “Authorised, recruitment pending”, and 25/03/2026 in Denmark’s row. A separate reviewer’s API interpretation had assigned that recruitment date to France and could not establish the Dutch recruitment flag. Exact country IDs/JSON paths have been requested for reconciliation; an array-join error is a hypothesis, not an established explanation. Accessibility text does not preserve every blank date column, so the displayed Dutch 18/08/2026 date is not newly asserted as an independently verified API recruitmentStartDate. The public recruitment label confirms neither a vacant slot nor acceptance of acquired RAS alongside BRAF V600E. No site has been contacted.
+
+
 13 September 2026 · TASK-0004 · Source review by ChatGPT/Codex; independent review pending.
 
 **Outcome:** public summaries do not establish whether acquired RAS mutations coexisting with BRAF V600E after first-line encorafenib/cetuximab plus chemotherapy qualify. This remains a protocol/site question, not confirmed access. This addendum narrows the [round 3 lead](post-frontline-round3.md); it does not report treatment efficacy.

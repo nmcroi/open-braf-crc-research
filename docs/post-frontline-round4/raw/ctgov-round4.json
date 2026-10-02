@@ -1,0 +1,272 @@
+{
+ "date": "2026-10-02",
+ "tracked": {
+  "NCT06884618": {
+   "title": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics (PK) and Preliminary Clinical Activity of RO7673396 in Participants With Advanced Solid Tumors Harboring Rat Sarcoma Viral Oncogene Homolog (RAS) Mutation(s)",
+   "status": "RECRUITING",
+   "updated": "2026-09-28",
+   "results": false,
+   "countries": [
+    "Australia",
+    "Canada",
+    "China",
+    "Denmark",
+    "Hong Kong",
+    "New Zealand",
+    "Singapore",
+    "Spain",
+    "Taiwan",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  "NCT07178717": {
+   "title": "A Study to Characterize Encorafenib Plus Cetuximab as Rechallenge Treatment for BRAF V600E-mutant Metastatic Colorectal Cancer Patients After Previous Therapy With BRAF Inhibitors-based Combinations",
+   "status": "NOT_YET_RECRUITING",
+   "updated": "2025-09-17",
+   "results": false,
+   "countries": [
+    "Spain"
+   ]
+  },
+  "NCT06640166": {
+   "title": "Encorafenib + Cetuximab Beyond Progression in Combination With FOLFIRI in Patients With BRAF V600E Mutated Metastatic Colorectal Cancer Progressing on Encorafenib + Cetuximab.",
+   "status": "RECRUITING",
+   "updated": "2025-02-12",
+   "results": false,
+   "countries": [
+    "Italy"
+   ]
+  },
+  "NCT05355701": {
+   "title": "A Study to Learn About the Study Medicine Called PF-07799933 in People With Advanced Solid Tumors With BRAF Alterations.",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "updated": "2026-09-01",
+   "results": false,
+   "countries": [
+    "Canada",
+    "Israel",
+    "United States"
+   ]
+  },
+  "NCT05379985": {
+   "title": "Study of RMC-6236 in Patients With Advanced Solid Tumors Harboring Specific Mutations in RAS",
+   "status": "RECRUITING",
+   "updated": "2026-05-15",
+   "results": false,
+   "countries": [
+    "United States"
+   ]
+  },
+  "NCT06445062": {
+   "title": "Study of RAS(ON) Inhibitors in Patients With Gastrointestinal Solid Tumors",
+   "status": "RECRUITING",
+   "updated": "2026-09-22",
+   "results": false,
+   "countries": [
+    "United States"
+   ]
+  },
+  "NCT06607185": {
+   "title": "A Study of the Pan-KRAS Inhibitor LY4066434 in Participants With KRAS Mutant Solid Tumors",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "updated": "2026-07-20",
+   "results": false,
+   "countries": [
+    "Belgium",
+    "France",
+    "Germany",
+    "Italy",
+    "Japan",
+    "Spain",
+    "Taiwan",
+    "United States"
+   ]
+  },
+  "NCT07150403": {
+   "title": "Second-line Doublet Chemotherapy (FOLFOX or FOLFIRI) Plus Fruquintinib Versus Doublet Chemotherapy (FOLFOX or FOLFIRI) Plus Bevacizumab in Metastatic Colorectal Cancer",
+   "status": "NOT_YET_RECRUITING",
+   "updated": "2025-09-08",
+   "results": false,
+   "countries": [
+    "France"
+   ]
+  },
+  "NCT04607421": {
+   "title": "A Study of Encorafenib Plus Cetuximab With or Without Chemotherapy in People With Previously Untreated Metastatic Colorectal Cancer",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "updated": "2026-06-11",
+   "results": true,
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "Bulgaria",
+    "Canada",
+    "China",
+    "Czechia",
+    "Denmark",
+    "Finland",
+    "Germany",
+    "India",
+    "Italy",
+    "Japan",
+    "Mexico",
+    "Netherlands",
+    "New Zealand",
+    "Norway",
+    "Poland",
+    "Russia",
+    "Slovakia",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Taiwan",
+    "Ukraine",
+    "United Kingdom",
+    "United States"
+   ]
+  }
+ },
+ "new_or_updated": [
+  {
+   "nct": "NCT05786924",
+   "title": "Phase 1/2 Trial of S241656 in Selected RAS/MAPK Mutation- Positive Malignancies",
+   "status": "RECRUITING",
+   "first": "2023-03-28",
+   "updated": "2026-09-16",
+   "countries": [
+    "Australia",
+    "China",
+    "Denmark",
+    "France",
+    "Hong Kong",
+    "Italy",
+    "Japan",
+    "Spain",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "nct": "NCT07844187",
+   "title": "TQB2922 Injection Given Under the Skin With Chemotherapy as Initial Treatment for Colorectal Cancer That Has Spread",
+   "status": "NOT_YET_RECRUITING",
+   "first": "2026-09-28",
+   "updated": "2026-09-28",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "nct": "NCT06750094",
+   "title": "A Study of Amivantamab and FOLFIRI Versus Cetuximab/Bevacizumab and FOLFIRI in Participants With KRAS/NRAS and BRAF Wild-type Colorectal Cancer Who Have Previously Received Chemotherapy",
+   "status": "RECRUITING",
+   "first": "2024-12-27",
+   "updated": "2026-09-25",
+   "countries": [
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "China",
+    "France",
+    "Germany",
+    "Hong Kong",
+    "Hungary",
+    "India",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Malaysia",
+    "Mexico",
+    "Netherlands",
+    "Poland",
+    "Puerto Rico",
+    "Romania",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Taiwan",
+    "Thailand",
+    "Turkey (T\u00fcrkiye)",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "nct": "NCT06662786",
+   "title": "A Study of Amivantamab and mFOLFOX6 or FOLFIRI Versus Cetuximab and mFOLFOX6 or FOLFIRI as First-line Treatment in Participants With KRAS/NRAS and BRAF Wild-type Unresectable or Metastatic Left-sided Colorectal Cancer",
+   "status": "RECRUITING",
+   "first": "2024-10-29",
+   "updated": "2026-09-25",
+   "countries": [
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "China",
+    "France",
+    "Germany",
+    "Hungary",
+    "India",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Malaysia",
+    "Netherlands",
+    "Poland",
+    "Puerto Rico",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Taiwan",
+    "Turkey (T\u00fcrkiye)",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "nct": "NCT02997228",
+   "title": "Testing the Addition of Atezolizumab to Combination Chemotherapy or Atezolizumab Alone for Metastatic Colon or Rectal Cancer, the COMMIT Study",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first": "2016-12-20",
+   "updated": "2026-10-01",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "nct": "NCT02465060",
+   "title": "Targeted Therapy Directed by Genetic Testing in Treating Patients With Advanced Refractory Solid Tumors, Lymphomas, or Multiple Myeloma (The MATCH Screening Trial)",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first": "2015-06-08",
+   "updated": "2026-10-01",
+   "countries": [
+    "Guam",
+    "Puerto Rico",
+    "United States"
+   ]
+  },
+  {
+   "nct": "NCT06102902",
+   "title": "Testing the Addition of Anti-cancer Drug, ZEN003694, to the Usual Chemotherapy Treatment, Cetuximab Plus Encorafenib, for Colorectal Cancer",
+   "status": "RECRUITING",
+   "first": "2023-10-26",
+   "updated": "2026-09-23",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "nct": "NCT03804255",
+   "title": "Assessment of Current Biomarker Testing Practices for Common Solid Cancers in Precision Oncology in the Community Setting",
+   "status": "WITHDRAWN",
+   "first": "2019-01-15",
+   "updated": "2026-09-15",
+   "countries": [
+    "United States"
+   ]
+  }
+ ]
+}

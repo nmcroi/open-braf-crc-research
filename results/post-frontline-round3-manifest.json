@@ -1,0 +1,111 @@
+[
+  {
+    "id": "NCT05355701",
+    "url": "https://clinicaltrials.gov/study/NCT05355701",
+    "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT05355701",
+    "retrieved_at": "2026-09-12T14:58:20.531985+00:00",
+    "sha256": "2ba177f5ae563898c9d6e3fb114651d99303d05315986e74eee75d09e169647c",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "last_update_posted": "2026-09-01",
+    "countries": [
+      "Canada",
+      "Israel",
+      "United States"
+    ],
+    "has_results": false
+  },
+  {
+    "id": "NCT05379985",
+    "url": "https://clinicaltrials.gov/study/NCT05379985",
+    "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT05379985",
+    "retrieved_at": "2026-09-12T14:58:20.533000+00:00",
+    "sha256": "db942e4a445cb6c1f582c36bd114de6a32905d3409e0ba8c2b3ae22745a5e5d1",
+    "status": "RECRUITING",
+    "last_update_posted": "2026-05-15",
+    "countries": [
+      "United States"
+    ],
+    "has_results": false
+  },
+  {
+    "id": "NCT06445062",
+    "url": "https://clinicaltrials.gov/study/NCT06445062",
+    "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06445062",
+    "retrieved_at": "2026-09-12T14:58:20.533411+00:00",
+    "sha256": "bc653fb50c446174c066fdeaf6319e474b9fd6ce40bbe3d2191ecd4d6fdee17d",
+    "status": "RECRUITING",
+    "last_update_posted": "2026-07-29",
+    "countries": [
+      "United States"
+    ],
+    "has_results": false
+  },
+  {
+    "id": "NCT06607185",
+    "url": "https://clinicaltrials.gov/study/NCT06607185",
+    "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06607185",
+    "retrieved_at": "2026-09-12T14:58:20.534006+00:00",
+    "sha256": "6bc72c9d2f91a69b78bf4c1a275bebef571d3bb765809911fdfdc1e9ac250f10",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "last_update_posted": "2026-07-20",
+    "countries": [
+      "Belgium",
+      "France",
+      "Germany",
+      "Italy",
+      "Japan",
+      "Spain",
+      "Taiwan",
+      "United States"
+    ],
+    "has_results": false
+  },
+  {
+    "id": "NCT06640166",
+    "url": "https://clinicaltrials.gov/study/NCT06640166",
+    "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06640166",
+    "retrieved_at": "2026-09-12T14:58:20.534528+00:00",
+    "sha256": "46f3f02b7f9f8f8b7209ac9ecc60d1d7f996a50379478785e98b68cd3700d1b5",
+    "status": "RECRUITING",
+    "last_update_posted": "2025-02-12",
+    "countries": [
+      "Italy"
+    ],
+    "has_results": false
+  },
+  {
+    "id": "NCT06884618",
+    "url": "https://clinicaltrials.gov/study/NCT06884618",
+    "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06884618",
+    "retrieved_at": "2026-09-12T14:58:20.534865+00:00",
+    "sha256": "205c6a99ad75fee077ab4a394ea3bb74bc67f60dfa3d2c12bb4fa42a0f0be3dc",
+    "status": "RECRUITING",
+    "last_update_posted": "2026-04-21",
+    "countries": [
+      "Australia",
+      "Canada",
+      "China",
+      "Denmark",
+      "Hong Kong",
+      "New Zealand",
+      "Singapore",
+      "Spain",
+      "Taiwan",
+      "United States"
+    ],
+    "has_results": false
+  },
+  {
+    "id": "NCT07178717",
+    "url": "https://clinicaltrials.gov/study/NCT07178717",
+    "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT07178717",
+    "retrieved_at": "2026-09-12T14:58:20.535150+00:00",
+    "sha256": "66c7bb97f36b57c052df98893502acf78af67343f02bf95b79c82c8668e23cf3",
+    "status": "NOT_YET_RECRUITING",
+    "last_update_posted": "2025-09-17",
+    "countries": [
+      "Spain"
+    ],
+    "has_results": false
+  }
+]

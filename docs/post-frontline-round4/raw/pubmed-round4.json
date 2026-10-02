@@ -1,0 +1,340 @@
+{
+ "date": "2026-10-02",
+ "queries": {
+  "q1_ec_recent": {
+   "query": "(encorafenib[tiab] AND cetuximab[tiab]) AND (\"2026/08/15\"[EDAT] : \"2026/10/02\"[EDAT])",
+   "count": "6",
+   "ids": [
+    "42791169",
+    "42744133",
+    "42723244",
+    "42693801",
+    "42671662",
+    "42638785"
+   ]
+  },
+  "q2_braf_crc_recent": {
+   "query": "(BRAF[tiab] AND V600E[tiab] AND colorectal[tiab]) AND (\"2026/09/10\"[EDAT] : \"2026/10/02\"[EDAT])",
+   "count": "6",
+   "ids": [
+    "42821536",
+    "42808388",
+    "42791169",
+    "42774118",
+    "42757994",
+    "42744133"
+   ]
+  },
+  "q3_post_progression": {
+   "query": "(encorafenib[tiab] AND colorectal[tiab] AND ((\"after progression\"[tiab]) OR \"subsequent\"[tiab] OR \"second-line\"[tiab] OR \"post-progression\"[tiab] OR \"beyond progression\"[tiab] OR rechallenge[tiab] OR \"later-line\"[tiab])) AND (\"2025/01/01\"[EDAT] : \"2026/10/02\"[EDAT])",
+   "count": "16",
+   "ids": [
+    "42638785",
+    "42423856",
+    "42093086",
+    "41960736",
+    "42190031",
+    "41690877",
+    "41677963",
+    "41646490",
+    "41646214",
+    "41458789",
+    "41412477",
+    "41340484",
+    "41245504",
+    "40688855",
+    "40147102",
+    "39776534"
+   ]
+  },
+  "q4_realworld_first_line": {
+   "query": "(encorafenib[tiab] AND cetuximab[tiab] AND (FOLFOX[tiab] OR mFOLFOX6[tiab] OR chemotherapy[tiab]) AND (\"real-world\"[tiab] OR retrospective[tiab] OR cohort[tiab])) AND (\"2025/06/01\"[EDAT] : \"2026/10/02\"[EDAT])",
+   "count": "4",
+   "ids": [
+    "42791169",
+    "42219860",
+    "41677963",
+    "41646214"
+   ]
+  },
+  "q5_breakwater": {
+   "query": "BREAKWATER[tiab] AND colorectal[tiab] AND (\"2026/06/01\"[EDAT] : \"2026/10/02\"[EDAT])",
+   "count": "7",
+   "ids": [
+    "42671662",
+    "42534285",
+    "42505238",
+    "42423856",
+    "42246975",
+    "42242284",
+    "42219860"
+   ]
+  }
+ },
+ "records": {
+  "39776534": {
+   "title": "Prognostic impact of depth of response and early tumour shrinkage in patients with BRAF (V600E) -mutated metastatic colorectal cancer treated with targeted therapy.",
+   "journal": "Ther Adv Med Oncol",
+   "pubdate": "2025",
+   "types": [
+    "Journal Article"
+   ]
+  },
+  "40147102": {
+   "title": "Real-world evaluation of treatment patterns and clinical outcomes in patients with BRAF-V600E metastatic colorectal cancer (mCRC) in Canada.",
+   "journal": "Cancer Treat Res Commun",
+   "pubdate": "2025",
+   "types": [
+    "Journal Article"
+   ]
+  },
+  "40688855": {
+   "title": "Successful Treatment of BRAF V600E-Mutant Intrahepatic Cholangiocarcinoma With Encorafenib, Binimetinib, and Cetuximab.",
+   "journal": "Cureus",
+   "pubdate": "2025 Jun",
+   "types": [
+    "Case Reports",
+    "Journal Article"
+   ]
+  },
+  "41245504": {
+   "title": "Noninvasive Therapeutic Monitoring of Circulating Tumor DNA in BRAF-Mutant Metastatic Colon Cancer Using Droplet Digital PCR, Next-Generation Sequencing, and Fragmentomics.",
+   "journal": "Case Rep Oncol Med",
+   "pubdate": "2025",
+   "types": [
+    "Case Reports",
+    "Journal Article"
+   ]
+  },
+  "41340484": {
+   "title": "Mosperafenib, a Novel Paradox-Breaker BRAF Inhibitor with Potent Preclinical Activity in BRAF-Mutated Colorectal Cancer.",
+   "journal": "Mol Cancer Ther",
+   "pubdate": "2026 Apr 2",
+   "types": [
+    "Journal Article"
+   ]
+  },
+  "41412477": {
+   "title": "Switch from cetuximab to panitumumab during encorafenib-based therapy in BRAF V600E mutated metastatic colorectal cancer: An international multicenter analysis from the AGEO group.",
+   "journal": "Clin Res Hepatol Gastroenterol",
+   "pubdate": "2026 Jan",
+   "types": [
+    "Clinical Study",
+    "Journal Article",
+    "Multicenter Study"
+   ]
+  },
+  "41458789": {
+   "title": "Pharmacist-Led Prevention of Recurrent Cetuximab Infusion Reactions.",
+   "journal": "Cureus",
+   "pubdate": "2025 Nov",
+   "types": [
+    "Case Reports",
+    "Journal Article"
+   ]
+  },
+  "41646214": {
+   "title": "Real-world characteristics and outcomes of patients with BRAF(V600E)-mutant metastatic colorectal cancer in Australia: the COALA project.",
+   "journal": "ESMO Real World Data Digit Oncol",
+   "pubdate": "2025 Sep",
+   "types": [
+    "Journal Article"
+   ]
+  },
+  "41646490": {
+   "title": "Exploring the pathway: clinical utility and open challenges of targeting BRAF alterations in biliary tract cancers and gastrointestinal malignancies.",
+   "journal": "ESMO Gastrointest Oncol",
+   "pubdate": "2025 Mar",
+   "types": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41677963": {
+   "title": "Safety and Efficacy of Triple Therapy Containing Encorafenib, Cetuximab, and Binimetinib for BRAF V600E-Mutated Colorectal Cancer: a Systematic Review and Meta-Analysis.",
+   "journal": "J Gastrointest Cancer",
+   "pubdate": "2026 Feb 12",
+   "types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ]
+  },
+  "41690877": {
+   "title": "Successful Encorafenib and Cetuximab Re-Challenge Combined With Nivolumab in BRAF V600E Mutated, Mismatch-Repair-Proficient Metastatic Colorectal Cancer - A Case Report From the AGMT mCRC Registry.",
+   "journal": "Clin Colorectal Cancer",
+   "pubdate": "2026 Jun",
+   "types": [
+    "Case Reports",
+    "Journal Article"
+   ]
+  },
+  "41960736": {
+   "title": "Practice-Changing Trials in Gastrointestinal Cancers at ASCO 2025: A Critical Review and Clinical Context.",
+   "journal": "Cancer Invest",
+   "pubdate": "2026 Jul",
+   "types": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42093086": {
+   "title": "Prolonged response to pembrolizumab in BRAFV600E microsatellite stable metastatic colorectal cancer following an increase in tumor mutational burden.",
+   "journal": "Oncologist",
+   "pubdate": "2026 May 8",
+   "types": [
+    "Journal Article",
+    "Case Reports"
+   ]
+  },
+  "42190031": {
+   "title": "",
+   "journal": "",
+   "pubdate": "2026 Apr",
+   "types": [
+    "Review"
+   ]
+  },
+  "42219860": {
+   "title": "A randomised study of encorafenib, cetuximab, and FOLFIRI versus FOLFIRI with or without bevacizumab in BRAF V600E-mutant colorectal cancer: BREAKWATER Cohort 3.",
+   "journal": "Ann Oncol",
+   "pubdate": "2026 Aug",
+   "types": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ]
+  },
+  "42242284": {
+   "title": "Successful Management of BRAF V600E-Mutated Metastatic Colorectal Cancer With Liver Dysfunction Using Encorafenib-Based Therapy.",
+   "journal": "J Natl Compr Canc Netw",
+   "pubdate": "2026 Jun 4",
+   "types": [
+    "Journal Article",
+    "Case Reports"
+   ]
+  },
+  "42246975": {
+   "title": "[Personalized pharmacotherapy of colorectal cancer].",
+   "journal": "Inn Med (Heidelb)",
+   "pubdate": "2026 Sep",
+   "types": [
+    "English Abstract",
+    "Journal Article"
+   ]
+  },
+  "42423856": {
+   "title": "Treatment Selection Beyond Second Line in Metastatic Colorectal Cancer: Practical Sequencing of Cytotoxic Salvage Therapy, Anti-angiogenic Agents, Rechallenge Strategies, and Biomarker-Guided Treatments.",
+   "journal": "J Gastrointest Cancer",
+   "pubdate": "2026 Jul 9",
+   "types": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42505238": {
+   "title": "Report from the 27th Annual Western Canadian Gastrointestinal Cancer Consensus Conference on Colorectal Cancer, Calgary, Alberta, 26-27 September 2025: Advances in Colon and Rectal Cancer.",
+   "journal": "Curr Oncol",
+   "pubdate": "2026 Jul 21",
+   "types": [
+    "Journal Article",
+    "Consensus Statement"
+   ]
+  },
+  "42534285": {
+   "title": "Prolonged response to combined BRAF and MEK inhibition in BRAF mutant colorectal cancer, a case report.",
+   "journal": "Front Oncol",
+   "pubdate": "2026",
+   "types": [
+    "Case Reports",
+    "Journal Article"
+   ]
+  },
+  "42638785": {
+   "title": "Cost-effectiveness analysis of triplet therapy of encorafenib, binimetinib, and cetuximab for treatment of metastatic BRAF V600E-mutated colorectal cancer in China.",
+   "journal": "Front Pharmacol",
+   "pubdate": "2026",
+   "types": [
+    "Journal Article"
+   ]
+  },
+  "42671662": {
+   "title": "BRAF V600E-Mutated Metastatic Colorectal Cancer: Practical Management in the Post-BREAKWATER Era.",
+   "journal": "J Gastrointest Cancer",
+   "pubdate": "2026 Aug 31",
+   "types": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42693801": {
+   "title": "Eruptive Melanocytic Nevi Associated With Encorafenib and Cetuximab Therapy in Two Patients With BRAF V600E-Mutated Colorectal Cancer.",
+   "journal": "J Dermatol",
+   "pubdate": "2026 Sep 4",
+   "types": [
+    "Letter"
+   ]
+  },
+  "42723244": {
+   "title": "[Three Cases of Encorafenib Treatment for Recurrent BRAF-Mutated Colorectal Cancer].",
+   "journal": "Gan To Kagaku Ryoho",
+   "pubdate": "2026 Aug",
+   "types": [
+    "Journal Article",
+    "Case Reports",
+    "English Abstract"
+   ]
+  },
+  "42744133": {
+   "title": "Biomarker-guided treatment selection in metastatic colorectal cancer: A critical review of established and emerging therapies.",
+   "journal": "Crit Rev Oncol Hematol",
+   "pubdate": "2026 Sep 15",
+   "types": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42757994": {
+   "title": "Isolated MSH2 Loss With Divergent Microsatellite Instability Status in Colorectal and Prostate Adenocarcinoma: A Diagnostic Pitfall.",
+   "journal": "Int J Surg Pathol",
+   "pubdate": "2026 Sep 18",
+   "types": [
+    "Journal Article"
+   ]
+  },
+  "42774118": {
+   "title": "Clinical activity of chidamide-containing regimens after prior PD-1-based therapy in two patients with microsatellite-stable metastatic colorectal cancer: a case series and narrative review.",
+   "journal": "Front Oncol",
+   "pubdate": "2026",
+   "types": [
+    "Case Reports",
+    "Journal Article"
+   ]
+  },
+  "42791169": {
+   "title": "Population-Based Multicenter Real-World Outcomes of Encorafenib Plus Panitumumab in BRAF V600E-Mutated Metastatic Colorectal Cancer.",
+   "journal": "Clin Colorectal Cancer",
+   "pubdate": "2026 Sep 2",
+   "types": [
+    "Journal Article"
+   ]
+  },
+  "42808388": {
+   "title": "KRAS and BRAF Hotspot Variants Show Lower Prevalence in Bangladeshi Colorectal Cancer Patients.",
+   "journal": "Asian Pac J Cancer Prev",
+   "pubdate": "2026 Sep 1",
+   "types": [
+    "Journal Article"
+   ]
+  },
+  "42821536": {
+   "title": "Distinct NGS mutational landscape and prognostic implications in early-onset colorectal cancer: A dual-cohort analysis of TCGA PanCancer Atlas and MSK-IMPACT 50K.",
+   "journal": "PLoS One",
+   "pubdate": "2026",
+   "types": [
+    "Journal Article"
+   ]
+  }
+ }
+}

@@ -82,6 +82,7 @@ summary.update({
     "unique_pmids": len({row["pmid"] for row in ROWS if row["pmid"]}),
     "unique_ncts": len({row["nct"] for row in ROWS if row["nct"]}),
     "distinct_sources_after_duplicate_links": len(ROWS) - len(DUPLICATES),
+    "removed_non_source_entry_ids": ["S0352"],
     "identifier_review_date": "2026-10-02",
 })
 summary_file.write_text(json.dumps(summary, indent=2) + "\n")

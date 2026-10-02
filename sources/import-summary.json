@@ -7,5 +7,8 @@
   "scope": "Top-level bibliographic Markdown entries across 15 categories; nested software repositories and administrative README files are not imported. Duplicate sources across categories retained. No abstracts or full texts copied.",
   "date": "2026-09-11",
   "distinct_sources_after_duplicate_links": 507,
-  "identifier_review_date": "2026-10-02"
+  "identifier_review_date": "2026-10-02",
+  "removed_non_source_entry_ids": [
+    "S0352"
+  ]
 }

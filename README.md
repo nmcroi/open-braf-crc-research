@@ -8,7 +8,7 @@ Our aim is to identify useful research questions and test them against evidence.
 
 ## Start here
 
-- **[516 source entries](sources/catalog.md)** / [machine-readable CSV](sources/catalog.csv): publications, trial registrations, conference abstracts and resources across 15 categories. Imported metadata is explicitly **not yet independently verified**. Entries can duplicate a source across categories; 516 does not mean 516 unique studies.
+- **[515 source entries](sources/catalog.md)** / [machine-readable CSV](sources/catalog.csv): publications, trial registrations, conference abstracts and resources across 15 categories. Eight repeated listings are [linked as the same source](sources/duplicate-links.csv), leaving 507 distinct sources in this catalog. An [identifier-level check](docs/issue-1-identifier-review-2026-10-02.md) corrected selected metadata; it does not verify scientific claims or that every entry matches its original library note.
 - **[Current findings](docs/findings.md)**: what has actually been checked, what remains uncertain, and what it does not establish.
 - **[Open research tasks](https://github.com/nmcroi/open-braf-crc-research/issues)**: bounded tasks with acceptance criteria.
 - **[Contributing](CONTRIBUTING.md)**: how to work independently, report negative results and submit a reviewable contribution.

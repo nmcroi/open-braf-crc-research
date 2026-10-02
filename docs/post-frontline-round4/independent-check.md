@@ -15,6 +15,8 @@ The owner-provided local PDF `PC0428s-Braftovi_Supplemental_Material.pdf` was op
 
 The table does not break down outcomes by subsequent regimen. That supports the narrow negative conclusion in the round-4 report. It does not establish that no such data exist elsewhere or within the sponsor's unpublished records. The original study population and treatment line remain essential when comparing these figures with any later-line evidence.
 
+Two sentences in the contributor report remain unverified here: that table 13 is identical to NEJM supplement table S4, and that *only* the sponsor holds regimen-specific data. The source comparison and data-holder assertion need their own checks before being repeated as findings.
+
 ## Registry checks
 
 - The [ClinicalTrials.gov API record for NCT06884618](https://clinicaltrials.gov/api/v2/studies/NCT06884618), retrieved on 2 October 2026, shows a last-posted update of 28 September 2026, sites in Barcelona, Madrid, Pamplona, Birmingham and London, and no Netherlands site in that registry. The eligibility text mentions RAS mutations but does not explicitly settle coexistence with BRAF V600E after acquired resistance. This is not a determination of eligibility or available places; the separate CTIS Netherlands discrepancy remains open.

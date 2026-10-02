@@ -1,0 +1,565 @@
+{
+ "clinical_attributes": {
+  "method": "GET",
+  "records": 23,
+  "request_body": null,
+  "response_bytes": 5110,
+  "response_sha256": "f97d154f10331774634020c5f5d542e9bb14186198d74c8ec9ec6b3d789b6f0a",
+  "retrieved_utc": "2026-10-02T20:11:00Z",
+  "url": "https://www.cbioportal.org/api/studies/crc_msk_2026/clinical-attributes"
+ },
+ "clinical_sample": {
+  "method": "GET",
+  "records": 110383,
+  "request_body": null,
+  "response_bytes": 27807631,
+  "response_sha256": "cb71c1cd74127f803a4358cd2f90af66dfb89be5b11f9506c360482b80275448",
+  "retrieved_utc": "2026-10-02T20:11:06Z",
+  "url": "https://www.cbioportal.org/api/studies/crc_msk_2026/clinical-data?clinicalDataType=SAMPLE&projection=SUMMARY&pageSize=10000000"
+ },
+ "cna_all_000": {
+  "method": "POST",
+  "records": 55794,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [0:250] of the study sample list"
+  },
+  "response_bytes": 15074273,
+  "response_sha256": "7aeff9130cbd8ce2c83b7b9765370532b34bd5bab126499a668d6f5284941e2f",
+  "retrieved_utc": "2026-10-02T20:15:25Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_001": {
+  "method": "POST",
+  "records": 40667,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [250:500] of the study sample list"
+  },
+  "response_bytes": 10987300,
+  "response_sha256": "b63441ab55ee5c08e5a5b9a1d8341d64b76ea9b6a7b83dd3c087c57e798f02aa",
+  "retrieved_utc": "2026-10-02T20:15:27Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_002": {
+  "method": "POST",
+  "records": 51065,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [500:750] of the study sample list"
+  },
+  "response_bytes": 13796617,
+  "response_sha256": "406db7a23a778500ef127feeba29e5b3fa64938e21a6ad9affbf98111f9ffa67",
+  "retrieved_utc": "2026-10-02T20:15:29Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_003": {
+  "method": "POST",
+  "records": 36885,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [750:1000] of the study sample list"
+  },
+  "response_bytes": 9965492,
+  "response_sha256": "06b07bba203eb000937c2f85b7434018c9dc323880239704ed86dff63691659c",
+  "retrieved_utc": "2026-10-02T20:15:31Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_004": {
+  "method": "POST",
+  "records": 48706,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [1000:1250] of the study sample list"
+  },
+  "response_bytes": 13159242,
+  "response_sha256": "d0b87954e7eba4a8ee82bddc04786c058afe6981155333f69a60af30edc44b2d",
+  "retrieved_utc": "2026-10-02T20:15:33Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_005": {
+  "method": "POST",
+  "records": 57218,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [1250:1500] of the study sample list"
+  },
+  "response_bytes": 15459015,
+  "response_sha256": "97ac0f648ea881bb505a9f9570c09994d2e701d025c23847f79efb7544a46f34",
+  "retrieved_utc": "2026-10-02T20:15:36Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_006": {
+  "method": "POST",
+  "records": 53911,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [1500:1750] of the study sample list"
+  },
+  "response_bytes": 14565528,
+  "response_sha256": "e2946735812f06488d3233bd7869f14a82dc6f93b312f53ce7d9d64fa3f46e3e",
+  "retrieved_utc": "2026-10-02T20:15:38Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_007": {
+  "method": "POST",
+  "records": 55330,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [1750:2000] of the study sample list"
+  },
+  "response_bytes": 14948895,
+  "response_sha256": "5e4a6bf47a0c22cfdcb4eff2197eadd84eef8b6a38a1dd9adefeddd45b2ceb2b",
+  "retrieved_utc": "2026-10-02T20:15:40Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_008": {
+  "method": "POST",
+  "records": 54006,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [2000:2250] of the study sample list"
+  },
+  "response_bytes": 14591211,
+  "response_sha256": "72413c3d1db0cdb23f4a1afa3f15a7dcfc996dabc9eac4c76acd57c5d442cddf",
+  "retrieved_utc": "2026-10-02T20:15:43Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_009": {
+  "method": "POST",
+  "records": 51070,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [2250:2500] of the study sample list"
+  },
+  "response_bytes": 13798000,
+  "response_sha256": "fded294452ea5143e5b3b6b1f3c4181f483287896fdae731334b39341489538c",
+  "retrieved_utc": "2026-10-02T20:15:45Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_010": {
+  "method": "POST",
+  "records": 42087,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [2500:2750] of the study sample list"
+  },
+  "response_bytes": 11370944,
+  "response_sha256": "d3d43e463b370b39e2b81e7cba3577beb2a228e3bac7b48aeab01c8aa35b3bf4",
+  "retrieved_utc": "2026-10-02T20:15:47Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_011": {
+  "method": "POST",
+  "records": 47379,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [2750:3000] of the study sample list"
+  },
+  "response_bytes": 12800738,
+  "response_sha256": "f34240b058cd5e2e2920e0170f484958ee7924fb5c3acb1fd2f390c0672d65dc",
+  "retrieved_utc": "2026-10-02T20:15:50Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_012": {
+  "method": "POST",
+  "records": 47482,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [3000:3250] of the study sample list"
+  },
+  "response_bytes": 12828565,
+  "response_sha256": "7ea157c80d9b4c44cc1fcba75c3831049ce4cd2efd846b00701df1b8c0f129ef",
+  "retrieved_utc": "2026-10-02T20:15:52Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_013": {
+  "method": "POST",
+  "records": 54470,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [3250:3500] of the study sample list"
+  },
+  "response_bytes": 14716581,
+  "response_sha256": "c844fc4b0e404e9bfe208d30cfe32dbf1a3f1731ca7763daf037b78eaebcb258",
+  "retrieved_utc": "2026-10-02T20:15:57Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_014": {
+  "method": "POST",
+  "records": 50646,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [3500:3750] of the study sample list"
+  },
+  "response_bytes": 13683399,
+  "response_sha256": "26ba2e5a80805d6d638df42d770155ec8349a5d34bc392cb6420d16eec91f12e",
+  "retrieved_utc": "2026-10-02T20:15:59Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_015": {
+  "method": "POST",
+  "records": 44929,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [3750:4000] of the study sample list"
+  },
+  "response_bytes": 12138812,
+  "response_sha256": "8b9baef2688d23b438f1e1d4eac35d83eceb428d5244e97dc8f6ac01fdd034f3",
+  "retrieved_utc": "2026-10-02T20:16:02Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_016": {
+  "method": "POST",
+  "records": 43081,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [4000:4250] of the study sample list"
+  },
+  "response_bytes": 11639510,
+  "response_sha256": "3a4c1b9cdbd16d44faf9b2e1d7a241bd460ead9dc70aaabe122d6c2026b8a68f",
+  "retrieved_utc": "2026-10-02T20:16:04Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_017": {
+  "method": "POST",
+  "records": 38918,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [4250:4500] of the study sample list"
+  },
+  "response_bytes": 10514759,
+  "response_sha256": "087b9bbc3ec3833856b54d0d6361807ba941f8e1108d8b045dcc7b1e55d1ac4f",
+  "retrieved_utc": "2026-10-02T20:16:06Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_018": {
+  "method": "POST",
+  "records": 45966,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [4500:4750] of the study sample list"
+  },
+  "response_bytes": 12418967,
+  "response_sha256": "3d517da77b6e02c8f49370de9fc6965c6df9c4290786ac9f22315c5566c488f8",
+  "retrieved_utc": "2026-10-02T20:16:08Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_019": {
+  "method": "POST",
+  "records": 52732,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [4750:5000] of the study sample list"
+  },
+  "response_bytes": 14246984,
+  "response_sha256": "2c1cc887ea4ff4696cf8c705a58a2d774c21b494465b10cb8819f3e02b7494aa",
+  "retrieved_utc": "2026-10-02T20:16:11Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_020": {
+  "method": "POST",
+  "records": 40005,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [5000:5250] of the study sample list"
+  },
+  "response_bytes": 10808440,
+  "response_sha256": "b39d29ba36936dc1bdb1f3eb9171e5e5fd1448d6f9f2aa31ab76e812abbce386",
+  "retrieved_utc": "2026-10-02T20:16:13Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_021": {
+  "method": "POST",
+  "records": 46347,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [5250:5500] of the study sample list"
+  },
+  "response_bytes": 12521883,
+  "response_sha256": "06b2a790ed39667c9a2a72263dcbbb00c5866505895b0ba309577e1204135791",
+  "retrieved_utc": "2026-10-02T20:16:15Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_022": {
+  "method": "POST",
+  "records": 46392,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [5500:5750] of the study sample list"
+  },
+  "response_bytes": 12534085,
+  "response_sha256": "0509f1e29adc42c7cb0861de15f358b6814f8576cfb37b078b44f0385363d8dd",
+  "retrieved_utc": "2026-10-02T20:16:18Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_023": {
+  "method": "POST",
+  "records": 48239,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [5750:6000] of the study sample list"
+  },
+  "response_bytes": 13033075,
+  "response_sha256": "ada80dca8ee8ae5a57d1c200a2fa95398295c7f78d5f5d1fbb1fc27ce7fb9391",
+  "retrieved_utc": "2026-10-02T20:16:20Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_024": {
+  "method": "POST",
+  "records": 50125,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [6000:6250] of the study sample list"
+  },
+  "response_bytes": 13542688,
+  "response_sha256": "353a6da30e03f590370c4f6352e302eb014e1bd658b8d1dc0fb30a6ee3f4bd2f",
+  "retrieved_utc": "2026-10-02T20:16:22Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_025": {
+  "method": "POST",
+  "records": 41617,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [6250:6500] of the study sample list"
+  },
+  "response_bytes": 11243946,
+  "response_sha256": "2c9080631e614f1d4ecac61a7576171bb6838b318a73fa99c4382c82c3bb1a23",
+  "retrieved_utc": "2026-10-02T20:16:25Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_026": {
+  "method": "POST",
+  "records": 36882,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [6500:6750] of the study sample list"
+  },
+  "response_bytes": 9964677,
+  "response_sha256": "1855b6b45ab3500bd0fe5e04c9e4f074ef2582442219bb756d60135337ba6850",
+  "retrieved_utc": "2026-10-02T20:16:27Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_027": {
+  "method": "POST",
+  "records": 42560,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [6750:7000] of the study sample list"
+  },
+  "response_bytes": 11498724,
+  "response_sha256": "669aa3f3f154a17fcc448ca2b95c0c5d6d2639584c25a9e6217ce849560654c8",
+  "retrieved_utc": "2026-10-02T20:16:29Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_all_028": {
+  "method": "POST",
+  "records": 43033,
+  "request_body": {
+   "sampleIds": "sorted sample IDs [7000:7237] of the study sample list"
+  },
+  "response_bytes": 11626547,
+  "response_sha256": "7173bff00d2335a95876669850cda803dbda2b79c37ade4fbc591e88dded492e",
+  "retrieved_utc": "2026-10-02T20:16:31Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=ALL&projection=SUMMARY"
+ },
+ "cna_homdel_amp": {
+  "method": "POST",
+  "records": 12657,
+  "request_body": {
+   "sampleListId": "crc_msk_2026_all"
+  },
+  "response_bytes": 3422251,
+  "response_sha256": "b869c476648327ff87870e3edb84cfd65789702f6963761a215bb4bd32bed6e1",
+  "retrieved_utc": "2026-10-02T20:15:22Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/discrete-copy-number/fetch?discreteCopyNumberEventType=HOMDEL_AND_AMP&projection=SUMMARY"
+ },
+ "cna_molecular_data_check": {
+  "method": "POST",
+  "records": 24949,
+  "request_body": {
+   "entrezGeneIds": [
+    324,
+    463,
+    472,
+    657,
+    672,
+    861,
+    865,
+    999,
+    1387,
+    1499,
+    2033,
+    2044,
+    2120,
+    2260,
+    2956,
+    3105,
+    4072,
+    4087,
+    4088,
+    4089,
+    4292,
+    4437,
+    4595,
+    4763,
+    4771,
+    4853,
+    5071,
+    5241,
+    5288,
+    5295,
+    5296,
+    5336,
+    5426,
+    5587,
+    5594,
+    5604,
+    5728,
+    5789,
+    5802,
+    5890,
+    5921,
+    5927,
+    5966,
+    5979,
+    6416,
+    6597,
+    6662,
+    6794,
+    6934,
+    7048,
+    7157,
+    7248,
+    7249,
+    7307,
+    8242,
+    8312,
+    8313,
+    8405,
+    8493,
+    8821,
+    8880,
+    9611,
+    9646,
+    11122,
+    23451,
+    23512,
+    25937,
+    27161,
+    29086,
+    29102,
+    54790,
+    54894,
+    54904,
+    55193,
+    55294,
+    57492,
+    57521,
+    64326,
+    64754,
+    84133,
+    90417,
+    143686,
+    161742,
+    196528,
+    201163,
+    257194
+   ],
+   "sampleIds": "291 samples that have a HOMDEL_AND_AMP call absent from the ALL response"
+  },
+  "response_bytes": 6618354,
+  "response_sha256": "2bf766b520252b0f8385472c0b78883aecf6a05e7f5c68c0981f641532b59293",
+  "retrieved_utc": "2026-10-02T20:23:00Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/molecular-data/fetch?projection=SUMMARY"
+ },
+ "gene_panel_IMPACT341": {
+  "method": "GET",
+  "records": null,
+  "request_body": null,
+  "response_bytes": 16134,
+  "response_sha256": "19bf000165797cb2d51911e271a768188e2245ac8e66efd4b21892b397b0e6d1",
+  "retrieved_utc": "2026-10-02T20:11:12Z",
+  "url": "https://www.cbioportal.org/api/gene-panels/IMPACT341"
+ },
+ "gene_panel_IMPACT410": {
+  "method": "GET",
+  "records": null,
+  "request_body": null,
+  "response_bytes": 19373,
+  "response_sha256": "f213a62f24c4eb4d260ad26073a1d92041781b4ed41eaa35669abdc55f834c5d",
+  "retrieved_utc": "2026-10-02T20:11:12Z",
+  "url": "https://www.cbioportal.org/api/gene-panels/IMPACT410"
+ },
+ "gene_panel_IMPACT468": {
+  "method": "GET",
+  "records": null,
+  "request_body": null,
+  "response_bytes": 22167,
+  "response_sha256": "cf75a659dfe2ced9d4e6464211becd3a4740e542cee3d1775c295ae2d8e5d905",
+  "retrieved_utc": "2026-10-02T20:11:13Z",
+  "url": "https://www.cbioportal.org/api/gene-panels/IMPACT468"
+ },
+ "gene_panel_IMPACT505": {
+  "method": "GET",
+  "records": null,
+  "request_body": null,
+  "response_bytes": 23875,
+  "response_sha256": "a6619cd08bdcab3e1e52c0dc65d7f21ad3fe6da92937d14e7c9ffbf25e844f0e",
+  "retrieved_utc": "2026-10-02T20:11:14Z",
+  "url": "https://www.cbioportal.org/api/gene-panels/IMPACT505"
+ },
+ "gene_panel_data_crc_msk_2026_cna": {
+  "method": "POST",
+  "records": 7237,
+  "request_body": {
+   "sampleListId": "crc_msk_2026_all"
+  },
+  "response_bytes": 2004650,
+  "response_sha256": "b089ae552d2df5cc4b8e69fad02b1bc9c7fae04559956da31e32ea62c8a34dbe",
+  "retrieved_utc": "2026-10-02T20:11:10Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_cna/gene-panel-data/fetch"
+ },
+ "gene_panel_data_crc_msk_2026_mutations": {
+  "method": "POST",
+  "records": 7237,
+  "request_body": {
+   "sampleListId": "crc_msk_2026_all"
+  },
+  "response_bytes": 2048072,
+  "response_sha256": "9b857668e9a4ccdeeab3282237f199f2a29a2ff0f6a81e778b74ce9d644c8964",
+  "retrieved_utc": "2026-10-02T20:11:08Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_mutations/gene-panel-data/fetch"
+ },
+ "gene_panel_data_crc_msk_2026_structural_variants": {
+  "method": "POST",
+  "records": 7237,
+  "request_body": {
+   "sampleListId": "crc_msk_2026_all"
+  },
+  "response_bytes": 2120442,
+  "response_sha256": "b045b65476270dead22015cf55ea349fdfc3f8c92114b7979451493924bd7c3b",
+  "retrieved_utc": "2026-10-02T20:11:11Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_structural_variants/gene-panel-data/fetch"
+ },
+ "info": {
+  "method": "GET",
+  "records": null,
+  "request_body": null,
+  "response_bytes": 734,
+  "response_sha256": "6cdb9c921eea7458c65af9630311319ce1abc8746e44dbc79d2f0915dc7d313d",
+  "retrieved_utc": "2026-10-02T20:10:59Z",
+  "url": "https://www.cbioportal.org/api/info"
+ },
+ "molecular_profiles": {
+  "method": "GET",
+  "records": 3,
+  "request_body": null,
+  "response_bytes": 886,
+  "response_sha256": "321304a4818514f19d98d422ec4ab5517bdf3f4af2717d351f78634a3cccbced",
+  "retrieved_utc": "2026-10-02T20:11:00Z",
+  "url": "https://www.cbioportal.org/api/studies/crc_msk_2026/molecular-profiles"
+ },
+ "mutations": {
+  "method": "POST",
+  "records": 118086,
+  "request_body": {
+   "sampleListId": "crc_msk_2026_all"
+  },
+  "response_bytes": 93924301,
+  "response_sha256": "c2f795ae0a1498bfb29bc65c1e27b906bda63fd39c1cb0bcb1d7e351eb6dc5ec",
+  "retrieved_utc": "2026-10-02T20:15:21Z",
+  "url": "https://www.cbioportal.org/api/molecular-profiles/crc_msk_2026_mutations/mutations/fetch?projection=DETAILED"
+ },
+ "samples": {
+  "method": "GET",
+  "records": 7237,
+  "request_body": null,
+  "response_bytes": 2019178,
+  "response_sha256": "52c4c1eee18103d50fd97a18bd74704dc5f6ce3d0ba1a392f0cbd8a2354ccf23",
+  "retrieved_utc": "2026-10-02T20:11:02Z",
+  "url": "https://www.cbioportal.org/api/studies/crc_msk_2026/samples?projection=DETAILED&pageSize=100000"
+ },
+ "study": {
+  "method": "GET",
+  "records": null,
+  "request_body": null,
+  "response_bytes": 812,
+  "response_sha256": "8e4a5f2b23cbfe810efe8a38abdab4ad72bdadb9b1cd70502eed365154901612",
+  "retrieved_utc": "2026-10-02T20:10:59Z",
+  "url": "https://www.cbioportal.org/api/studies/crc_msk_2026"
+ }
+}

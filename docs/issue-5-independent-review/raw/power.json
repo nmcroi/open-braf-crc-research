@@ -1,0 +1,63 @@
+{
+ "zero_of_n_upper_bounds": {
+  "n": 260,
+  "one_sided_95": 0.01146,
+  "two_sided_95_clopper_pearson": 0.01409,
+  "rule_of_three": 0.01154
+ },
+ "alpha_used": {
+  "nominal": 0.05,
+  "bh_effective (largest p that still passed in my run)": 0.0016699688115992747
+ },
+ "detectable_prevalence_ratio (n_braf=260, n_ctrl=5342; control count fixed at expectation)": [
+  {
+   "control_prevalence": 0.005,
+   "min_enrichment_ratio_80pct_power_nominal": 6,
+   "max_depletion_ratio_80pct_power_nominal": null,
+   "min_enrichment_ratio_80pct_power_bh_effective": 8,
+   "max_depletion_ratio_80pct_power_bh_effective": null
+  },
+  {
+   "control_prevalence": 0.01,
+   "min_enrichment_ratio_80pct_power_nominal": 4,
+   "max_depletion_ratio_80pct_power_nominal": null,
+   "min_enrichment_ratio_80pct_power_bh_effective": 5,
+   "max_depletion_ratio_80pct_power_bh_effective": null
+  },
+  {
+   "control_prevalence": 0.02,
+   "min_enrichment_ratio_80pct_power_nominal": 3,
+   "max_depletion_ratio_80pct_power_nominal": 0.0,
+   "min_enrichment_ratio_80pct_power_bh_effective": 4,
+   "max_depletion_ratio_80pct_power_bh_effective": null
+  },
+  {
+   "control_prevalence": 0.05,
+   "min_enrichment_ratio_80pct_power_nominal": 2,
+   "max_depletion_ratio_80pct_power_nominal": 0.3,
+   "min_enrichment_ratio_80pct_power_bh_effective": 2.5,
+   "max_depletion_ratio_80pct_power_bh_effective": 0.1
+  },
+  {
+   "control_prevalence": 0.1,
+   "min_enrichment_ratio_80pct_power_nominal": 1.75,
+   "max_depletion_ratio_80pct_power_nominal": 0.5,
+   "min_enrichment_ratio_80pct_power_bh_effective": 2,
+   "max_depletion_ratio_80pct_power_bh_effective": 0.3
+  },
+  {
+   "control_prevalence": 0.2,
+   "min_enrichment_ratio_80pct_power_nominal": 1.4,
+   "max_depletion_ratio_80pct_power_nominal": 0.6,
+   "min_enrichment_ratio_80pct_power_bh_effective": 1.75,
+   "max_depletion_ratio_80pct_power_bh_effective": 0.5
+  },
+  {
+   "control_prevalence": 0.5,
+   "min_enrichment_ratio_80pct_power_nominal": 1.2,
+   "max_depletion_ratio_80pct_power_nominal": 0.8,
+   "min_enrichment_ratio_80pct_power_bh_effective": 1.3,
+   "max_depletion_ratio_80pct_power_bh_effective": 0.7
+  }
+ ]
+}

@@ -13,5 +13,20 @@
       "Symmetric gain/loss does not logically prove zero treatment signal"
     ],
     "depends_on": []
+  },
+  {
+    "id": "REVIEW-MSK-20261002",
+    "kind": "review",
+    "title": "Independent co-mutation recount and CNA spot-check",
+    "status": "changes_requested",
+    "scope": "Claude independently reimplemented public cBioPortal cohort and assay checks; Codex reviewed the aggregate package and independently spot-checked 100 samples for CNA API zero semantics",
+    "finding": "The submitted rule is arithmetically reproducible, but control selection, partial panel coverage and CNA missingness require correction. In a direct 100-sample API check, 6705 zero rows were off-panel and 52 samples had no ALL rows.",
+    "unresolved": [
+      "Full-cohort CNA totals from the independent Claude implementation were not separately re-run by Codex",
+      "Revised original biological claims and coverage-aware denominators need review",
+      "Locus-level callability and chronology are not exposed in the public API"
+    ],
+    "review_url": "docs/issue-5-independent-review/assessment-by-codex.md",
+    "depends_on": []
   }
 ]

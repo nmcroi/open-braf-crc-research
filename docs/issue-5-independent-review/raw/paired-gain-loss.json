@@ -1,0 +1,220 @@
+{
+ "braf_group__stable_samples": {
+  "patients_with_pair": 20,
+  "patients_more_gains_than_losses": 12,
+  "patients_more_losses_than_gains": 6,
+  "patients_gains_equal_losses": 2,
+  "patient_level_sign_test_two_sided_p": 0.237884521484375,
+  "gene_level_mutations_shared": 152,
+  "gene_level_mutations_gained_in_later_sample": 52,
+  "gene_level_mutations_lost_in_later_sample": 23,
+  "patients_with_any_gain": 17,
+  "patients_with_any_loss": 12,
+  "patients_with_different_variant_set": 20,
+  "patients_with_different_cna_call_set": 13,
+  "patients_with_identical_profile (variants and cna)": 0,
+  "patients_with_panel_change_between_the_two_samples": 2,
+  "sample_type_pairs": {
+   "Primary -> Metastasis": 10,
+   "Metastasis -> Metastasis": 5,
+   "Metastasis -> Primary": 3,
+   "Primary -> Primary": 2
+  },
+  "purity_change_later_minus_earlier": {
+   "n": 20,
+   "q1": -10.0,
+   "median": 0.0,
+   "q3": 20.0
+  },
+  "event_level_sign_test_two_sided_p (not independent, see patient-level test)": 0.0010795155066662821,
+  "KRAS_gained": 2,
+  "KRAS_lost": 0,
+  "NRAS_gained": 1,
+  "NRAS_lost": 0,
+  "MAP2K1_gained": 0,
+  "MAP2K1_lost": 0,
+  "BRAF_gained": 0,
+  "BRAF_lost": 1,
+  "APC_gained": 0,
+  "APC_lost": 0,
+  "TP53_gained": 2,
+  "TP53_lost": 0
+ },
+ "control_strict__stable_samples": {
+  "patients_with_pair": 276,
+  "patients_more_gains_than_losses": 136,
+  "patients_more_losses_than_gains": 71,
+  "patients_gains_equal_losses": 69,
+  "patient_level_sign_test_two_sided_p": 7.3541129376775995e-06,
+  "gene_level_mutations_shared": 1323,
+  "gene_level_mutations_gained_in_later_sample": 547,
+  "gene_level_mutations_lost_in_later_sample": 312,
+  "patients_with_any_gain": 184,
+  "patients_with_any_loss": 145,
+  "patients_with_different_variant_set": 234,
+  "patients_with_different_cna_call_set": 175,
+  "patients_with_identical_profile (variants and cna)": 11,
+  "patients_with_panel_change_between_the_two_samples": 97,
+  "sample_type_pairs": {
+   "Primary -> Metastasis": 125,
+   "Metastasis -> Metastasis": 64,
+   "Primary -> Primary": 55,
+   "Metastasis -> Primary": 25,
+   "Primary -> Local Recurrence": 5,
+   "Metastasis -> Local Recurrence": 1,
+   "Unknown -> Metastasis": 1
+  },
+  "purity_change_later_minus_earlier": {
+   "n": 274,
+   "q1": -10.0,
+   "median": 10.0,
+   "q3": 20.0
+  },
+  "event_level_sign_test_two_sided_p (not independent, see patient-level test)": 9.44030483002846e-16,
+  "KRAS_gained": 11,
+  "KRAS_lost": 3,
+  "NRAS_gained": 1,
+  "NRAS_lost": 2,
+  "MAP2K1_gained": 3,
+  "MAP2K1_lost": 0,
+  "BRAF_gained": 0,
+  "BRAF_lost": 0,
+  "APC_gained": 10,
+  "APC_lost": 8,
+  "TP53_gained": 11,
+  "TP53_lost": 10
+ },
+ "all_V600E_patients__all_samples_any_MSI": {
+  "patients_with_pair": 35,
+  "patients_more_gains_than_losses": 22,
+  "patients_more_losses_than_gains": 10,
+  "patients_gains_equal_losses": 3,
+  "patient_level_sign_test_two_sided_p": 0.050102459732443094,
+  "gene_level_mutations_shared": 523,
+  "gene_level_mutations_gained_in_later_sample": 160,
+  "gene_level_mutations_lost_in_later_sample": 103,
+  "patients_with_any_gain": 30,
+  "patients_with_any_loss": 25,
+  "patients_with_different_variant_set": 35,
+  "patients_with_different_cna_call_set": 21,
+  "patients_with_identical_profile (variants and cna)": 0,
+  "patients_with_panel_change_between_the_two_samples": 7,
+  "sample_type_pairs": {
+   "Primary -> Metastasis": 15,
+   "Metastasis -> Metastasis": 7,
+   "Primary -> Primary": 7,
+   "Metastasis -> Primary": 4,
+   "Local Recurrence -> Metastasis": 1,
+   "Primary -> Unknown": 1
+  },
+  "purity_change_later_minus_earlier": {
+   "n": 33,
+   "q1": -30.0,
+   "median": 0.0,
+   "q3": 20.0
+  },
+  "event_level_sign_test_two_sided_p (not independent, see patient-level test)": 0.0005297205588830232,
+  "KRAS_gained": 2,
+  "KRAS_lost": 1,
+  "NRAS_gained": 2,
+  "NRAS_lost": 0,
+  "MAP2K1_gained": 0,
+  "MAP2K1_lost": 0,
+  "BRAF_gained": 0,
+  "BRAF_lost": 1,
+  "APC_gained": 0,
+  "APC_lost": 3,
+  "TP53_gained": 3,
+  "TP53_lost": 0
+ },
+ "all_patients__all_samples_any_MSI": {
+  "patients_with_pair": 391,
+  "patients_more_gains_than_losses": 212,
+  "patients_more_losses_than_gains": 93,
+  "patients_gains_equal_losses": 86,
+  "patient_level_sign_test_two_sided_p": 7.705673580268276e-12,
+  "gene_level_mutations_shared": 2795,
+  "gene_level_mutations_gained_in_later_sample": 1193,
+  "gene_level_mutations_lost_in_later_sample": 780,
+  "patients_with_any_gain": 278,
+  "patients_with_any_loss": 210,
+  "patients_with_different_variant_set": 339,
+  "patients_with_different_cna_call_set": 247,
+  "patients_with_identical_profile (variants and cna)": 13,
+  "patients_with_panel_change_between_the_two_samples": 136,
+  "sample_type_pairs": {
+   "Primary -> Metastasis": 165,
+   "Metastasis -> Metastasis": 90,
+   "Primary -> Primary": 88,
+   "Metastasis -> Primary": 36,
+   "Primary -> Local Recurrence": 6,
+   "Primary -> Unknown": 2,
+   "Metastasis -> Local Recurrence": 1,
+   "Unknown -> Metastasis": 1,
+   "Local Recurrence -> Metastasis": 1,
+   "Metastasis -> Unknown": 1
+  },
+  "purity_change_later_minus_earlier": {
+   "n": 383,
+   "q1": -10.0,
+   "median": 10.0,
+   "q3": 20.0
+  },
+  "event_level_sign_test_two_sided_p (not independent, see patient-level test)": 1.2871460913432161e-20,
+  "KRAS_gained": 19,
+  "KRAS_lost": 7,
+  "NRAS_gained": 3,
+  "NRAS_lost": 3,
+  "MAP2K1_gained": 3,
+  "MAP2K1_lost": 0,
+  "BRAF_gained": 3,
+  "BRAF_lost": 4,
+  "APC_gained": 16,
+  "APC_lost": 15,
+  "TP53_gained": 20,
+  "TP53_lost": 12
+ },
+ "braf_group_KRAS_carriers": {
+  "any_stable_sample": 2,
+  "first_stable_sample": 0,
+  "same_sample_as_V600E": 2,
+  "carriers_with_more_than_one_stable_sample": 2
+ },
+ "braf_group_NRAS_carriers": {
+  "any_stable_sample": 1,
+  "first_stable_sample": 0
+ },
+ "calibration_V600E_itself": {
+  "multi_sample_patients_with_V600E_in_any_sample": 35,
+  "of_which_V600E_not_in_every_sample": 1,
+  "interval_95": [
+   0.0007,
+   0.1492
+  ]
+ },
+ "braf_group_uncertainty": {
+  "KRAS_gain_per_paired_patient": "2/20",
+  "interval_95": [
+   0.0123,
+   0.317
+  ],
+  "KRAS_loss_per_paired_patient": "0/20",
+  "loss_interval_95": [
+   0.0,
+   0.1684
+  ]
+ },
+ "KRAS_gain_braf_group_vs_control_pairs": {
+  "braf_group": "2/20",
+  "control": "11/276",
+  "fisher_two_sided_p": 0.2161912611677582
+ },
+ "control_pairs_KRAS_discordance": {
+  "pairs_with_KRAS_in_either_sample": 124,
+  "of_which_in_only_one_of_the_two": 14,
+  "interval_95": [
+   0.0631,
+   0.1822
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+# Onafhankelijke controle van de telling in de MSK-gegevens (taak 5)
+
+## In gewone taal
+
+De ingediende analyse telde in een openbare gegevensverzameling van een Amerikaans ziekenhuis welke fouten in het erfelijk materiaal van de tumor vaker of minder vaak voorkomen bij darmkanker met een BRAF V600E-fout. Ik heb die telling helemaal opnieuw gedaan met eigen code, zonder eerst naar de oorspronkelijke code te kijken. De hoofdgetallen kloppen: 260 patiënten in de BRAF-groep, en alle tien de regels uit de tabel komen op hetzelfde uit. De vergelijkingsgroep is drie patiënten te groot, want drie mensen met een andere BRAF-fout zijn meegeteld als "geen BRAF-fout". Dat verandert de uitkomsten met hooguit een tiende procentpunt. De zin "wat niet gevonden is, is er ook niet" gaat te ver. Bij één gen blijkt de oudste versie van de test niets te melden terwijl het gen wel op de lijst staat, en bij verdubbelde stukken erfelijk materiaal is "niets gemeld" niet hetzelfde als "gemeten en afwezig". Welk monster van een patiënt het eerste was, is niet vast te stellen, want er zitten geen datums in de gegevens. De twee patiënten bij wie later een extra fout opdook zijn goed geteld, maar bewijzen niets: ook in de vergelijkingsgroep duiken in latere monsters vaker fouten op dan dat ze verdwijnen. Er staat nergens iets in over een individuele patiënt, alleen aantallen.
+
+## De drie belangrijkste bevindingen
+
+**1. De telling klopt, op één definitie na.**
+Van de vijftien beweringen zijn er tien bevestigd. De groep van 260 patiënten, de tabel met tien kenmerken, het aantal van 26 kenmerken dat de statistische drempel haalt en de 24 onder de strengere telregel komen allemaal exact terug als ik de ingediende regel naboots op mijn eigen download. Afwijkend is de vergelijkingsgroep: de tekst zegt "5.345 patiënten zonder enige BRAF-fout", maar onder die omschrijving zijn het er 5.342. Ook telt de ingediende code per patiënt alleen de monsters mee die zelf aan de selectie voldeden. Daardoor staat er "19 patiënten met meer dan één monster", waar het er 20 of 26 zijn, afhankelijk van welke monsters je meerekent. Voor de uitkomsten maakt het niets uit, maar het moet er wel bij staan.
+
+**2. "Niet gevonden" is niet altijd "niet aanwezig".**
+Alle monsters zijn gemeten en de genoemde genen staan op alle vier de versies van de test, dat klopt. Maar bij het gen AMER1 (een rem op een groeiroute van de darmcel) meldt de oudste testversie nul fouten in 202 monsters, waar je er ongeveer zestien zou verwachten. Drie van de 26 opvallende kenmerken gaan over genen die op de oudste testversie helemaal ontbreken, en daar is toch door alle patiënten gedeeld. Bij verdubbelde of verdwenen stukken erfelijk materiaal geeft de bron alleen regels terug voor monsters waarin iets gevonden is: 4.319 van de 7.237 monsters leveren niets op, en hoe minder tumorcellen in een monster, hoe vaker er niets gemeld wordt. De uitkomsten blijven overeind, maar de zin die absolute zekerheid suggereert moet eruit. De vier verdubbelingen die in de BRAF-groep ontbreken liggen bovendien alle vier op hetzelfde stuk van chromosoom 20, dus dat is één bevinding en geen vier.
+
+**3. Uit winst of verlies tussen twee monsters valt hier niets af te leiden.**
+De ingediende tekst zegt dat de vondst ruis is als fouten even vaak verdwijnen als verschijnen. Die redenering klopt niet, in geen van beide richtingen. In deze gegevens verschijnen in het latere monster altijd meer fouten dan er verdwijnen, ook in de vergelijkingsgroep (547 tegen 312), waarschijnlijk omdat latere monsters gemiddeld meer tumorcellen bevatten. Twee van de twintig patiënten met een extra KRAS-fout (KRAS is een schakel in dezelfde groeiroute als BRAF) is niet aantoonbaar meer dan de 11 van 276 in de vergelijkingsgroep. Zonder datums en zonder gegevens over behandeling kan deze bron niet onderscheiden tussen een fout die erbij is gekomen en een fout die de eerste keer gemist is.
+
+## Wat ik niet heb kunnen toetsen
+
+De leesdiepte per plek in het gen, de reden waarom AMER1 op de oudste test leeg is, en of de ingediende gegevens echt op 11 september zijn opgehaald. De hulpfuncties voor de statistiek die ChatGPT al controleerde heb ik niet los overgedaan. De ingediende code en uitkomst staan nog niet in de openbare repository; ik heb ze vastgelegd met een vingerafdruk van het bestand.
+
+Het volledige verslag staat in `review.md`, de code in `scripts/` en de tellingen in `raw/`.

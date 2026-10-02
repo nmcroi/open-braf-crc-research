@@ -1,0 +1,83 @@
+{
+ "patients_with_more_than_one_sample": 391,
+ "lexicographic_order_differs_from_numeric_T_order": 0,
+ "clinical_attributes_exposed_by_study": [
+  "CANCER_TYPE",
+  "CANCER_TYPE_DETAILED",
+  "ETHNICITY",
+  "FRACTION_GENOME_ALTERED",
+  "GENE_PANEL",
+  "METASTATIC_SITE",
+  "MSI_SCORE",
+  "MSI_TYPE",
+  "MUTATION_COUNT",
+  "ONCOTREE_CODE",
+  "OS_MONTHS",
+  "OS_STATUS",
+  "PRIMARY_SITE",
+  "RACE",
+  "SAMPLE_CLASS",
+  "SAMPLE_COUNT",
+  "SAMPLE_COVERAGE",
+  "SAMPLE_TYPE",
+  "SEX",
+  "SOMATIC_STATUS",
+  "STAGE_HIGHEST_RECORDED",
+  "TMB_NONSYNONYMOUS",
+  "TUMOR_PURITY"
+ ],
+ "date_like_attributes": [
+  "OS_MONTHS"
+ ],
+ "lowest_T_number_in_study_all_patients": {
+  "1": 6576,
+  "2": 184,
+  "3": 20,
+  "4": 5,
+  "5": 4
+ },
+ "lowest_T_number_in_study_multi_sample_patients": {
+  "1": 375,
+  "2": 13,
+  "3": 3
+ },
+ "multi_sample_patients_with_gap_in_T_numbers": 93,
+ "multi_sample_patients_panel_version_changes": 136,
+ "multi_sample_patients_panel_size_decreases_with_T_number": 0,
+ "consecutive_pairs_by_sample_type (lower T -> higher T)": {
+  "Primary -> Metastasis": 178,
+  "Metastasis -> Metastasis": 115,
+  "Primary -> Primary": 93,
+  "Metastasis -> Primary": 48,
+  "Primary -> Local Recurrence": 6,
+  "Metastasis -> Unknown": 3,
+  "Unknown -> Metastasis": 2,
+  "Metastasis -> Local Recurrence": 1,
+  "Primary -> Unknown": 1,
+  "Local Recurrence -> Metastasis": 1
+ },
+ "first_in_study_sample_type_multi_sample_patients": {
+  "Metastasis": 128,
+  "Primary": 261,
+  "Unknown": 1,
+  "Local Recurrence": 1
+ },
+ "first_in_study_sample_type_all_patients": {
+  "Metastasis": 1749,
+  "Primary": 4997,
+  "Local Recurrence": 29,
+  "Unknown": 14
+ },
+ "braf_group_first_stable_sample_type": {
+  "Metastasis": 66,
+  "Primary": 193,
+  "Local Recurrence": 1
+ },
+ "control_strict_first_stable_sample_type": {
+  "Primary": 3843,
+  "Metastasis": 1464,
+  "Local Recurrence": 23,
+  "Unknown": 12
+ },
+ "braf_group_multi_stable: first stable sample is not the patient's first sample in the study": 0
+}

@@ -1,0 +1,256 @@
+{
+ "carrier_rule__control_strict": {
+  "n_braf_patients": 260,
+  "n_control_patients": 5342,
+  "features_with_any_carrier": 1155,
+  "features_tested": 744,
+  "features_q_below_0.05": 27,
+  "features_tested_by_kind": {
+   "MUT": 488,
+   "AMP": 176,
+   "HOMDEL_OR_DEEP": 80
+  },
+  "significant_by_kind": {
+   "MUT": 16,
+   "AMP": 9,
+   "HOMDEL_OR_DEEP": 2
+  },
+  "significant_features": [
+   "AKT1_MUT",
+   "AMER1_MUT",
+   "APC_MUT",
+   "ASXL1_AMP",
+   "BCL2L1_AMP",
+   "BMPR1A_MUT",
+   "DNMT3B_AMP",
+   "EPHA5_MUT",
+   "FOXL2_MUT",
+   "INSR_AMP",
+   "KRAS_MUT",
+   "MGA_MUT",
+   "MYC_AMP",
+   "NKX2-1_MUT",
+   "NRAS_MUT",
+   "PAX5_AMP",
+   "PGR_MUT",
+   "PTPRT_AMP",
+   "RNF43_HOMDEL_OR_DEEP",
+   "RNF43_MUT",
+   "SMAD4_MUT",
+   "SOX9_MUT",
+   "SRC_AMP",
+   "TCF7L2_MUT",
+   "TGFBR2_MUT",
+   "TOP1_AMP",
+   "ZNRF3_HOMDEL_OR_DEEP"
+  ],
+  "significant_not_on_all_four_panels": [
+   "MGA_MUT",
+   "PGR_MUT",
+   "TCF7L2_MUT",
+   "ZNRF3_HOMDEL_OR_DEEP"
+  ],
+  "largest_p_still_significant": 0.0016699688115992747,
+  "tested_count_at_other_thresholds": {
+   "1": 1155,
+   "2": 965,
+   "3": 869,
+   "5": 744,
+   "10": 593,
+   "20": 438
+  },
+  "features_with_reduced_denominator": 223
+ },
+ "carrier_rule__control_loose_as_submitted": {
+  "n_braf_patients": 260,
+  "n_control_patients": 5345,
+  "features_with_any_carrier": 1155,
+  "features_tested": 744,
+  "features_q_below_0.05": 27,
+  "features_tested_by_kind": {
+   "MUT": 488,
+   "AMP": 176,
+   "HOMDEL_OR_DEEP": 80
+  },
+  "significant_by_kind": {
+   "MUT": 16,
+   "AMP": 9,
+   "HOMDEL_OR_DEEP": 2
+  },
+  "significant_features": [
+   "AKT1_MUT",
+   "AMER1_MUT",
+   "APC_MUT",
+   "ASXL1_AMP",
+   "BCL2L1_AMP",
+   "BMPR1A_MUT",
+   "DNMT3B_AMP",
+   "EPHA5_MUT",
+   "FOXL2_MUT",
+   "INSR_AMP",
+   "KRAS_MUT",
+   "MGA_MUT",
+   "MYC_AMP",
+   "NKX2-1_MUT",
+   "NRAS_MUT",
+   "PAX5_AMP",
+   "PGR_MUT",
+   "PTPRT_AMP",
+   "RNF43_HOMDEL_OR_DEEP",
+   "RNF43_MUT",
+   "SMAD4_MUT",
+   "SOX9_MUT",
+   "SRC_AMP",
+   "TCF7L2_MUT",
+   "TGFBR2_MUT",
+   "TOP1_AMP",
+   "ZNRF3_HOMDEL_OR_DEEP"
+  ],
+  "significant_not_on_all_four_panels": [
+   "MGA_MUT",
+   "PGR_MUT",
+   "TCF7L2_MUT",
+   "ZNRF3_HOMDEL_OR_DEEP"
+  ],
+  "largest_p_still_significant": 0.0016666636663419387,
+  "tested_count_at_other_thresholds": {
+   "1": 1155,
+   "2": 966,
+   "3": 869,
+   "5": 744,
+   "10": 593,
+   "20": 438
+  },
+  "features_with_reduced_denominator": 223
+ },
+ "first_sample_rule__groups_from_first_stable_sample": {
+  "n_braf_patients": 260,
+  "n_control_patients": 5343,
+  "features_with_any_carrier": 1128,
+  "features_tested": 726,
+  "features_q_below_0.05": 28,
+  "features_tested_by_kind": {
+   "MUT": 485,
+   "AMP": 168,
+   "HOMDEL_OR_DEEP": 73
+  },
+  "significant_by_kind": {
+   "MUT": 17,
+   "AMP": 9,
+   "HOMDEL_OR_DEEP": 2
+  },
+  "significant_features": [
+   "AKT1_MUT",
+   "AMER1_MUT",
+   "APC_MUT",
+   "ASXL1_AMP",
+   "BCL2L1_AMP",
+   "BMPR1A_MUT",
+   "DNMT3B_AMP",
+   "EPHA5_MUT",
+   "FOXL2_MUT",
+   "INSR_AMP",
+   "KMT2C_MUT",
+   "KRAS_MUT",
+   "MGA_MUT",
+   "MYC_AMP",
+   "NKX2-1_MUT",
+   "NRAS_MUT",
+   "PAX5_AMP",
+   "PGR_MUT",
+   "PTPRT_AMP",
+   "RNF43_HOMDEL_OR_DEEP",
+   "RNF43_MUT",
+   "SMAD4_MUT",
+   "SOX9_MUT",
+   "SRC_AMP",
+   "TCF7L2_MUT",
+   "TGFBR2_MUT",
+   "TOP1_AMP",
+   "ZNRF3_HOMDEL_OR_DEEP"
+  ],
+  "significant_not_on_all_four_panels": [
+   "MGA_MUT",
+   "PGR_MUT",
+   "TCF7L2_MUT",
+   "ZNRF3_HOMDEL_OR_DEEP"
+  ],
+  "largest_p_still_significant": 0.0016688661885555494,
+  "tested_count_at_other_thresholds": {
+   "1": 1128,
+   "2": 948,
+   "3": 853,
+   "5": 726,
+   "10": 583,
+   "20": 434
+  },
+  "features_with_reduced_denominator": 216
+ },
+ "first_sample_rule__carrier_groups_kept": {
+  "n_braf_patients": 260,
+  "n_control_patients": 5342,
+  "features_with_any_carrier": 1128,
+  "features_tested": 726,
+  "features_q_below_0.05": 28,
+  "features_tested_by_kind": {
+   "MUT": 485,
+   "AMP": 168,
+   "HOMDEL_OR_DEEP": 73
+  },
+  "significant_by_kind": {
+   "MUT": 17,
+   "AMP": 9,
+   "HOMDEL_OR_DEEP": 2
+  },
+  "significant_features": [
+   "AKT1_MUT",
+   "AMER1_MUT",
+   "APC_MUT",
+   "ASXL1_AMP",
+   "BCL2L1_AMP",
+   "BMPR1A_MUT",
+   "DNMT3B_AMP",
+   "EPHA5_MUT",
+   "FOXL2_MUT",
+   "INSR_AMP",
+   "KMT2C_MUT",
+   "KRAS_MUT",
+   "MGA_MUT",
+   "MYC_AMP",
+   "NKX2-1_MUT",
+   "NRAS_MUT",
+   "PAX5_AMP",
+   "PGR_MUT",
+   "PTPRT_AMP",
+   "RNF43_HOMDEL_OR_DEEP",
+   "RNF43_MUT",
+   "SMAD4_MUT",
+   "SOX9_MUT",
+   "SRC_AMP",
+   "TCF7L2_MUT",
+   "TGFBR2_MUT",
+   "TOP1_AMP",
+   "ZNRF3_HOMDEL_OR_DEEP"
+  ],
+  "significant_not_on_all_four_panels": [
+   "MGA_MUT",
+   "PGR_MUT",
+   "TCF7L2_MUT",
+   "ZNRF3_HOMDEL_OR_DEEP"
+  ],
+  "largest_p_still_significant": 0.0016699688115992747,
+  "tested_count_at_other_thresholds": {
+   "1": 1128,
+   "2": 947,
+   "3": 853,
+   "5": 726,
+   "10": 583,
+   "20": 431
+  },
+  "features_with_reduced_denominator": 216
+ },
+ "fisher_crosscheck_scipy": {
+  "tables": 1470,
+  "max_relative_difference": 1.933607857837636e-11
+ }
+}

@@ -1,0 +1,461 @@
+{
+ "profiled_flags_by_profile_and_panel": {
+  "mutations": {
+   "IMPACT505|profiled=True": 2789,
+   "IMPACT468|profiled=True": 3331,
+   "IMPACT341|profiled=True": 202,
+   "IMPACT410|profiled=True": 915
+  },
+  "cna": {
+   "IMPACT505|profiled=True": 2789,
+   "IMPACT468|profiled=True": 3331,
+   "IMPACT341|profiled=True": 202,
+   "IMPACT410|profiled=True": 915
+  },
+  "structural_variants": {
+   "IMPACT505|profiled=True": 2789,
+   "IMPACT468|profiled=True": 3331,
+   "IMPACT341|profiled=True": 202,
+   "IMPACT410|profiled=True": 915
+  }
+ },
+ "samples_where_panel_differs_between_profiles_or_clinical_attribute": 0,
+ "panel_gene_counts": {
+  "IMPACT341": 341,
+  "IMPACT410": 410,
+  "IMPACT468": 469,
+  "IMPACT505": 505
+ },
+ "genes_on_all_four_panels": 341,
+ "genes_on_at_least_one_panel": 506,
+ "named_gene_panel_membership": {
+  "KRAS": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "NRAS": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "APC": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "AMER1": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "RNF43": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "AKT1": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "TGFBR2": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "SMAD4": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "MYC": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "SRC": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "ASXL1": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "DNMT3B": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "TOP1": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  },
+  "BRAF": {
+   "IMPACT341": true,
+   "IMPACT410": true,
+   "IMPACT468": true,
+   "IMPACT505": true
+  }
+ },
+ "mutation_records_total": 118086,
+ "mutation_types": {
+  "Missense_Mutation": 76410,
+  "Frame_Shift_Del": 17924,
+  "Nonsense_Mutation": 12100,
+  "Frame_Shift_Ins": 6302,
+  "Splice_Site": 2966,
+  "In_Frame_Del": 1586,
+  "In_Frame_Ins": 353,
+  "5'Flank": 161,
+  "Translation_Start_Site": 149,
+  "Nonstop_Mutation": 68,
+  "Splice_Region": 59,
+  "frameshift_deletion": 7,
+  "frameshift_insertion": 1
+ },
+ "mutation_records_on_gene_outside_sample_panel": 3,
+ "cna_HOMDEL_AND_AMP_rows": 12657,
+ "cna_HOMDEL_AND_AMP_values_as_served": {
+  "-2": 2946,
+  "2": 9711
+ },
+ "cna_ALL_rows": 1367542,
+ "cna_ALL_values": {
+  "0": 1355203,
+  "2": 9711,
+  "-2": 2628
+ },
+ "cna_ALL_distinct_genes": 473,
+ "cna_ALL_distinct_samples": 2918,
+ "samples_with_at_least_one_HOMDEL_AND_AMP_call": 2918,
+ "samples_in_ALL_that_have_no_HOMDEL_AND_AMP_call": 0,
+ "samples_with_zero_rows_in_ALL": 4319,
+ "cna_ALL_share_of_sample_x_gene_grid": 0.3995,
+ "cna_ALL_zero_rows_on_gene_outside_sample_panel": 87147,
+ "cna_events_on_gene_outside_sample_panel": 0,
+ "cna_HOMDEL_AND_AMP_calls_absent_from_ALL": 318,
+ "cna_stored_value_of_those_calls (molecular-data endpoint)": {
+  "-1.5": 318
+ },
+ "panel_genes_never_in_cna_matrix": {
+  "IMPACT341": 19,
+  "IMPACT410": 26,
+  "IMPACT468": 28,
+  "IMPACT505": 32
+ },
+ "named_genes_in_cna_matrix": {
+  "KRAS": true,
+  "NRAS": true,
+  "APC": true,
+  "AMER1": true,
+  "RNF43": true,
+  "AKT1": true,
+  "TGFBR2": true,
+  "SMAD4": true,
+  "MYC": true,
+  "SRC": true,
+  "ASXL1": true,
+  "DNMT3B": true,
+  "TOP1": true,
+  "BRAF": true
+ },
+ "samples_missing_FRACTION_GENOME_ALTERED": 54,
+ "samples_missing_TUMOR_PURITY": 95,
+ "samples_missing_MSI_TYPE": 20,
+ "msi_mix_braf_group": {
+  "all samples Stable": 254,
+  "also an Instable sample": 0,
+  "also an Indeterminate / Do not report / missing sample": 6
+ },
+ "msi_mix_control_strict": {
+  "all samples Stable": 5284,
+  "also an Instable sample": 0,
+  "also an Indeterminate / Do not report / missing sample": 58
+ },
+ "cna_call_rate_by_purity_all_samples": {
+  "purity <=10": {
+   "samples": 623,
+   "pct_with_at_least_one_amp_or_deletion_call": 21.5
+  },
+  "purity 20": {
+   "samples": 1234,
+   "pct_with_at_least_one_amp_or_deletion_call": 28.3
+  },
+  "purity 30-40": {
+   "samples": 3309,
+   "pct_with_at_least_one_amp_or_deletion_call": 40.0
+  },
+  "purity >=50": {
+   "samples": 1976,
+   "pct_with_at_least_one_amp_or_deletion_call": 53.9
+  }
+ },
+ "samples_missing_FGA_with_at_least_one_cna_call": 29,
+ "control_sample_prevalence_by_panel_version": {
+  "KRAS_MUT": {
+   "IMPACT341": "75/159 (47.2%)",
+   "IMPACT410": "341/732 (46.6%)",
+   "IMPACT468": "1270/2680 (47.4%)",
+   "IMPACT505": "985/2085 (47.2%)",
+   "chi2_df3_p_heterogeneity": 0.9853053935649358
+  },
+  "NRAS_MUT": {
+   "IMPACT341": "3/159 (1.9%)",
+   "IMPACT410": "32/732 (4.4%)",
+   "IMPACT468": "122/2680 (4.6%)",
+   "IMPACT505": "79/2085 (3.8%)",
+   "chi2_df3_p_heterogeneity": 0.2743060594760974
+  },
+  "APC_MUT": {
+   "IMPACT341": "124/159 (78.0%)",
+   "IMPACT410": "569/732 (77.7%)",
+   "IMPACT468": "2113/2680 (78.8%)",
+   "IMPACT505": "1697/2085 (81.4%)",
+   "chi2_df3_p_heterogeneity": 0.07537775891577232
+  },
+  "AMER1_MUT": {
+   "IMPACT341": "0/159 (0.0%)",
+   "IMPACT410": "43/732 (5.9%)",
+   "IMPACT468": "159/2680 (5.9%)",
+   "IMPACT505": "114/2085 (5.5%)",
+   "chi2_df3_p_heterogeneity": 0.017037101818883023
+  },
+  "RNF43_MUT": {
+   "IMPACT341": "6/159 (3.8%)",
+   "IMPACT410": "16/732 (2.2%)",
+   "IMPACT468": "63/2680 (2.4%)",
+   "IMPACT505": "48/2085 (2.3%)",
+   "chi2_df3_p_heterogeneity": 0.6799615634753485
+  },
+  "AKT1_MUT": {
+   "IMPACT341": "1/159 (0.6%)",
+   "IMPACT410": "4/732 (0.5%)",
+   "IMPACT468": "18/2680 (0.7%)",
+   "IMPACT505": "21/2085 (1.0%)",
+   "chi2_df3_p_heterogeneity": 0.5000092390140687
+  },
+  "TGFBR2_MUT": {
+   "IMPACT341": "2/159 (1.3%)",
+   "IMPACT410": "13/732 (1.8%)",
+   "IMPACT468": "39/2680 (1.5%)",
+   "IMPACT505": "25/2085 (1.2%)",
+   "chi2_df3_p_heterogeneity": 0.6950553058152591
+  },
+  "SMAD4_MUT": {
+   "IMPACT341": "19/159 (11.9%)",
+   "IMPACT410": "107/732 (14.6%)",
+   "IMPACT468": "382/2680 (14.3%)",
+   "IMPACT505": "322/2085 (15.4%)",
+   "chi2_df3_p_heterogeneity": 0.5108477241974527
+  },
+  "MYC_AMP": {
+   "IMPACT341": "12/159 (7.5%)",
+   "IMPACT410": "28/732 (3.8%)",
+   "IMPACT468": "136/2680 (5.1%)",
+   "IMPACT505": "104/2085 (5.0%)",
+   "chi2_df3_p_heterogeneity": 0.2267723385211533
+  },
+  "SRC_AMP": {
+   "IMPACT341": "9/159 (5.7%)",
+   "IMPACT410": "27/732 (3.7%)",
+   "IMPACT468": "138/2680 (5.1%)",
+   "IMPACT505": "90/2085 (4.3%)",
+   "chi2_df3_p_heterogeneity": 0.2720427608647899
+  },
+  "ASXL1_AMP": {
+   "IMPACT341": "10/159 (6.3%)",
+   "IMPACT410": "29/732 (4.0%)",
+   "IMPACT468": "145/2680 (5.4%)",
+   "IMPACT505": "107/2085 (5.1%)",
+   "chi2_df3_p_heterogeneity": 0.4050271163684939
+  },
+  "DNMT3B_AMP": {
+   "IMPACT341": "9/159 (5.7%)",
+   "IMPACT410": "25/732 (3.4%)",
+   "IMPACT468": "138/2680 (5.1%)",
+   "IMPACT505": "97/2085 (4.7%)",
+   "chi2_df3_p_heterogeneity": 0.24508277515344243
+  },
+  "TOP1_AMP": {
+   "IMPACT341": "10/159 (6.3%)",
+   "IMPACT410": "21/732 (2.9%)",
+   "IMPACT468": "87/2680 (3.2%)",
+   "IMPACT505": "83/2085 (4.0%)",
+   "chi2_df3_p_heterogeneity": 0.09694986473249272
+  }
+ },
+ "panel_dropout_scan": {
+  "gene_x_kind_x_panel_combinations_scanned": 4137,
+  "bonferroni_threshold": 1.2086052695189752e-05,
+  "flagged": [
+   {
+    "feature": "AMER1_MUT",
+    "panel": "IMPACT341",
+    "samples_on_panel": 202,
+    "observed": 0,
+    "expected_from_other_panels": 15.8,
+    "probability_of_zero": 7.218841180934629e-08
+   },
+   {
+    "feature": "BCOR_AMP",
+    "panel": "IMPACT468",
+    "samples_on_panel": 3331,
+    "observed": 0,
+    "expected_from_other_panels": 17.9,
+    "probability_of_zero": 1.5900475813774396e-08
+   },
+   {
+    "feature": "EPCAM_AMP",
+    "panel": "IMPACT468",
+    "samples_on_panel": 3331,
+    "observed": 0,
+    "expected_from_other_panels": 6.0,
+    "probability_of_zero": 0.0025417829525928907
+   },
+   {
+    "feature": "ID3_HOMDEL_OR_DEEP",
+    "panel": "IMPACT505",
+    "samples_on_panel": 2789,
+    "observed": 0,
+    "expected_from_other_panels": 7.2,
+    "probability_of_zero": 0.0007210773760287898
+   },
+   {
+    "feature": "MAP3K1_HOMDEL_OR_DEEP",
+    "panel": "IMPACT468",
+    "samples_on_panel": 3331,
+    "observed": 0,
+    "expected_from_other_panels": 6.0,
+    "probability_of_zero": 0.0025417829525928907
+   },
+   {
+    "feature": "NBN_MUT",
+    "panel": "IMPACT341",
+    "samples_on_panel": 202,
+    "observed": 0,
+    "expected_from_other_panels": 5.1,
+    "probability_of_zero": 0.005814904139558624
+   },
+   {
+    "feature": "RAC2_HOMDEL_OR_DEEP",
+    "panel": "IMPACT505",
+    "samples_on_panel": 2789,
+    "observed": 0,
+    "expected_from_other_panels": 7.5,
+    "probability_of_zero": 0.000528338474736637
+   },
+   {
+    "feature": "STK11_HOMDEL_OR_DEEP",
+    "panel": "IMPACT505",
+    "samples_on_panel": 2789,
+    "observed": 0,
+    "expected_from_other_panels": 5.0,
+    "probability_of_zero": 0.0065998825466622914
+   },
+   {
+    "feature": "TSC1_MUT",
+    "panel": "IMPACT341",
+    "samples_on_panel": 202,
+    "observed": 0,
+    "expected_from_other_panels": 5.8,
+    "probability_of_zero": 0.002780727477168788
+   }
+  ]
+ },
+ "AMER1_mutation_excluding_IMPACT341_samples": {
+  "braf_group": "3/251",
+  "control": "300/5191",
+  "pct_braf": 1.2,
+  "pct_control": 5.78,
+  "fisher_two_sided_p": 0.0005856255471298175
+ },
+ "mutation_records_on_gene_not_on_any_panel": 3,
+ "control_patients_20q_cluster (SRC, ASXL1, DNMT3B, TOP1 amplification)": {
+  "at_least_one": 335,
+  "at_least_two": 278,
+  "all_four": 167
+ },
+ "braf_group_patients_with_any_of_the_four_20q_amplifications": 0,
+ "braf_group": {
+  "patients": 260,
+  "stable_samples": 284,
+  "panel": {
+   "IMPACT341": 15,
+   "IMPACT410": 42,
+   "IMPACT468": 129,
+   "IMPACT505": 98
+  },
+  "sample_type": {
+   "Metastasis": 84,
+   "Primary": 199,
+   "Local Recurrence": 1
+  },
+  "SAMPLE_COVERAGE": {
+   "n": 284,
+   "q1": 480.25,
+   "median": 581.5,
+   "q3": 695.75
+  },
+  "TUMOR_PURITY": {
+   "n": 281,
+   "q1": 22.5,
+   "median": 30.0,
+   "q3": 50.0
+  },
+  "purity_missing": 3,
+  "purity_at_most_20": 70,
+  "FGA_missing": 4,
+  "samples_with_no_cna_call_at_all": 140,
+  "samples_with_no_mutation_record": 0
+ },
+ "control_strict": {
+  "patients": 5342,
+  "stable_samples": 5656,
+  "panel": {
+   "IMPACT341": 159,
+   "IMPACT410": 732,
+   "IMPACT468": 2680,
+   "IMPACT505": 2085
+  },
+  "sample_type": {
+   "Primary": 3936,
+   "Metastasis": 1679,
+   "Local Recurrence": 29,
+   "Unknown": 12
+  },
+  "SAMPLE_COVERAGE": {
+   "n": 5656,
+   "q1": 469.0,
+   "median": 578.0,
+   "q3": 711.0
+  },
+  "TUMOR_PURITY": {
+   "n": 5583,
+   "q1": 20.0,
+   "median": 30.0,
+   "q3": 50.0
+  },
+  "purity_missing": 73,
+  "purity_at_most_20": 1533,
+  "FGA_missing": 40,
+  "samples_with_no_cna_call_at_all": 3178,
+  "samples_with_no_mutation_record": 33
+ }
+}

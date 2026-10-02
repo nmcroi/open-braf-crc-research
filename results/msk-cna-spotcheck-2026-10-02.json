@@ -1,0 +1,17 @@
+{
+  "retrieval_date": "2026-10-02",
+  "source": "https://www.cbioportal.org/api",
+  "study": "crc_msk_2026",
+  "portal_version": "v7.1.2",
+  "backend_commit": "bbba61b2a45b3719187a310dcadaae75b9bef067",
+  "selection": "first 100 sorted public sample IDs; IDs neither stored nor published",
+  "study_samples": 7237,
+  "all_rows": 22695,
+  "all_values": {"0": 22535, "2": 116, "-2": 44},
+  "homdel_and_amp_rows": 169,
+  "samples_with_no_all_rows": 52,
+  "samples_with_no_event_rows": 52,
+  "samples_in_all_without_event": 0,
+  "off_panel_zero_rows": 6705,
+  "limitation": "This independently sampled 100 of 7237 samples. Full-cohort totals in Claude's review were not independently recomputed by Codex."
+}

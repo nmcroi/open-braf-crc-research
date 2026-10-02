@@ -1,0 +1,304 @@
+{
+ "a_samples": 283,
+ "b_samples": 5660,
+ "carrier": {
+  "n_A": 260,
+  "n_B": 5345,
+  "patients_in_both_lists_removed_from_B": 1,
+  "A_patients_with_more_than_one_listed_sample": 19,
+  "features_tested": 475,
+  "significant": 26,
+  "tested_features_on_genes_missing_from_at_least_one_panel": 122,
+  "significant_features_on_genes_missing_from_at_least_one_panel": [
+   "MGA",
+   "PGR",
+   "TCF7L2"
+  ],
+  "significant_features": [
+   {
+    "feature": "KRAS",
+    "a": 2,
+    "b": 2547
+   },
+   {
+    "feature": "APC",
+    "a": 81,
+    "b": 4269
+   },
+   {
+    "feature": "RNF43",
+    "a": 58,
+    "b": 128
+   },
+   {
+    "feature": "TCF7L2",
+    "a": 2,
+    "b": 619
+   },
+   {
+    "feature": "AKT1",
+    "a": 15,
+    "b": 41
+   },
+   {
+    "feature": "BCL2L1 amp",
+    "a": 1,
+    "b": 347
+   },
+   {
+    "feature": "ASXL1 amp",
+    "a": 0,
+    "b": 282
+   },
+   {
+    "feature": "SRC amp",
+    "a": 0,
+    "b": 258
+   },
+   {
+    "feature": "DNMT3B amp",
+    "a": 0,
+    "b": 261
+   },
+   {
+    "feature": "EPHA5",
+    "a": 25,
+    "b": 185
+   },
+   {
+    "feature": "TGFBR2",
+    "a": 15,
+    "b": 75
+   },
+   {
+    "feature": "PGR",
+    "a": 13,
+    "b": 63
+   },
+   {
+    "feature": "BMPR1A",
+    "a": 11,
+    "b": 45
+   },
+   {
+    "feature": "TOP1 amp",
+    "a": 0,
+    "b": 198
+   },
+   {
+    "feature": "FOXL2",
+    "a": 6,
+    "b": 13
+   },
+   {
+    "feature": "MYC amp",
+    "a": 28,
+    "b": 271
+   },
+   {
+    "feature": "NRAS",
+    "a": 1,
+    "b": 222
+   },
+   {
+    "feature": "SMAD4",
+    "a": 60,
+    "b": 789
+   },
+   {
+    "feature": "AMER1",
+    "a": 3,
+    "b": 300
+   },
+   {
+    "feature": "NKX2-1",
+    "a": 7,
+    "b": 30
+   },
+   {
+    "feature": "MGA",
+    "a": 15,
+    "b": 120
+   },
+   {
+    "feature": "PTPRT amp",
+    "a": 1,
+    "b": 200
+   },
+   {
+    "feature": "KMT2C",
+    "a": 1,
+    "b": 200
+   },
+   {
+    "feature": "SOX9",
+    "a": 11,
+    "b": 526
+   },
+   {
+    "feature": "CTNNB1",
+    "a": 4,
+    "b": 300
+   },
+   {
+    "feature": "PTPRD",
+    "a": 13,
+    "b": 103
+   }
+  ],
+  "submitted": {
+   "n_A": 260,
+   "n_B": 5345,
+   "features_tested": 475,
+   "significant": 26
+  },
+  "significant_only_in_submitted": [],
+  "significant_only_in_replication": [],
+  "shared_significant_with_different_counts": {}
+ },
+ "first_sample": {
+  "n_A": 260,
+  "n_B": 5345,
+  "patients_in_both_lists_removed_from_B": 1,
+  "A_patients_with_more_than_one_listed_sample": 19,
+  "features_tested": 468,
+  "significant": 24,
+  "tested_features_on_genes_missing_from_at_least_one_panel": 120,
+  "significant_features_on_genes_missing_from_at_least_one_panel": [
+   "MGA",
+   "PGR",
+   "TCF7L2"
+  ],
+  "significant_features": [
+   {
+    "feature": "KRAS",
+    "a": 0,
+    "b": 2535
+   },
+   {
+    "feature": "APC",
+    "a": 81,
+    "b": 4259
+   },
+   {
+    "feature": "RNF43",
+    "a": 58,
+    "b": 125
+   },
+   {
+    "feature": "TCF7L2",
+    "a": 2,
+    "b": 618
+   },
+   {
+    "feature": "AKT1",
+    "a": 15,
+    "b": 41
+   },
+   {
+    "feature": "BCL2L1 amp",
+    "a": 0,
+    "b": 334
+   },
+   {
+    "feature": "ASXL1 amp",
+    "a": 0,
+    "b": 272
+   },
+   {
+    "feature": "DNMT3B amp",
+    "a": 0,
+    "b": 253
+   },
+   {
+    "feature": "TGFBR2",
+    "a": 15,
+    "b": 75
+   },
+   {
+    "feature": "SRC amp",
+    "a": 0,
+    "b": 247
+   },
+   {
+    "feature": "EPHA5",
+    "a": 24,
+    "b": 178
+   },
+   {
+    "feature": "BMPR1A",
+    "a": 11,
+    "b": 43
+   },
+   {
+    "feature": "PGR",
+    "a": 13,
+    "b": 63
+   },
+   {
+    "feature": "NRAS",
+    "a": 0,
+    "b": 221
+   },
+   {
+    "feature": "TOP1 amp",
+    "a": 0,
+    "b": 192
+   },
+   {
+    "feature": "MYC amp",
+    "a": 27,
+    "b": 251
+   },
+   {
+    "feature": "SMAD4",
+    "a": 60,
+    "b": 780
+   },
+   {
+    "feature": "AMER1",
+    "a": 3,
+    "b": 296
+   },
+   {
+    "feature": "FOXL2",
+    "a": 5,
+    "b": 13
+   },
+   {
+    "feature": "NKX2-1",
+    "a": 7,
+    "b": 29
+   },
+   {
+    "feature": "MGA",
+    "a": 15,
+    "b": 120
+   },
+   {
+    "feature": "PTPRT amp",
+    "a": 1,
+    "b": 194
+   },
+   {
+    "feature": "KMT2C",
+    "a": 1,
+    "b": 197
+   },
+   {
+    "feature": "SOX9",
+    "a": 11,
+    "b": 521
+   }
+  ],
+  "submitted": {
+   "n_A": 260,
+   "n_B": 5345,
+   "features_tested": 468,
+   "significant": 24
+  },
+  "significant_only_in_submitted": [],
+  "significant_only_in_replication": [],
+  "shared_significant_with_different_counts": {}
+ }
+}
